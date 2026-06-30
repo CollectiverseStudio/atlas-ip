@@ -7,13 +7,14 @@ Thumbs.db
 .idea/
 *.swp
 
+# Node
+node_modules/
+dist/
+
 # Temp
 tmp/
 *.tmp
 
-# Large binary originals (use Git LFS for these)
-# *.psd
-# *.ai
-# *.blend
-# *.fbx
-# *.usdz
+# Do NOT ignore generated/ — it's committed (auto-generated TypeScript)
+# Do NOT ignore atlas-registry.json — it's committed (auto-generated manifest)
+# Do NOT ignore poses/sm, poses/md, poses/lg — they're committed (auto-resized)

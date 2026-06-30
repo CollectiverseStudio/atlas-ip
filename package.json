@@ -1,0 +1,23 @@
+{
+  "name": "atlas-ip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atlas IP — Collectiverse Character & Brand Bible (Canonical Source)",
+  "type": "module",
+  "scripts": {
+    "atlas:validate": "tsx scripts/validate-atlas-assets.ts",
+    "atlas:resize": "tsx scripts/resize-poses.ts --new",
+    "atlas:resize:force": "tsx scripts/resize-poses.ts --force",
+    "atlas:manifest": "tsx scripts/generate-atlas-manifest.ts",
+    "atlas:types": "tsx scripts/generate-types.ts",
+    "atlas:hashes": "tsx scripts/compare-hashes.ts",
+    "atlas:sync": "tsx scripts/validate-atlas-assets.ts && tsx scripts/resize-poses.ts --new && tsx scripts/generate-atlas-manifest.ts && tsx scripts/generate-types.ts",
+    "atlas:deploy": "bash scripts/deploy-to-app.sh",
+    "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}

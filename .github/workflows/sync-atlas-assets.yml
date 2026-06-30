@@ -1,0 +1,206 @@
+name: Sync Atlas Assets to Collectiverse
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'poses/**'
+      - 'comics/**'
+      - 'logos/**'
+      - 'branding/**'
+      - 'model-sheets/**'
+      - 'expressions/**'
+      - 'icons/**'
+      - 'stickers/**'
+      - 'production-bible/**'
+
+jobs:
+  validate-resize-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # ─── Step 1: Checkout atlas-ip ───────────────────────────────
+      - name: Checkout atlas-ip
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      # ─── Step 2: Install Node dependencies ───────────────────────
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      # ─── Step 3: Validate assets ────────────────────────────────
+      - name: Validate asset filenames and structure
+        run: npm run atlas:validate
+
+      # ─── Step 4: Resize new poses ───────────────────────────────
+      - name: Resize new poses (PNG → sm/md/lg WebP)
+        run: npm run atlas:resize
+
+      # ─── Step 5: Generate atlas-registry.json ────────────────────
+      - name: Generate asset registry
+        run: npm run atlas:manifest
+
+      # ─── Step 6: Generate TypeScript ─────────────────────────────
+      - name: Generate TypeScript (poses.ts, comics.ts, atlas-assets.ts)
+        run: npm run atlas:types
+
+      # ─── Step 7: Compare hashes ─────────────────────────────────
+      - name: Compare hashes (determine what changed)
+        id: hashes
+        run: |
+          REPORT=$(npm run atlas:hashes --silent 2>/dev/null)
+          echo "report<<EOF" >> $GITHUB_OUTPUT
+          echo "$REPORT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          # Extract counts
+          ADDED=$(echo "$REPORT" | jq '.added | length')
+          MODIFIED=$(echo "$REPORT" | jq '.modified | length')
+          REMOVED=$(echo "$REPORT" | jq '.removed | length')
+          HAS_CHANGES=$(echo "$REPORT" | jq '.hasChanges')
+
+          echo "added=$ADDED" >> $GITHUB_OUTPUT
+          echo "modified=$MODIFIED" >> $GITHUB_OUTPUT
+          echo "removed=$REMOVED" >> $GITHUB_OUTPUT
+          echo "has_changes=$HAS_CHANGES" >> $GITHUB_OUTPUT
+
+      # ─── Commit generated files back to atlas-ip ─────────────────
+      - name: Commit generated files back to atlas-ip
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate registry, types, and resized assets"
+          file_pattern: |
+            poses/sm/*
+            poses/md/*
+            poses/lg/*
+            atlas-registry.json
+            generated/*
+
+      # ─── Step 8: Skip if no changes ─────────────────────────────
+      - name: Check if sync needed
+        if: steps.hashes.outputs.has_changes != 'true'
+        run: |
+          echo "No asset changes detected. Skipping sync."
+          exit 0
+
+      # ─── Step 8: Clone Collectiverse ─────────────────────────────
+      - name: Checkout collectiverse repo
+        if: steps.hashes.outputs.has_changes == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: CollectiverseStudio/collectiverse
+          token: ${{ secrets.COLLECTIVERSE_PAT }}
+          path: collectiverse
+          ref: main
+
+      # ─── Step 9: Copy assets ─────────────────────────────────────
+      - name: Copy assets to collectiverse
+        if: steps.hashes.outputs.has_changes == 'true'
+        run: |
+          APP_PUBLIC="collectiverse/apps/web/public"
+
+          # Poses (originals + variants)
+          mkdir -p "$APP_PUBLIC/images/atlas/poses"/{sm,md,lg}
+          cp -f poses/originals/*.png "$APP_PUBLIC/images/atlas/poses/" 2>/dev/null || true
+          cp -f poses/sm/*.webp "$APP_PUBLIC/images/atlas/poses/sm/" 2>/dev/null || true
+          cp -f poses/md/*.webp "$APP_PUBLIC/images/atlas/poses/md/" 2>/dev/null || true
+          cp -f poses/lg/*.webp "$APP_PUBLIC/images/atlas/poses/lg/" 2>/dev/null || true
+
+          # Comics
+          mkdir -p "$APP_PUBLIC/images/atlas/comics"
+          cp -f comics/*.png "$APP_PUBLIC/images/atlas/comics/" 2>/dev/null || true
+
+          # Brand/logos
+          mkdir -p "$APP_PUBLIC/brand/atlas"
+          cp -f logos/brand/atlas-mascot.png "$APP_PUBLIC/brand/atlas/" 2>/dev/null || true
+          cp -f logos/brand/atlas-comic-strip.png "$APP_PUBLIC/brand/atlas/" 2>/dev/null || true
+          cp -f logos/brand/collectiverse-logo.png "$APP_PUBLIC/brand/" 2>/dev/null || true
+
+          # Expressions
+          if [ -d "expressions" ] && [ "$(ls expressions/*.png 2>/dev/null)" ]; then
+            mkdir -p "$APP_PUBLIC/images/atlas/expressions"
+            cp -f expressions/*.png "$APP_PUBLIC/images/atlas/expressions/" 2>/dev/null || true
+          fi
+
+          # Icons
+          if [ -d "icons" ] && [ "$(ls icons/*.png 2>/dev/null)" ]; then
+            mkdir -p "$APP_PUBLIC/images/atlas/icons"
+            cp -f icons/*.png "$APP_PUBLIC/images/atlas/icons/" 2>/dev/null || true
+          fi
+
+      # ─── Step 10: Copy generated TypeScript ──────────────────────
+      - name: Copy generated TypeScript to app
+        if: steps.hashes.outputs.has_changes == 'true'
+        run: |
+          APP_LIB="collectiverse/apps/web/src/lib/atlas"
+          mkdir -p "$APP_LIB"
+          cp -f generated/poses.ts "$APP_LIB/poses.ts"
+          cp -f generated/comics.ts "$APP_LIB/comics.ts"
+          cp -f generated/atlas-assets.ts "$APP_LIB/atlas-assets.ts"
+
+      # ─── Step 11: Open Pull Request ──────────────────────────────
+      - name: Create PR to collectiverse
+        if: steps.hashes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: collectiverse
+          token: ${{ secrets.COLLECTIVERSE_PAT }}
+          commit-message: "chore(atlas): sync ${{ steps.hashes.outputs.added }} new + ${{ steps.hashes.outputs.modified }} modified assets"
+          branch: atlas-asset-sync
+          delete-branch: true
+          title: "🎨 Atlas Asset Sync — ${{ steps.hashes.outputs.added }} added, ${{ steps.hashes.outputs.modified }} modified, ${{ steps.hashes.outputs.removed }} removed"
+          body: |
+            ## Atlas Asset Sync Report
+
+            Automated sync from [atlas-ip](https://github.com/CollectiverseStudio/atlas-ip).
+
+            ### Summary
+
+            | Action | Count |
+            |--------|-------|
+            | ✅ Added | ${{ steps.hashes.outputs.added }} |
+            | ✏️ Modified | ${{ steps.hashes.outputs.modified }} |
+            | 🗑️ Removed | ${{ steps.hashes.outputs.removed }} |
+
+            ### Change Details
+
+            ```json
+            ${{ steps.hashes.outputs.report }}
+            ```
+
+            ### Files Updated
+
+            - `apps/web/public/images/atlas/poses/` — Pose PNGs + WebP variants
+            - `apps/web/public/images/atlas/comics/` — Comic PNGs
+            - `apps/web/public/brand/` — Brand assets
+            - `apps/web/src/lib/atlas/poses.ts` — Auto-generated pose mappings
+            - `apps/web/src/lib/atlas/comics.ts` — Auto-generated comic data
+            - `apps/web/src/lib/atlas/atlas-assets.ts` — Auto-generated asset index
+
+            ### Checklist
+
+            - [ ] New poses render correctly (check `/atlas` page)
+            - [ ] Comics display correctly (check daily comic widget)
+            - [ ] No broken images in browser console
+            - [ ] `npm run typecheck` passes with generated TypeScript
+            - [ ] No duplicate pose filenames in poses.ts
+
+            ### Validation
+
+            All assets passed validation before this PR was created:
+            - ✅ No invalid filenames
+            - ✅ No orphaned WebP files
+            - ✅ No oversized assets
+            - ✅ Transparency verified (poses/logos)
+            - ✅ Registry hashes computed
+
+            ---
+            *Auto-generated by atlas-ip sync workflow. Do NOT edit poses.ts manually.*
