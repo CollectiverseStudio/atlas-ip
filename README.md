@@ -47,6 +47,23 @@ atlas-ip/
 
 ---
 
+## Official Design Lock
+
+**Atlas v1.0 is the canonical design.**
+
+The current blue hexagonal white `C` chest emblem is approved and frozen. Proposed shield-style redesigns are rejected for canonical use because they are visually busier and weaken the simplicity of Atlas's badge.
+
+New canonical files:
+
+| Document | Path | Purpose |
+|----------|------|---------|
+| Canonical Design Lock v1.0 | `production-bible/ATLAS_CANONICAL_DESIGN_LOCK_V1.md` | Freezes the approved Atlas design and current chest emblem |
+| Canonical Style Guide | `model-sheets/ATLAS_VERSION_1_CANONICAL_STYLE_GUIDE.md` | Defines visual, pose, color, material, and scale rules |
+| Canonical Generation Prompt | `ai-prompts/ATLAS_CANONICAL_GENERATION_PROMPT_V1.md` | Prompt standard for consistent Atlas image generation |
+| Official Chest Emblem SVG | `logos/atlas-chest-emblem-v1.svg` | Text-based vector approximation of the official emblem |
+
+---
+
 ## Official Color Palette
 
 | Color | Hex | Use |
@@ -72,6 +89,7 @@ atlas-ip/
 | Content Studio Playbook | `production-bible/ATLAS_CONTENT_STUDIO_PLAYBOOK.md` | Pipeline workflow, publishing |
 | Video Production Kit | `ai-prompts/ATLAS_VIDEO_PRODUCTION_KIT.md` | Platform-specific generation prompts |
 | Trait Seed Data | `atlas_character_traits_seed.json` | 66 structured traits for IP management system |
+| Canonical Design Lock v1.0 | `production-bible/ATLAS_CANONICAL_DESIGN_LOCK_V1.md` | Current emblem and character design freeze |
 
 ---
 
