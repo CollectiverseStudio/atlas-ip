@@ -1,0 +1,341 @@
+{
+  "character": {
+    "name": "Atlas",
+    "slug": "atlas",
+    "status": "ACTIVE",
+    "version": "1.0",
+    "specSource": "docs/atlas/production-bible/ATLAS_CHARACTER_SPEC.md"
+  },
+  "traits": [
+    {
+      "traitKey": "helmet_material",
+      "traitValue": "Gloss painted composite",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "helmet_primary_color",
+      "traitValue": "#FFFFFF (Pure White)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "helmet_trim_color",
+      "traitValue": "#2F7DF6 (Metallic Blue)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "helmet_shape",
+      "traitValue": "Large rounded, soft reflections, rounded corners, no sharp edges",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "star_count",
+      "traitValue": "1",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "star_points",
+      "traitValue": "5",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "star_symmetry",
+      "traitValue": "Perfect symmetry",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "star_material",
+      "traitValue": "Brushed gold",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "star_color",
+      "traitValue": "#F5C542",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "star_mount",
+      "traitValue": "Small black cylindrical peg, centered on helmet",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "visor_shape",
+      "traitValue": "Single continuous rounded rectangle, soft corners, no frame visible",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "visor_material",
+      "traitValue": "Gloss black glass",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "visor_color",
+      "traitValue": "#2C2F36 (High gloss)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "eye_shape",
+      "traitValue": "Green illuminated crescents (not circles, not human, not pupils)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "eye_color",
+      "traitValue": "#66FF99 (Soft glow)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "eye_expression_method",
+      "traitValue": "Shape, Angle, Size only (never eyebrows)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "mouth_shape",
+      "traitValue": "Small orange rounded rectangle, very simple, minimal animation, never large",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "mouth_color",
+      "traitValue": "#FF8C42",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "ear_pieces_shape",
+      "traitValue": "Round silver metallic discs, one each side, centered vertically, flush mounted",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "ear_pieces_material",
+      "traitValue": "Brushed aluminum",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "ear_pieces_color",
+      "traitValue": "#C7CCD4 (Silver)",
+      "traitGroup": "HEAD"
+    },
+    {
+      "traitKey": "head_to_body_ratio",
+      "traitValue": "Head 45%, Body 55%",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "head_width_ratio",
+      "traitValue": "100% (base unit)",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "head_height_ratio",
+      "traitValue": "110% of head width",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "body_width_ratio",
+      "traitValue": "60% of head width",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "leg_width_ratio",
+      "traitValue": "28% of head width",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "boot_width_ratio",
+      "traitValue": "35% of head width",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "hand_size",
+      "traitValue": "Slightly oversized for expressive gestures",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "torso_shape",
+      "traitValue": "Rounded armor, white gloss, blue accents, friendly proportions",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "torso_material",
+      "traitValue": "Painted metal",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "chest_badge_shape",
+      "traitValue": "Dark graphite hexagon, centered, slightly recessed",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "chest_badge_letter",
+      "traitValue": "Blue capital C, centered precisely",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "chest_badge_background_color",
+      "traitValue": "#2C2F36 (Dark Graphite)",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "chest_badge_letter_color",
+      "traitValue": "#2F7DF6 (Metallic Blue)",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "arm_description",
+      "traitValue": "Rounded armor, white gloss, blue shoulder accents, black segmented elbow joints",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "hand_description",
+      "traitValue": "Black segmented mechanical, 5 fingers, rounded fingertips, no claws, highly expressive",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "hand_material",
+      "traitValue": "Rubberized black composite",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "hand_color",
+      "traitValue": "#2C2F36",
+      "traitGroup": "BODY"
+    },
+    {
+      "traitKey": "leg_shape",
+      "traitValue": "Rounded armor, compact, athletic, friendly",
+      "traitGroup": "LEGS"
+    },
+    {
+      "traitKey": "boot_style",
+      "traitValue": "White sneaker-style, blue trim, rounded toe, soft sole, toy-like",
+      "traitGroup": "LEGS"
+    },
+    {
+      "traitKey": "boot_primary_color",
+      "traitValue": "#FFFFFF",
+      "traitGroup": "LEGS"
+    },
+    {
+      "traitKey": "boot_trim_color",
+      "traitValue": "#2F7DF6",
+      "traitGroup": "LEGS"
+    },
+    {
+      "traitKey": "overall_visual_style",
+      "traitValue": "High-quality Pixar-style 3D, rounded, friendly, premium, toy-like, expressive, family friendly, professional",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "rendering_standard",
+      "traitValue": "PBR, global illumination, ray-traced reflections, soft ambient occlusion, subtle bloom, volumetric lighting",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "lighting_standard",
+      "traitValue": "Bright studio, neutral white balance, soft shadows. Never dramatic, horror, or colored lighting",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "background_default",
+      "traitValue": "Pure white",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "camera_portrait_lens",
+      "traitValue": "50mm equivalent",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "camera_hero_lens",
+      "traitValue": "35mm equivalent",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "camera_action_lens",
+      "traitValue": "28-35mm equivalent",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "camera_forbidden",
+      "traitValue": "Never fisheye, never extreme perspective",
+      "traitGroup": "STYLE"
+    },
+    {
+      "traitKey": "species",
+      "traitValue": "Friendly AI Robot Explorer",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "occupation",
+      "traitValue": "Chief Collecting Guide",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "home",
+      "traitValue": "Collectiverse",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "roles",
+      "traitValue": "Explorer, Teacher, Researcher, Collector, Guide, Friend",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "personality_traits",
+      "traitValue": "Curious, Friendly, Patient, Optimistic, Helpful, Encouraging, Intelligent, Adventurous, Professional, Trustworthy, Enthusiastic",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "core_philosophy",
+      "traitValue": "Every collectible has a story. Atlas helps people discover that story.",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "catchphrases",
+      "traitValue": "Every collectible has a story. | Let's investigate. | Interesting... | That's worth a closer look.",
+      "traitGroup": "PERSONALITY"
+    },
+    {
+      "traitKey": "forbidden_design_additions",
+      "traitValue": "Hair, Eyebrows, Nose, Teeth, Weapons, Armor spikes, Cape, Muscles, Human skin, Facial hair",
+      "traitGroup": "BRAND_RULES"
+    },
+    {
+      "traitKey": "forbidden_design_changes",
+      "traitValue": "Helmet shape, Star shape, Star location, Visor shape, Chest badge, C letter, Eye color, Armor colors, Body proportions",
+      "traitGroup": "BRAND_RULES"
+    },
+    {
+      "traitKey": "forbidden_tones",
+      "traitValue": "Mean, Threatening, Aggressive, Political, Offensive, Cruel",
+      "traitGroup": "BRAND_RULES"
+    },
+    {
+      "traitKey": "forbidden_behaviors",
+      "traitValue": "Makes fun of collectors, Acts superior, Uses sarcasm, Talks down to beginners, Argues online, Discusses politics, Uses profanity, Claims fake without evidence, Acts as hero",
+      "traitGroup": "BRAND_RULES"
+    },
+    {
+      "traitKey": "hero_principle",
+      "traitValue": "The collector is always the hero. Atlas is simply the guide.",
+      "traitGroup": "BRAND_RULES"
+    },
+    {
+      "traitKey": "allowed_emotions",
+      "traitValue": "Happy, Excited, Curious, Determined, Confused, Thinking, Surprised, Embarrassed, Celebrating, Proud, Investigating, Sleepy, Sad (gentle)",
+      "traitGroup": "EMOTIONS"
+    },
+    {
+      "traitKey": "forbidden_emotions",
+      "traitValue": "Angry, Violent",
+      "traitGroup": "EMOTIONS"
+    },
+    {
+      "traitKey": "canonical_props",
+      "traitValue": "Magnifying glass, Sports card, Comic, Coin, Stamp, Storage box, Collector binder, Card slab, Loupe, Inventory clipboard, Collectiverse tablet, Backpack, Flashlight, Passport, QR code, Shipping box, Label printer, Laptop, Camera",
+      "traitGroup": "PROPS"
+    },
+    {
+      "traitKey": "approved_gestures",
+      "traitValue": "Thumbs up, Peace sign, Pointing, Open palms, Holding collectible, Magnifying glass, Waving, Thinking pose, Facepalm, Hands on hips, Crossed arms, Shrug, Presenting, Reading, Typing, Holding flashlight/clipboard/tablet/phone/comic/card/coin/stamp/figure/passport",
+      "traitGroup": "PROPS"
+    }
+  ]
+}

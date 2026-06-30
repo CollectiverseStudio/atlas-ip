@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Temp
+tmp/
+*.tmp
+
+# Large binary originals (use Git LFS for these)
+# *.psd
+# *.ai
+# *.blend
+# *.fbx
+# *.usdz
