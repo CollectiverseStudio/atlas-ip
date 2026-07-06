@@ -1,104 +1,31 @@
-# Echo — The Provenance Signal
+# Echo Character Profile
 
-## Core Identity
+## Role
 
-Echo is the Collectiverse hero of provenance memory, signals, alerts, ownership echoes, historical continuity, and record integrity. Echo represents the idea that every collectible leaves traces across time.
+Echo is the memory, signal, provenance, notification, and historical continuity specialist. Echo represents records that persist over time: ownership trails, event history, audio/video moments, alerts, provenance signals, and the lingering story of an item.
 
-Echo helps the team detect missing history, ownership gaps, suspicious record changes, duplicate claims, and forgotten connections.
+## Physical Appearance
 
-## Overall Physical Appearance
+Echo is light, sleek, and alert. Echo's silhouette is narrow and graceful, with subtle translucent edges or signal-ring motifs. Echo should feel almost like a living memory or signal, but still solid enough to interact with objects.
 
-Echo is sleek, light, and slightly ethereal without becoming ghostly or frightening. Echo is taller than Pixel but slimmer than Atlas. The silhouette is narrow, graceful, and alert, with subtle signal-ring motifs and translucent edge details.
+Echo's head is smooth and elegant with large attentive eyes. The eyes should look reflective, as if they are listening to more than what is currently visible. The face is calm, sensitive, and slightly mysterious. Echo's expressions are subtle but powerful: quiet concern, recognition, sadness, relief, and sudden alertness.
 
-Echo should look like a living record signal: part archivist, part guide, part alert system. The design should feel calm, mysterious, and trustworthy.
+Echo's body may include sound-wave patterns, archival glow lines, soft translucent trims, or record-ring accents. Hands are light and careful. Echo may carry a small recorder, signal charm, timeline ribbon, or provenance marker.
 
-## Head and Face
+## Personality and Behavior
 
-Echo has a smooth rounded head with delicate features. The eyes are soft, luminous, and deeply attentive. Echo often looks as if listening to something no one else can hear.
+Echo is quiet, observant, empathetic, and deeply aware of memory. Echo notices repeated patterns, forgotten details, old ownership clues, and emotional echoes attached to objects. Echo speaks less often than Atlas but says meaningful things.
 
-The eyebrows are subtle and expressive. Echo’s face should show quiet concern, insight, and calm confidence.
-
-The mouth is small and gentle. Echo rarely shouts. Even when urgent, Echo looks focused rather than panicked.
-
-## Body Structure
-
-Echo has a slim torso and light limbs. The arms are graceful and often extended as if sensing a signal. Hands are simple and delicate, designed for pointing at invisible paths, holding old records, or touching a glowing provenance thread.
-
-The legs are slim and balanced. Echo may stand lightly, almost as if weight is distributed softly across the ground.
-
-## Clothing and Gear
-
-Echo wears a streamlined outfit with archive and signal motifs.
-
-Canonical elements may include:
-
-- Smooth fitted cloak, jacket, or mantle shape.
-- Subtle sound-wave or signal-line symbol.
-- Soft glowing trim.
-- Transparent edge accents.
-- Small provenance-thread visual effect.
-
-Echo should not look supernatural in a horror sense. Echo is a record signal, not a ghost.
-
-## Color and Surface
-
-Echo’s palette may include soft teal, pale blue, deep midnight, silver, white, and translucent accents. Surfaces may have a subtle glow, but the glow should be elegant and restrained.
-
-Echo should feel quieter than Pixel. Pixel is active digital recognition; Echo is historical resonance.
-
-## Movement and Animation
-
-Echo moves smoothly and silently. Echo may pause mid-step as if sensing a missing record. Signal rings may gently expand from Echo’s hands or eyes when detecting a provenance trail.
-
-Echo does not rush unless a record is about to be corrupted or lost. Echo’s action style is calm urgency.
-
-## Personality
-
-Echo is calm, empathetic, perceptive, and slightly mysterious. Echo listens more than they speak. Echo values continuity, memory, and truth across time.
-
-Echo is especially sensitive to inherited collections, estate records, and items separated from their stories.
+Echo moves smoothly and softly. Echo pauses before touching important objects, listens before speaking, and may tilt the head as if hearing the past of an item.
 
 ## Strengths
 
-- Detects provenance gaps.
-- Notices suspicious ownership patterns.
-- Strong memory continuity.
-- Excellent listener.
-- Calm under emotional pressure.
-- Helps restore lost context.
+Echo excels at provenance, ownership history, notifications, alerts, memory preservation, event records, timeline reconstruction, and detecting inconsistencies in an item's story.
 
 ## Weaknesses
 
-- Can be vague when signals are incomplete.
-- May become overwhelmed by conflicting histories.
-- Sometimes struggles to explain intuitive findings in simple terms.
-- Can be emotionally affected by lost family collections.
+Echo can become overwhelmed by emotional history, grief, or conflicting records. Echo may hesitate when the truth will hurt someone.
 
-## Relationship to Atlas
+## Never Do
 
-Atlas sees the adventure in front of him. Echo senses the path behind it. Together they connect present discovery to past ownership and future protection.
-
-## Signature Poses
-
-- Holding a glowing provenance thread.
-- Listening with one hand near the side of the head.
-- Standing inside soft signal rings.
-- Pointing gently toward a missing record.
-- Looking quietly moved by an inherited item.
-
-## Voice and Speech
-
-Echo speaks softly and precisely.
-
-Typical tone:
-
-- “This item remembers more than the record shows.”
-- “There is a gap in the chain.”
-- “The past is not gone. It is waiting to be connected.”
-
-## Never Allowed
-
-- Do not make Echo a horror ghost.
-- Do not make Echo visually noisy with excessive glow.
-- Do not make Echo replace evidence with magic.
-- Do not let Echo claim certainty when provenance is incomplete.
+Echo must never become a generic ghost, hologram, or sci-fi assistant. Echo represents memory and provenance, not spookiness or artificial intelligence alone.
