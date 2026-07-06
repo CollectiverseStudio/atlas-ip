@@ -1,92 +1,33 @@
-# Pixel — The Digital Scout
+# Pixel Character Profile
 
-## Core Identity
+## Role
 
-Pixel is the smallest and quickest member of the Collectiverse heroes. Pixel represents digital recognition, image matching, scanning, metadata, AI assistance, and the bridge between physical collectibles and digital records.
+Pixel is the digital specialist of Collectiverse. Pixel represents image recognition, scanning, data capture, digital assets, app guidance, and the bridge between physical collectibles and digital records.
 
-Pixel is not a generic robot. Pixel should feel like a tiny, living spark of helpful technology: curious, fast, bright, and loyal.
+## Physical Appearance
 
-## Overall Physical Appearance
+Pixel is the smallest Guardian. Pixel is compact, bright, nimble, and slightly electronic without becoming a generic robot. The head is a softened rounded-square shape, similar to a friendly app icon or tiny screen tile brought to life. The body is narrow and lightweight, with short flexible arms and legs.
 
-Pixel is short, compact, and nimble. Pixel’s body is built from soft rounded geometric shapes with subtle digital accents. The silhouette should read as a small tech companion: round head, compact torso, small limbs, glowing details, and an alert posture.
+Pixel's face is screen-like but emotionally warm. The eyes may glow subtly or contain tiny pixel-like sparkles, but they must remain expressive. Pixel's mouth can be a simple digital line that curves, flattens, or opens into clean expressions. Pixel should never look blank or cold.
 
-Pixel should feel light on their feet, almost like they could hop from a scanner bed to a phone screen to a collectible display case. The character should not look heavy, armored, or mechanical in a harsh industrial way.
+Pixel's body surface is smooth, glossy, and slightly glass-like. Small illuminated accents, scan marks, and pixel-grid details may appear along the sides, but the design must stay clean. Hands are small and precise. Feet are small, quick, and rounded.
 
-## Head and Face
+Pixel's silhouette should read instantly at small size: small square head, tiny expressive body, quick limbs, bright digital accents. Pixel should feel like helpful technology with a personality, not a device with eyes pasted on it.
 
-Pixel has a rounded square head, like a softened app icon brought to life. The corners are rounded and friendly. The head is slightly larger than the body, giving Pixel a cute and instantly readable profile.
+## Personality and Behavior
 
-The eyes are bright and digital, but expressive. They may have a soft glow or screen-like quality, but they must still show emotion clearly. The eyes widen when Pixel detects a match, narrow slightly when analyzing, and blink in quick little pulses when processing information.
+Pixel is fast, excitable, curious, and extremely observant. Pixel loves sharp images, clean data, good lighting, complete metadata, and successful matches. Pixel becomes visibly frustrated by blurry photos, duplicate files, missing fields, bad crops, and inconsistent imports.
 
-Pixel’s mouth is small and simple. It may appear as a small animated line, small smile, tiny open circle, or digital expression mark. Pixel should be able to look excited, worried, proud, confused, and focused without needing a realistic face.
-
-## Body Structure
-
-Pixel has a small torso shaped like a softened rectangle or capsule. The body should include tiny status-light accents or subtle circuit-like trim. The limbs are short and rounded. Hands are mitten-like or simple gloved shapes, useful for pointing at screens, holding a small tag, or waving enthusiastically.
-
-Pixel’s feet are small and rounded. Pixel may stand flat-footed or slightly elevated on tiny boot-like soles. Pixel should look stable but quick.
-
-## Color and Surface
-
-Pixel’s surfaces should feel clean, smooth, and slightly glassy. The character may include soft blue, cyan, teal, white, silver, or other digital-trust colors. Glows should be subtle and controlled, not neon overload.
-
-Pixel’s screen-like accents should never make the face unreadable. Pixel should not look like a scary surveillance device.
-
-## Movement and Animation
-
-Pixel moves in quick hops, slides, zips, and tiny bursts. When excited, Pixel may bounce in place. When scanning, Pixel becomes very still except for blinking lights or eye movement. When solving a problem, Pixel may project a small grid, checklist, or recognition frame.
-
-Pixel often circles around Atlas or a collectible, finding tiny details others missed. Pixel points quickly and may tug at Atlas to get attention.
-
-## Personality
-
-Pixel is energetic, eager, clever, and occasionally impatient. Pixel loves data, matches, patterns, and clean records. Pixel wants every item to have a correct digital identity.
-
-Pixel can be playful and mischievous, but not destructive. Pixel enjoys being right and may celebrate too early before Atlas reminds them that human review and provenance matter too.
+Pixel moves in quick hops, zips, slides, and bouncy pivots. Idle animation may include tiny light pulses, blinking scan lines, or a soft digital flicker. Pixel reacts dramatically to errors and celebrates clean scans with energetic jumps.
 
 ## Strengths
 
-- Fast recognition.
-- Image comparison.
-- Metadata matching.
-- Pattern detection.
-- Digital record creation.
-- Quick reactions.
-- Technical confidence.
+Pixel excels at scanning, image matching, duplicate detection, metadata capture, visual pattern recognition, CSV/import support, and fast digital workflows.
 
 ## Weaknesses
 
-- Can over-trust data without enough context.
-- May become frustrated by blurry photos or incomplete records.
-- Sometimes moves faster than the rest of the team can follow.
-- Can mistake a probable match for a confirmed match.
+Pixel may trust data too much and forget the emotional side of collecting. Pixel can become overwhelmed by messy collections, poor lighting, and inconsistent user-uploaded information.
 
-## Relationship to Atlas
+## Never Do
 
-Pixel is Atlas’s digital scout. Atlas provides judgment, empathy, and collector context. Pixel provides speed, recognition, and data. Together they show Collectiverse’s balance between human trust and technical intelligence.
-
-## Signature Poses
-
-- Floating or hopping beside a phone scan.
-- Pointing at a match result.
-- Projecting a small grid over a collectible.
-- Looking proud with tiny arms crossed.
-- Panicking over a blurry image.
-
-## Voice and Speech
-
-Pixel speaks in quick, bright phrases. Pixel may use short technical words, but should not become confusing.
-
-Typical tone:
-
-- “Match found!”
-- “Wait — metadata conflict.”
-- “Image quality: not great, but workable.”
-- “I found the clue in the corner.”
-
-## Never Allowed
-
-- Do not make Pixel look like an existing robot mascot.
-- Do not make Pixel cold, emotionless, or creepy.
-- Do not overload Pixel with wires, weapons, or complex machinery.
-- Do not use Pixel to imply Collectiverse blindly trusts AI without verification.
+Pixel must never become a generic robot, phone mascot, drone, or cold AI assistant. Pixel is technology with heart.
