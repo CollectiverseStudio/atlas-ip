@@ -7,6 +7,12 @@ Thumbs.db
 .idea/
 *.swp
 
+# Environment / Secrets
+.env
+.env.local
+.lora-training-info.json
+.lora-model-url.txt
+
 # Node
 node_modules/
 dist/
