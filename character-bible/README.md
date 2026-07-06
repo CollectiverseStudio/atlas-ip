@@ -1,25 +1,26 @@
-# Collectiverse Character Bible
+# Atlas Universe Character Bible
 
-This folder is the canonical written source of truth for the Collectiverse character universe.
+Status: CANON DRAFT
 
-It defines the major heroic and villain characters, including physical appearance, personality, movement, behavior, strengths, weaknesses, visual consistency rules, and production guidance.
+Purpose: This folder is the production source of truth for Collectiverse / Atlas Universe characters. These files are designed for image generation, comics, animation, merchandising, licensing, and QA review.
 
-## Documents
+Core Guardians:
 
-1. `00-character-bible-overview.md`  
-   Defines the purpose, tone, visual language, and continuity rules for all Collectiverse characters.
+1. `01-heroes.md` — Atlas, Pixel, Ink, Sterling, Forge, Porter, Echo.
 
-2. `01-heroes.md`  
-   Detailed descriptions of the primary good characters: Atlas, Pixel, Ink, Sterling, Forge, Porter, and Echo.
+Adversaries:
 
-3. `02-villains.md`  
-   Detailed descriptions of the primary bad characters: The Director, The Counterfeiter, The Archivist, The Broker, The Smuggler, The Restorer, The Hacker, and The Hoarder.
+2. `02-villains.md` — The Director, The Counterfeiter, The Archivist, The Broker, The Smuggler, The Restorer, The Hacker, The Hoarder.
 
-4. `03-character-rendering-and-animation-rules.md`  
-   Canonical rules for artists, animators, AI image generation, comics, merchandise, animation, and future visual production.
+Production rules:
 
-## Ownership
+3. `03-character-rendering-and-animation-rules.md` — visual, animation, image-generation, and canon rules.
 
-Collectiverse, Atlas, and the Collectiverse character universe are intellectual property of Gregory Bell and Collectiverse Studios.
+Retired names:
 
-No character in this folder should be treated as generic, public domain, or replaceable. These descriptions are intended to protect consistency, originality, and long-term brand value.
+- Penny is retired. Use Sterling.
+- Slab is retired. Use Porter.
+
+Ownership:
+
+Collectiverse, Atlas, the Guardian Team, Shadow Registry concepts, and the Collectiverse character universe are intellectual property of Gregory Bell and Collectiverse Studios. No character in this folder is generic, public domain, or replaceable.
