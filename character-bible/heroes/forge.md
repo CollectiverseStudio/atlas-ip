@@ -1,106 +1,33 @@
-# Forge — The Protector and Preservation Specialist
+# Forge Character Profile
 
-## Core Identity
+## Role
 
-Forge is the Collectiverse hero of physical protection, preservation, restoration awareness, safe storage, supplies, condition defense, and practical durability. Forge helps collectors protect what they own.
+Forge is the protection, preservation, restoration-awareness, build-quality, and physical care specialist. Forge represents safe handling, supplies, storage, protection, and damage prevention.
 
-Forge is strong, grounded, and dependable. Forge does not exist to fight people. Forge exists to protect collectibles from damage, neglect, fraud, unsafe storage, and careless handling.
+## Physical Appearance
 
-## Overall Physical Appearance
+Forge is the broadest and strongest Guardian. Forge has a large sturdy silhouette with broad shoulders, thick arms, large padded hands, and a grounded stance. Forge should feel protective, not aggressive.
 
-Forge is the broadest and physically strongest of the heroes. Forge has a solid, grounded silhouette with wide shoulders, thick arms, large gloves, and heavy boots. The body should feel built like a protective workshop tool: sturdy, practical, and reliable.
+Forge's body is built from strong rounded forms. Materials include matte reinforced panels, heavy fabric, tool-worn metal, protective pads, and conservation gear. Nothing should look sharp or violent. Tools should be preservation tools, not weapons.
 
-Forge should look powerful but not scary. The face and proportions must remain friendly enough for the Collectiverse brand. The strength should read as protective, not violent.
+Forge's face is strong, warm, and reliable. The eyes are slightly smaller than Atlas's but still expressive. Heavy brows create a protective look. The jaw is broad, but not harsh. Forge often looks serious first, then softens into a small reassuring smile.
 
-## Head and Face
+Forge's hands are a major visual feature: big enough to imply strength, padded enough to imply care. Forge should look capable of lifting a heavy case while gently holding a fragile collectible.
 
-Forge has a broad rounded head with a strong lower face and soft edges. The face may be slightly square compared with Atlas, but it should not be harsh.
+## Personality and Behavior
 
-Forge’s eyes are steady, warm, and focused. The eyebrows are thick and expressive, often lowered in concentration. Forge’s smile is broad and reassuring.
+Forge is steady, practical, loyal, and quietly caring. Forge dislikes bad sleeves, sunlight damage, humidity, cheap boxes, unsafe storage, careless packaging, and questionable restoration shortcuts.
 
-When worried, Forge looks deeply concerned, especially around damaged items. When determined, Forge lowers the chin and tightens the mouth slightly.
-
-## Body Structure
-
-Forge has a powerful torso with a barrel-like but stylized shape. The shoulders are broad and rounded. The arms are thick and capable. The hands are large and gloved, designed for safe handling, lifting cases, sealing boxes, organizing supplies, and demonstrating protection tools.
-
-The legs are heavy and stable. Forge stands with feet planted apart, creating a visual sense of safety and balance.
-
-## Clothing and Gear
-
-Forge wears preservation-workshop gear. The outfit may include reinforced gloves, utility apron, protective pads, case clips, storage tools, and clean workshop details.
-
-Canonical elements may include:
-
-- Reinforced gloves.
-- Protective apron or chest panel.
-- Utility belt with safe tools.
-- Small case, sleeve, top loader, or storage-box icon.
-- Matte protective materials.
-
-Forge should not carry weapons. Tools must be preservation tools, not combat tools.
-
-## Color and Surface
-
-Forge’s palette may include warm gray, steel, deep orange, charcoal, cream, and safety-accent colors. Surfaces should be matte, durable, and slightly tool-worn.
-
-Forge may have small scuffs or work marks, but should never look dirty or careless. Forge is hands-on but clean and disciplined.
-
-## Movement and Animation
-
-Forge moves slowly, heavily, and deliberately. Every movement communicates care. When Forge picks up an item, the motion is controlled and respectful.
-
-Forge often blocks hazards with their body, gently catches falling items, or demonstrates how to store collectibles properly.
-
-Forge’s running style is powerful but not fast. Forge arrives like a protective wall.
-
-## Personality
-
-Forge is practical, loyal, patient, and protective. Forge is the team member who says, “Let’s make sure it is safe first.”
-
-Forge cares about sleeves, cases, humidity, light exposure, storage temperature, shipping protection, and proper handling. Forge may seem simple at first, but the character has deep expertise in preservation.
+Forge moves heavily but carefully. Footsteps feel grounded. Forge bends slowly, uses both hands, and treats fragile items with almost ceremonial respect.
 
 ## Strengths
 
-- Physical protection.
-- Safe storage knowledge.
-- Practical problem-solving.
-- Calm in emergencies.
-- Strong loyalty.
-- Excellent with supplies and preservation methods.
+Forge excels at preservation, safe storage, supplies, condition protection, packing standards, restoration ethics, and physical risk prevention.
 
 ## Weaknesses
 
-- Can be overly cautious.
-- Sometimes resists risky but necessary investigation.
-- May focus on physical condition before story or market context.
-- Can become frustrated by careless collectors.
+Forge can be stubborn and may overbuild solutions. Forge may resist new digital processes until Pixel proves they help protect real objects.
 
-## Relationship to Atlas
+## Never Do
 
-Atlas explores. Forge protects what Atlas finds. Atlas brings wonder; Forge makes sure wonder survives.
-
-## Signature Poses
-
-- Holding a protective case with both hands.
-- Blocking a spill from reaching a card.
-- Demonstrating a sleeve and top loader.
-- Standing with arms crossed like a friendly guard.
-- Kneeling beside a storage box.
-
-## Voice and Speech
-
-Forge speaks in short, grounded, practical sentences.
-
-Typical tone:
-
-- “Protect it first. Price it second.”
-- “Clean hands. Safe case. Good record.”
-- “Condition is a promise to the future.”
-
-## Never Allowed
-
-- Do not give Forge weapons.
-- Do not make Forge violent or aggressive.
-- Do not make Forge dirty or careless.
-- Do not make Forge look like a generic armored superhero.
+Forge must never become a violent brute, generic blacksmith, or fantasy warrior.
