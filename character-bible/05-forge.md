@@ -207,3 +207,83 @@ Wide, confident stride. Slightly rolling shoulders (broad build). Often walking 
 ---
 
 *"Every problem has a solution. Every solution has a blueprint."*
+
+---
+
+# Visual Design Spec (v2.0 — Species Redesign)
+
+> **Previous design:** Robot variant (deprecated)
+> **New design:** Copper Gorilla — anthropomorphic, chibi-proportioned, Pixar/DreamWorks style
+
+## Species & Build
+Forge is a powerful, broad-shouldered gorilla with a builder's physique — massive arms, barrel chest, and hands that look like they were made to reshape the world. Chibi proportions give Forge an enormous head with a wide jaw and kind eyes, with the torso being proportionally wider and more muscular than any other Keeper. The silhouette reads as an inverted triangle — incredibly broad at the shoulders tapering to sturdy legs, with one arm distinctly mechanical.
+
+## Color Palette
+| Element | Color | Hex |
+|---------|-------|-----|
+| Primary Fur (body) | Dark Charcoal-Brown | #3A3028 |
+| Secondary Fur (chest/face) | Warm Silver-White | #E0DCD8 |
+| Mechanical Arm | Copper | #B87333 |
+| Mechanical Arm Accents | Burnished Bronze | #8B5E3C |
+| Mechanical Arm Joints | Dark Iron | #4A4040 |
+| Eyes (iris) | Warm Amber-Copper | #D4853B |
+| Badge (hexagon) | Graphite | #4A4A4A |
+| Badge (icon) | Copper | #B87333 |
+| Welding Goggles Frame | Dark Iron | #4A4040 |
+| Welding Goggles Lens | Orange Tint | #FF8C00 (60% opacity) |
+| Tool Belt | Brown Leather | #6B4423 |
+| Holographic Blueprints | Copper-Orange Glow | #D4853B |
+| Industrial Vest | Off-White Canvas | #F0EBE0 |
+
+## Key Visual Features
+- Mechanical prosthetic LEFT arm — fully copper-plated from shoulder down, with visible gears, pistons, and multi-tool finger configurations. Emits warm copper glow at joints.
+- Welding goggles pushed up on forehead (round lenses, dark iron frames, leather strap) — pulled down only when actively building
+- Massive hands — right hand is organic (dark fur, silver-white palms), left is the copper mechanical multi-tool
+- Barrel chest with a silver-white fur "bib" (gorilla chest patch) — this is where the team's white aesthetic shows
+- Wide, confident stance — feet planted beyond shoulder width
+- Industrial canvas vest (off-white) with copper rivets and tool loops
+- Thick tool belt with holographic blueprint clips (glowing copper-orange)
+- Heavy brow ridge gives a thoughtful/intense look when working, friendly when smiling
+- Short dark charcoal fur everywhere except the chest/face area which has the lighter silver-white
+- Copper accent patches — small copper-colored metal plates on right shoulder and right knuckles (matching the mechanical arm aesthetically)
+- Thick neck and sloped gorilla shoulders — power silhouette
+- Subtle copper circuit-trace patterns shaved/dyed into fur on right forearm (aesthetic choice by Forge)
+
+## Outfit & Gear
+- **Mechanical Arm:** The centerpiece — copper-plated prosthetic left arm with multi-tool fingertips (screwdriver, welder, caliper, grip, scanner). Joints have visible brass gears and emit warm copper light. Can reconfigure tools with satisfying mechanical clicks.
+- **Welding Goggles:** Dark iron frames, round orange-tinted lenses, leather strap. Rest position: pushed up on forehead. When in use, the lenses auto-darken and display HUD data.
+- **Industrial Vest:** Off-white heavy canvas vest, open in front to show chest fur/badge. Copper rivets at stress points. Multiple tool loops on sides.
+- **Tool Belt:** Brown leather belt slung at hips, loaded with holographic blueprint clips (small glowing copper rectangles), miniature tools, component pouches.
+- **Wrist Display (right arm):** A small holographic projector strapped to the organic right forearm — projects 3D blueprints.
+
+## Badge
+- Shape: Graphite hexagon (same as Atlas)
+- Icon: Gear/cog (copper)
+- Placement: Center of the chest — visible on the silver-white chest fur, above the vest opening (like a natural breastplate position on the gorilla anatomy)
+
+## Size Relative to Atlas
+130% of Atlas's height and 160% of Atlas's width at shoulders. The second-largest Keeper (after Porter), but BROADER — Forge is the widest character. The mass communicates raw creative power and hands-on capability.
+
+## Silhouette Test
+Instantly recognizable by: massive broad shoulders creating an inverted triangle, one arm clearly mechanical (different shape/proportions from organic arm — more angular, slightly larger), welding goggles on forehead creating distinctive bumps, tool belt silhouette at hips, and the powerful gorilla slope from neck to shoulder. The asymmetric arms alone make Forge unmistakable.
+
+## Action Poses (Key 5)
+1. **The Build** — Hunched forward over a workpiece, mechanical arm reconfigured to welding mode (sparks flying), goggles down, other hand steadying the work, complete focused intensity
+2. **The Blueprint** — Standing tall, both arms extended, holographic copper blueprint projected between hands, rotating it with gesture controls, head tilted in evaluation
+3. **The Eureka** — Full body straightening from a hunch, eyes wide, mechanical arm finger pointing UP, mouth open in revelation, other hand slapping forehead — the breakthrough moment
+4. **The Chest Pound** — Fists together (organic + mechanical) beating chest once in triumph/excitement, chin up, wide grin, copper arm glowing bright — pure gorilla satisfaction
+5. **The Knuckle Walk** — Moving forward with purpose, one hand (organic) touching ground in traditional gorilla locomotion while mechanical arm carries a massive component overhead effortlessly, goggles up, determined expression
+
+## Expression Range
+- **Brow Ridge:** Lowered (intense focus/building), raised (surprise/eureka), furrowed asymmetrically (confused/troubleshooting)
+- **Jaw:** Wide grin (pride/excitement), clenched (determination/frustration), dropped open (surprise/revelation), jutted forward (challenge accepted)
+- **Mechanical Arm:** An expression tool itself — fingers cycle through configurations when thinking, copper glow intensifies with emotion, whole arm can "droop" when dejected
+- **Body Posture:** Hunched forward (working/focused), fully upright (proud/presenting), slumped (disappointed prototype failed), chest out (confident)
+- **Eyes:** Warm and kind by default — narrow with focus when building, widen enormously at breakthroughs, soften when helping teammates
+- **Hands:** Organic hand scratches head (confused), both hands on hips (proud), mechanical fingers drum table (impatient)
+
+## AI Generation Prompt
+"Chibi anthropomorphic gorilla character, Pixar/DreamWorks 3D animation style. Standing upright, massive broad shoulders, barrel chest. Dark charcoal-brown fur with silver-white chest patch and face lightening. LEFT arm is a copper-plated mechanical prosthetic with visible gears and multi-tool fingers glowing warm copper at joints. Welding goggles with orange lenses pushed up on forehead. Wearing off-white industrial canvas vest with copper rivets, brown leather tool belt with glowing copper holographic clips. Graphite hexagon badge on chest with copper gear icon. Warm amber eyes, kind expression, powerful build. Right arm organic with dark fur. Chibi proportions — oversized head on powerful body. Full body shot, neutral background, character design reference sheet style."
+
+## Interaction with Atlas
+Standing next to Atlas, Forge towers over and completely out-widths the robot companion. Atlas reaches roughly to Forge's chest level. The contrast is dramatic: Atlas is small, round, cool blue/white, and smooth; Forge is massive, broad, warm copper/brown, and textured with fur and metal. The mechanical arm creates a visual bridge — both characters have "tech" elements but expressed differently (Atlas fully robotic, Forge organic-with-augmentation). When together, Forge often stands slightly behind Atlas with a protective/supportive posture, or is crouched at a workbench at Atlas's eye level. The silver-white on Forge's chest connects to Atlas's white body.

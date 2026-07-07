@@ -206,3 +206,81 @@ Even, measured steps. Slightly slower than Atlas. Very stable — Sterling never
 ---
 
 *"Condition is truth."*
+
+---
+
+# Visual Design Spec (v2.0 — Species Redesign)
+
+> **Previous design:** Robot variant (deprecated)
+> **New design:** Silver Cat (Persian/British Shorthair) — anthropomorphic, chibi-proportioned, Pixar/DreamWorks style
+
+## Species & Build
+Sterling is a stocky, round British Shorthair cat with immaculately groomed silver-white fur and an air of permanent mild disapproval. Chibi proportions emphasize Sterling's round face (enormous cheeks), compact squared body, and short sturdy limbs. The silhouette reads as a plush, solid rectangle — wider than tall, with small rounded ears and a thick sweeping tail. Think: the most well-groomed, judgmental pillow with legs.
+
+## Color Palette
+| Element | Color | Hex |
+|---------|-------|-----|
+| Primary Fur (body) | Silver-White | #E8E8E8 |
+| Secondary Fur (shading) | Cool Silver | #C0C0C0 |
+| Fur Highlights | Pure White | #FFFFFF |
+| Eyes (iris) | Pale Silver-Blue | #A8C4D4 |
+| Eye Sclera | Warm White | #FFF8F0 |
+| Nose | Dusty Rose | #C4A0A0 |
+| Badge (hexagon) | Graphite | #4A4A4A |
+| Badge (icon) | Silver | #C0C0C0 |
+| Monocle Frame | Polished Gold | #D4AF37 |
+| Monocle Lens | Clear with silver data overlay | #C0C0C0 (20% opacity) |
+| Gloves | Pristine White | #FFFFFF |
+| Vest/Cravat | Pearl White + Silver Trim | #F5F0F0 / #C0C0C0 |
+
+## Key Visual Features
+- Perfectly round, enormous chibi head with the characteristic British Shorthair "teddy bear" cheeks
+- Monocle over right eye — gold frame, magnification loupe that flips down for detailed examination, subtle holographic data overlay when active
+- Pristine white gloves on both paws (never removed — Sterling's signature)
+- Immaculately groomed silver-white fur with an almost luminous sheen — the cleanest character in any scene
+- Permanently slightly-unimpressed facial expression (one eyebrow perpetually raised, half-lidded eyes)
+- Stocky, compact body — widest proportionally among the smaller Keepers
+- Small, rounded ears (British Shorthair style) — barely visible above the massive round head
+- Thick, plush tail that sweeps with deliberate judgment (like a metronome of disapproval)
+- Tiny nose (pink) centered in the massive face — adds to the "judging you" expression
+- Fur is SO clean it almost glows — subtle ambient white light effect
+- Whiskers: long, perfectly symmetrical, silver-white
+- Slightly upturned chin (perpetual "looking down nose" angle even though Sterling is short)
+
+## Outfit & Gear
+- **Monocle:** Gold-framed magnification loupe on right eye, attached via a fine gold chain to the vest. Can flip between standard vision, 10x magnification, and holographic grading overlay modes.
+- **White Gloves:** Pristine, form-fitting, white cotton gloves. Never removed. Slightly longer cuffs than typical — reaching mid-forearm. Small silver button at each wrist.
+- **Pearl Vest:** A small, tailored pearl-white vest with silver buttons and trim. Gives Sterling a "professional appraiser" look without being overdressed. Single breast pocket with a silver pen clip.
+- **Silk Cravat:** A small, neatly tied silk cravat (white with faint silver pattern) at the neck — just enough formality to say "I take this seriously."
+
+## Badge
+- Shape: Graphite hexagon (same as Atlas)
+- Icon: Balance scale / grade scale (silver)
+- Placement: Left breast of the pearl vest (like a lapel pin — more formal placement than other Keepers)
+
+## Size Relative to Atlas
+95% of Atlas's height but 115% of Atlas's width. Slightly shorter but noticeably rounder/stockier. The compact build makes Sterling feel solid and planted — an immovable judge.
+
+## Silhouette Test
+Instantly recognizable by: perfectly circular head (wider than it is tall), small round ears barely breaking the head silhouette, stocky rectangular body, thick sweeping tail, and the monocle creating a small circular protrusion on one side of the face. The proportions alone — that massive round head on a short wide body — are unique among the Keepers.
+
+## Action Poses (Key 5)
+1. **The Inspection** — One gloved hand holding an item at arm's length, monocle flipped down and glowing with holographic data, head tilted back slightly, other hand behind back, tail horizontal (mid-assessment)
+2. **The Verdict** — Standing square, arms crossed, monocle up, chin raised, eyes half-lidded, delivering judgment with a single raised eyebrow and a barely perceptible nod (or devastating head-shake)
+3. **The Wince** — Caught mid-recoil from seeing a condition flaw — one eye squeezed shut, gloved hand raised in a "stop" gesture, tail puffed slightly, body leaning away from the offending item
+4. **The Presentation** — Both gloved hands presenting a pristine item with ceremonial care, monocle glowing, slight smile breaking through the usual composure, tail raised (pride)
+5. **The Glove Adjust** — Tugging one glove cuff precisely while surveying a scene with supreme disinterest, monocle catching light, weight shifted to one hip, tail swaying slowly (the "I'm not impressed yet" pose)
+
+## Expression Range
+- **Eyebrows:** Sterling's primary expression tool — one raised (judgment/skepticism), both raised (genuine surprise — RARE), furrowed (concentrating/concerned), flat (truly unimpressed)
+- **Tail:** Slow deliberate swish (judgment in progress), wrapped around feet (settled/comfortable), puffed (startled/offended), perfectly still (absolute focus), rapid flick at tip (irritation)
+- **Ears:** Barely move (very controlled), slight flatten (displeasure), perk forward (genuine interest — RARE and noteworthy), rotate back (dismissal)
+- **Eyes:** Half-lidded is default (unimpressed), wide open (something is genuinely remarkable), narrowed (suspicion), soft (rare warmth when seeing something truly perfect)
+- **Whiskers:** Forward (interested), back (disgusted), asymmetric (confused/skeptical)
+- **Fur:** Pristine always — but hackles CAN rise on back of neck in extreme surprise/alarm (embarrasses Sterling greatly)
+
+## AI Generation Prompt
+"Chibi anthropomorphic British Shorthair cat character, Pixar/DreamWorks 3D animation style. Standing upright on two legs, short stocky round body with enormously oversized round head and huge cheeks. Silver-white immaculately groomed fur with luminous sheen. Gold-framed monocle over right eye. Wearing pristine white gloves, pearl-white tailored vest with silver trim, small white silk cravat. Graphite hexagon badge on vest with silver balance scale icon. Permanently unimpressed expression, one eyebrow raised, half-lidded pale silver-blue eyes. Small pink nose. Thick plush tail. Short round ears. Chibi proportions — head is 45% of body height. Prim, judgmental, fastidious. Full body shot, neutral background, character design reference sheet style."
+
+## Interaction with Atlas
+Standing next to Atlas, Sterling is very slightly shorter but noticeably wider. The contrast plays beautifully: Atlas is rounded but vertical, blue-accented, and warm; Sterling is rounded but horizontal, silver-accented, and cool. Sterling's organic plush fur creates a soft texture contrast against Atlas's smooth robotic surface. Sterling typically stands with a slight gap from Atlas — maintaining personal space and composure. The white-on-white palette unifies them, while the blue vs. silver prevents visual confusion. Sterling's expressiveness through tiny movements (eyebrow, tail-tip) contrasts Atlas's broader body language.

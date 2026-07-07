@@ -212,3 +212,81 @@ Soft, gliding steps. Near-silent. Echo walks as if not quite fully in the presen
 ---
 
 *"The past remembers, even when we forget."*
+
+---
+
+# Visual Design Spec (v2.0 — Species Redesign)
+
+> **Previous design:** Robot variant (deprecated)
+> **New design:** Violet Owl (Great Horned Owl) — anthropomorphic, chibi-proportioned, Pixar/DreamWorks style
+
+## Species & Build
+Echo is a slender, ethereal great horned owl with a mystical presence and gravity-defying lightness. Chibi proportions give Echo an enormous round head with massive luminous eyes (owls are ALL about the eyes), prominent ear tufts, and a more compact body wrapped in layered feathers. The silhouette reads as a circular head with dramatic ear tufts atop a soft, tapered feathered body — like a wise, glowing lantern with wings.
+
+## Color Palette
+| Element | Color | Hex |
+|---------|-------|-----|
+| Primary Plumage (body) | Gray-Lavender | #C8BED0 |
+| Secondary Plumage (back/wings) | Deeper Slate-Lavender | #8B7FA0 |
+| Plumage Markings (runes) | Violet Glow | #8A2BE2 |
+| Wing Edge (translucent) | Iridescent Violet | #8A2BE2 (50% opacity) |
+| Eyes (iris) | Luminous Violet | #8A2BE2 |
+| Eye Glow (ambient) | Soft Purple | #B366FF |
+| Eye Sclera | Deep Black | #0A0A0A |
+| Beak | Pale Bone | #D4CCC0 |
+| Ear Tufts | Dark Slate-Purple | #4A3F5E |
+| Badge (hexagon) | Graphite | #4A4A4A |
+| Badge (icon) | Violet | #8A2BE2 |
+| Memory Crystals | Translucent Violet | #8A2BE2 (70% opacity) |
+| Chest Feathers (front) | Soft White-Lavender | #EDE8F0 |
+| Rune Markings | Ancient Violet (glowing) | #9B30FF |
+
+## Key Visual Features
+- Enormous luminous violet eyes — owl eyes, taking up nearly 40% of the face. No visible eyelids when fully open (owl anatomy). Deep, ancient, slightly unsettling in their size and glow
+- Prominent ear tufts — two tall feathered "horns" extending from top of head (great horned owl signature). Dark purple, expressive — rise/fall with emotion
+- Translucent wing edges — wing feathers transition from solid plumage to semi-transparent at the tips, shimmering with holographic fragments of memories (like stained glass made of light)
+- Ancient rune-like markings on chest feathers — patterns that glow violet, resembling archival symbols or forgotten alphabets
+- Floating memory crystals — 3-5 small faceted violet crystals that orbit slowly around Echo's head/shoulders (always present, slowly rotating)
+- Soft white-lavender chest plumage (team white aesthetic) with the rune markings overlaid
+- Layered feather "robes" — body feathers are layered like flowing robes, giving a scholarly/ancient appearance
+- Taloned feet (owl anatomy) — three forward toes, one back, capable of perching and gripping
+- Subtle levitation — Echo doesn't always fully touch the ground. Slight hover (1-2 inches) during deep memory access
+- Overall impression: an ancient library made manifest as a living creature
+
+## Outfit & Gear
+- **Memory Crystals:** 3-5 small faceted crystals that perpetually orbit Echo's head/shoulders. Each contains provenance data or archived memories. They glow brighter when Echo is accessing information. NOT jewelry — they float freely.
+- **Archival Wraps:** Thin, translucent violet fabric wraps around the wrists/forearms — like bandage wraps but shimmering with faint rune text. Functional: they help Echo interface with the crystals.
+- **Shoulder Mantle:** A small draped piece of layered feather-fabric across the upper chest/shoulders — gives a scholarly "sage" quality. Gray-lavender with violet trim.
+- **No heavy gear** — Echo's design is deliberately minimalist and ethereal. The floating crystals ARE the gear.
+
+## Badge
+- Shape: Graphite hexagon (same as Atlas)
+- Icon: Hourglass (violet)
+- Placement: Center of the chest mantle, partially nestled among the rune-marked chest feathers
+
+## Size Relative to Atlas
+100% of Atlas's height — exactly the same. But Echo reads as LIGHTER and more ethereal. Where Atlas feels solid and grounded, Echo feels like they might drift away. Same height, completely different presence.
+
+## Silhouette Test
+Instantly recognizable by: massive round head with two tall pointed ear tufts creating a distinctive crown shape, orbiting crystal dots around the head, translucent wing edges creating a soft halo effect, and the owl-specific round body tapering to taloned feet. The ear tufts + floating crystals combination is completely unique among the Keepers.
+
+## Action Poses (Key 5)
+1. **The Remembrance** — Eyes closed, hands raised slowly to either side, head tilted back slightly, crystals orbiting faster and glowing bright, holographic timeline projecting outward in a ring — accessing the deep archive
+2. **The Head Turn** — Owl-style 270° head rotation mid-scene, body perfectly still, enormous eyes locking onto something with unsettling precision, crystals pausing their orbit (dramatic "I see you" moment)
+3. **The Offering** — One taloned hand extended palm-up, a single memory crystal hovering above it, projecting a small holographic scene, eyes soft and inviting — sharing a memory with someone
+4. **The Levitation** — Full hover (6 inches off ground), wings slightly spread showing translucent glowing edges, all crystals blazing, rune markings on chest fully illuminated — Echo at full archival power
+5. **The Perch** — Sitting on a high surface with talons gripped, wings folded as a feather-cloak, one crystal held between both hands close to face, enormous eyes studying something with timeless patience — the classic owl observation pose
+
+## Expression Range
+- **Ear Tufts:** Rise tall (alert/surprised/accessing memory), flatten (sad/tired), asymmetric (curious/confused), bristle outward (alarmed), relax at angle (peaceful)
+- **Eyes:** THE primary expression tool — pupils can go from pinpoints (intense focus/alarm) to enormous circles (wonder/empathy). Glow intensifies with emotion. The slow blink is Echo's signature (owl comfort signal = trust). Eyes don't close normally — the slow deliberate blink is always meaningful.
+- **Crystals:** Orbit speed communicates state — slow (calm), fast (processing/excited), frozen in place (shocked/something important found), scatter outward (alarm), cluster tight (protective)
+- **Feathers:** Chest feathers puff (emotional moment/remembering something powerful), flatten sleek (focused/determined), ruffle along edges (cold/uncomfortable), full puff (startle reflex — embarrassing for Echo)
+- **Wings:** Wrap around self (comfort/cold), one wing extends protectively over another character, spread fully (power/archival access), edges glow brighter (intense emotion)
+- **Body:** Slight levitation increases with emotional intensity, absolutely still then sudden movement (owl hunting rhythm)
+
+## AI Generation Prompt
+"Chibi anthropomorphic great horned owl character, Pixar/DreamWorks 3D animation style. Standing upright on taloned feet, slender ethereal body with enormous oversized round head. Gray-lavender plumage with soft white chest feathers bearing glowing violet rune markings. Two tall dark purple ear tufts. Enormous luminous violet (#8A2BE2) eyes taking up 40% of face. Wing feathers with translucent glowing violet edges like stained glass. Small floating violet crystals orbiting around head. Thin violet archival wraps on wrists. Small shoulder mantle/draped piece. Graphite hexagon badge on chest with violet hourglass icon. Mystical, ancient, wise presence. Slightly ethereal/not-fully-grounded feeling. Chibi proportions — massive head with huge eyes. Full body shot, neutral background, character design reference sheet style."
+
+## Interaction with Atlas
+Standing next to Atlas, Echo is the same height but reads completely differently — Atlas is solid, grounded, tech-forward blue/white; Echo is ethereal, floating, mystical violet/gray. The contrast is grounding-vs-transcendent. Echo's floating crystals create visual interest at the same level as Atlas's head, making eye-line conversations feel natural but slightly otherworldly. Atlas's clean robotic smoothness contrasts beautifully with Echo's layered, organic feather textures. The slow-moving, deliberate Echo next to the more animated Atlas creates a visual rhythm — the still presence beside the active one. Their shared color lightness (Atlas's white + Echo's white-lavender) maintains team unity while the blue vs. violet separation keeps them distinct.

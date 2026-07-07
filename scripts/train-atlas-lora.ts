@@ -63,7 +63,7 @@ async function main() {
     // Create caption file
     const captionName = file.replace('.png', '.txt');
     const poseName = file.replace('.png', '').replace(/-/g, ' ');
-    const caption = `${TRIGGER_WORD}, a cute chibi robot with glossy white and metallic blue body, glowing green crescent eyes, rounded toy-like proportions, Pixar-quality 3D animation style, ${poseName}`;
+    const caption = `${TRIGGER_WORD}, a cute chibi robot with glossy white and metallic blue body, glowing blue crescent eyes, rounded toy-like proportions, Pixar-quality 3D animation style, ${poseName}`;
     fs.writeFileSync(path.join(captionDir, captionName), caption);
   }
 

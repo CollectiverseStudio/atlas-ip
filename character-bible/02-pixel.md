@@ -203,3 +203,80 @@ Pixel walks faster than the other Keepers. Short, quick, bouncy steps. Often sli
 ---
 
 *"The details don't lie."*
+
+---
+
+# Visual Design Spec (v2.0 — Species Redesign)
+
+> **Previous design:** Robot variant (deprecated)
+> **New design:** Cyan Fox — anthropomorphic, chibi-proportioned, Pixar/DreamWorks style
+
+## Species & Build
+Pixel is a sleek, agile arctic fox with a lean athletic build optimized for speed and darting movement. Chibi proportions give Pixel an oversized head (roughly 40% of total height) with enormous pointed ears that dwarf the skull, a compact torso, and small nimble paws. The silhouette reads as a wedge — broad ears tapering to a narrow, bouncy body with a massive bushy tail providing counterbalance.
+
+## Color Palette
+| Element | Color | Hex |
+|---------|-------|-----|
+| Primary Fur (body) | Arctic White | #F5F5F5 |
+| Secondary Fur (markings) | Cyan | #00D4FF |
+| Inner Ears | Soft Cyan Glow | #80EAFF |
+| Eyes (iris) | Bright Cyan | #00D4FF |
+| Eye Sclera | Black | #1A1A1A |
+| Nose | Dark Graphite | #333333 |
+| Badge (hexagon) | Graphite | #4A4A4A |
+| Badge (icon) | Cyan | #00D4FF |
+| Goggles Frame | Gunmetal Silver | #6B6B6B |
+| Goggles Lens | Cyan Tint | #00D4FF (40% opacity) |
+| Scanner Gauntlet | White + Cyan Accents | #F5F5F5 / #00D4FF |
+| Tail Tip Glow | Cyan Bioluminescent | #00FFFF |
+
+## Key Visual Features
+- Oversized pointed ears (1.5x head height) with cyan-glowing inner surfaces that swivel independently like radar dishes
+- Tech goggles resting on forehead (flip down over eyes for scanning mode, cyan lens glow when active)
+- Scanner gauntlet on left forearm — white housing with cyan holographic display ring
+- Massive bushy fox tail with gradient from white base to cyan-glowing tip (bioluminescent effect)
+- Lean, narrow torso with visible agility — smallest/most compact Keeper body
+- White fur with cyan "mask" markings around eyes (like natural fox markings but in team accent color)
+- Cyan chevron marking on chest fur, visible above/below the badge
+- Small, sharp muzzle with a perpetually curious/mischievous expression
+- Paw pads are cyan-colored (visible on palms/soles)
+- Fur tuft at chest (white, slightly spiky — gives scrappy look)
+- Subtle cyan bioluminescent freckles along the bridge of the nose
+- Digitigrade-hinted legs (fox anatomy) but stands fully upright
+
+## Outfit & Gear
+- **Tech Goggles:** Chunky, round-lensed goggles with gunmetal frames. Flip-down mechanism. When active, cyan scan-lines sweep across lenses. Rest position: pushed up on forehead between ears.
+- **Scanner Gauntlet:** Left forearm — a sleek white bracer with a holographic projector ring. Projects cyan data overlays when scanning. Has small antenna nub.
+- **Utility Harness:** Minimal — a thin white cross-body strap (like a sling bag strap) that holds a small pouch at the hip for collected evidence/tools. Cyan buckle accent.
+- **No heavy armor** — Pixel's design philosophy is speed over protection. Clean, streamlined silhouette.
+
+## Badge
+- Shape: Graphite hexagon (same as Atlas)
+- Icon: Magnifying glass (cyan)
+- Placement: Center chest, nestled in the white chest fur tuft
+
+## Size Relative to Atlas
+85% of Atlas's height. Noticeably smaller, emphasizing speed and agility. Head-to-body ratio is slightly more exaggerated than Atlas (bigger head, smaller body) to read as younger/more energetic.
+
+## Silhouette Test
+Instantly recognizable by: two massive pointed ears creating a "V" above the head, oversized bushy tail (nearly as long as the body) curving upward, compact lean body, and goggles perched between ears. No other Keeper has this combination of tall ears + massive tail + small body.
+
+## Action Poses (Key 5)
+1. **The Scanner Leap** — Mid-air, body stretched horizontal, goggles flipped down, gauntlet arm extended forward projecting a cyan scan beam, tail streaming behind like a comet trail
+2. **The Discovery Crouch** — Low to the ground, one ear pressed forward, goggles down, face inches from a clue, tail straight up with tip glowing bright (excitement indicator)
+3. **The Triumphant Point** — Standing tall on toes, one paw pointing forward at discovery, goggles pushed up, massive grin, tail wagging in a blur
+4. **The Perch Survey** — Sitting on a high point (shelf, ledge), tail wrapped around feet, ears rotating in different directions, scanning the environment below
+5. **The Sprint Blur** — Full-tilt run, body low, ears pinned back, tail horizontal, motion lines suggesting incredible speed, goggles down and glowing
+
+## Expression Range
+- **Ears:** Primary emotion indicator — forward (curious/alert), flat back (scared/running), one up one sideways (confused), rapidly swiveling (excited/overwhelmed), perked tall (discovery)
+- **Tail:** Wagging fast (excited), puffed up (startled/scared), wrapped around self (cold/comfort), tip glowing brighter (intensifying emotion), still/low (sad/defeated)
+- **Eyes:** Huge and expressive — pupils dilate with excitement, narrow to slits when suspicious, sparkle with cyan light when scanning
+- **Fur:** Hackles rise along spine when alarmed, fur flattens sleek when in speed mode
+- **Muzzle:** Can scrunch (disgust), pull into a wide vulpine grin (mischief), or drop open (surprise)
+
+## AI Generation Prompt
+"Chibi anthropomorphic arctic fox character, Pixar/DreamWorks 3D animation style. Standing upright on two legs, small athletic body with oversized head. White fur with cyan (#00D4FF) markings around eyes and on ear tips. Enormous pointed ears. Massive bushy white tail with glowing cyan tip. Wearing chunky tech goggles pushed up on forehead, futuristic scanner gauntlet on left forearm. Graphite hexagon badge on chest with cyan magnifying glass icon. Cute but action-ready, mischievous expression. Clean white color scheme with cyan accents. Big expressive cyan eyes. Chibi proportions — head is 40% of body height. Full body shot, neutral background, character design reference sheet style."
+
+## Interaction with Atlas
+Standing next to Atlas, Pixel reaches to about Atlas's shoulder height. The contrast is striking: Atlas is rounded, solid blue/white with a calm posture; Pixel is angular, lean, cyan-accented white, always in slight motion. Pixel often stands slightly ahead of Atlas (eager energy) or is caught mid-turn looking back. Their white bases unify them as a team, while the blue-vs-cyan accents distinguish them. Pixel's organic fox features (fur, ears, tail) create appealing texture contrast against Atlas's smooth robotic surfaces.

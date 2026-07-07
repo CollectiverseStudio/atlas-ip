@@ -211,3 +211,83 @@ Heavy, deliberate steps. Wider stance than other Keepers. Porter walks like the 
 ---
 
 *"Some things are worth guarding with everything you have."*
+
+---
+
+# Visual Design Spec (v2.0 — Species Redesign)
+
+> **Previous design:** Robot variant (deprecated)
+> **New design:** Forest Green Rhino — anthropomorphic, chibi-proportioned, Pixar/DreamWorks style
+
+## Species & Build
+Porter is an enormous, armored rhinoceros — the largest Keeper by a significant margin, built like a living fortress. Chibi proportions give Porter an oversized head with a prominent horn, small expressive eyes, and a body that reads as an immovable wall of protective mass. The silhouette is a massive rounded rectangle — thick limbs, heavy plating, and a low center of gravity that screams "nothing gets past me."
+
+## Color Palette
+| Element | Color | Hex |
+|---------|-------|-----|
+| Primary Skin | Slate Gray | #6B6B6B |
+| Secondary Skin (belly/inner) | Lighter Warm Gray | #9E9E9E |
+| Armor Plates | Forest Green | #228B22 |
+| Armor Plate Edges | Dark Green | #1B5E20 |
+| Armor Rivets/Bolts | Gunmetal | #4A4A4A |
+| Horn (base) | Bone White | #E8E0D0 |
+| Horn (tip glow) | Forest Green | #228B22 |
+| Eyes (iris) | Warm Brown-Green | #5D7A3A |
+| Badge (hexagon) | Graphite | #4A4A4A |
+| Badge (icon) | Forest Green | #228B22 |
+| Shield Crest | Metallic Silver + Green | #A0A0A0 / #228B22 |
+| Gauntlets | Dark Iron + Green Inlay | #3A3A3A / #228B22 |
+| Cargo Pouches | Olive Canvas | #5C5C3D |
+
+## Key Visual Features
+- Massive rhino horn — prominent, centered, with a forest green bioluminescent glow at the tip that intensifies when on alert/protecting
+- Vault-door style metal armor plates bolted onto natural hide on flanks, shoulders, and forearms — these are ADDED armor, not natural (industrial aesthetic, like a walking safe)
+- Shield crest on RIGHT shoulder — a large ornamental shield-shaped plate with green inlay and the team's graphite hexagon motif
+- Heavy iron gauntlets on both hands — oversized, capable of gentle precision OR devastating force
+- Small eyes relative to head (rhino anatomy) — but incredibly warm and expressive for their size
+- Rounded ear "dishes" on sides of head that rotate toward sounds like satellite receivers
+- Extremely thick legs — tree-trunk proportions, wide stance, unmovable
+- Natural fold-lines in gray skin visible between armor plates (rhino texture)
+- Small tail (rhino tail — thin, short, often overlooked behind the bulk)
+- Cargo pouches strapped to thighs and belt — olive canvas, holding emergency supplies
+- White belly/chest lightening (lighter gray, approaching white) — team aesthetic unity
+- Overall impression: a walking vault with kind eyes
+
+## Outfit & Gear
+- **Armor Plating:** Forest green metal plates bolted over natural gray hide — vault-door style with visible heavy rivets. Covers: both shoulders (right has shield crest), outer forearms, flanks/ribs, and shin fronts. Industrial, protective, heavy.
+- **Shield Crest:** Right shoulder — a large shield-shaped plate with ornamental green inlay and etched protective runes/patterns. Both decorative and functional.
+- **Heavy Gauntlets:** Dark iron hand-and-forearm armor with green trim inlay. Oversized — make the already-large hands look even more capable. Knuckle plates reinforced.
+- **Cargo Belt + Pouches:** A thick leather belt with multiple olive canvas pouches — carrying emergency supplies, protective materials, first-aid for both collections and teammates.
+- **Chest Harness:** A simple X-cross harness (dark leather) that holds the badge in center-chest position and anchors the shoulder armor.
+
+## Badge
+- Shape: Graphite hexagon (same as Atlas)
+- Icon: Shield (forest green)
+- Placement: Center chest, mounted on the crossing-point of the chest harness (gives it a "breastplate center" look)
+
+## Size Relative to Atlas
+140% of Atlas's height and 200% of Atlas's width. The LARGEST Keeper — Porter is a wall. Atlas barely reaches Porter's waist. The scale difference emphasizes Porter's role as protector and the visual comedy of this gentle giant handling tiny delicate items with extreme care.
+
+## Silhouette Test
+Instantly recognizable by: enormous bulk dominating the frame, prominent center horn, angular armor plate outlines on shoulders and flanks, shield crest on right shoulder breaking the silhouette, wide planted stance, and the unmistakable rhinoceros head shape with rotating dish-ears. Porter's silhouette is a MASS — nothing else in the cast approaches this volume.
+
+## Action Poses (Key 5)
+1. **The Wall** — Squared stance between threat and team, arms slightly out, gauntlets forward, horn glowing green, armor plates seeming to lock into position — absolute immovability
+2. **The Gentle Hold** — Enormous gauntleted hands cupped together at chest level, cradling something tiny and precious (a card, a figurine) with absurd delicacy, soft eyes, slight crouch to reduce intimidation
+3. **The Charge** — Head down, horn forward and blazing green, one foot back about to launch, body low and aerodynamic (surprising speed from mass), armor plates flared
+4. **The Shield Up** — Right shoulder forward presenting the shield crest, left arm sweeping behind to shelter someone, body turned sideways as a living wall, horn glowing
+5. **The Stand Down** — After confirming safety — shoulders dropping from combat tension, gauntlets unclenching, horn glow fading to dormant, a single deep exhale visible as shoulders settle, eyes softening
+
+## Expression Range
+- **Horn:** Primary alert indicator — tip glows brighter green (increasing threat level), pulses (active scanning), dormant/dim (safe/relaxed), blazing (full protective mode)
+- **Ears (dish-ears):** Rotate independently toward sounds (like satellite dishes), pin back (stress/anger), face full-forward (locked onto threat), relax sideways (calm)
+- **Eyes:** Small but incredibly warm — narrow (suspicion/focus), widen (concern/surprise), soften (gentleness/love), hold steady (determination)
+- **Stance:** Incredibly communicative for a large character — wide planted (protective), shifted weight (uncertain), leaning toward someone (concerned/protective), settled back (relaxed/trusting)
+- **Hands/Gauntlets:** Clenched (ready for action), open-palmed (peaceful/offering), cupped (protecting something tiny), one fist one open (conflicted)
+- **Armor Plates:** Can "flare" slightly — raise on tiny hydraulics when threat level increases (like hackles raising), settle flat when calm
+
+## AI Generation Prompt
+"Chibi anthropomorphic rhinoceros character, Pixar/DreamWorks 3D animation style. Standing upright on two legs, enormous massive build — the largest character on a team. Slate gray thick skin with lighter gray on chest/belly. Forest green (#228B22) metal armor plates bolted to shoulders, flanks, and forearms with visible rivets (vault-door industrial style). Large prominent horn with green glowing tip. Shield-shaped crest on right shoulder with green inlay. Heavy dark iron gauntlets with green trim. Olive canvas cargo pouches on belt. Small warm eyes, kind expression despite intimidating size. X-harness on chest with graphite hexagon badge bearing green shield icon. Chibi proportions — oversized head on massive body. Gentle giant aesthetic. Full body shot, neutral background, character design reference sheet style."
+
+## Interaction with Atlas
+Standing next to Atlas, Porter is comically, endearingly enormous — Atlas is roughly waist-height on Porter. This scale difference is the core visual joke and emotional beat: the biggest, most armored Keeper being endlessly gentle with the smallest things. Porter often stands BEHIND Atlas (protective rear-guard position) or crouches down to Atlas's level for conversation. The color contrast is stark: Atlas's clean blue/white against Porter's heavy gray/green industrial aesthetic. But the lighter gray on Porter's chest echoes Atlas's white, maintaining team cohesion. When Porter crouches to Atlas's level, the warmth in those small eyes creates the emotional connection that the armor might otherwise prevent.

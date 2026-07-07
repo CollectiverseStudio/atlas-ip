@@ -202,3 +202,80 @@ Longer, flowing strides. Unhurried. Ink often trails slightly behind the group, 
 ---
 
 *"Every page has a story. Even the blank ones."*
+
+---
+
+# Visual Design Spec (v2.0 — Species Redesign)
+
+> **Previous design:** Robot variant (deprecated)
+> **New design:** Indigo Raven — anthropomorphic, chibi-proportioned, Pixar/DreamWorks style
+
+## Species & Build
+Ink is a tall, slender raven with an elegant, almost theatrical build. Chibi proportions give Ink a large expressive head with a sleek beak, but the body is more elongated than the other Keepers — still cute but with a graceful verticality. The silhouette reads as flowing and dramatic: a slim figure draped in wing-cape feathers that billow and trail, giving Ink a perpetual sense of poetic motion.
+
+## Color Palette
+| Element | Color | Hex |
+|---------|-------|-----|
+| Primary Plumage (body) | Soft Lavender-White | #F0EBF5 |
+| Secondary Plumage (wing-cape) | Deep Indigo-Black | #1A0033 |
+| Feather Iridescence | Purple Sheen | #6B3FA0 |
+| Feather Tip Glow | Indigo | #4B0082 |
+| Eyes (iris) | Deep Indigo | #4B0082 |
+| Eye Sclera | Pale Violet | #E8D5F5 |
+| Beak | Graphite Black | #2A2A2A |
+| Badge (hexagon) | Graphite | #4A4A4A |
+| Badge (icon) | Indigo | #4B0082 |
+| Quill (holstered) | Gold shaft, Indigo tip | #D4AF37 / #4B0082 |
+| Ink-drip Texture | Living Indigo | #4B0082 (animated) |
+| Wing-cape Lining | Deep Purple | #2D0052 |
+
+## Key Visual Features
+- Wing-cape: Arms transition into dramatic wing-feathers that drape like a flowing cloak — NOT full flight wings, but expressive cape-wings that gesture and billow
+- "Ink-drip" feather texture — feather edges appear to drip and flow like wet ink (animated/living quality)
+- Tall, slender build — the most vertically elegant Keeper
+- Sleek corvid head with intelligent eyes and a refined short beak
+- Small feather "crest" atop head — 3-4 feathers that rise when emotional (like expressive eyebrows)
+- Indigo glow at feather tips intensifies during storytelling
+- Holstered glowing quill on back (gold shaft with indigo-glowing nib, magnetically attached between shoulder blades)
+- Soft lavender-white base plumage on chest/face (team white aesthetic) with indigo-black wing-cape
+- Taloned hands (3 fingers + thumb) — elegant, long, expressive for dramatic gestures
+- Subtle ink-splatter patterns on forearms (like natural markings but resembling paint splatters)
+- Tail feathers are long and fan-like, trailing slightly behind when walking
+- Faint indigo particle effect around wing-cape edges (like ink dissolving in water)
+
+## Outfit & Gear
+- **Wing-Cape:** The primary visual statement — deep indigo-black feathers that flow from arms/shoulders like a dramatic cloak. Interior lining shows deep purple. Feather edges have the "dripping ink" animated texture.
+- **Holstered Quill:** A golden-shafted quill with a permanently glowing indigo nib, magnetically attached between shoulder blades. Ink draws it for documentation and story projection.
+- **Storyteller's Sash:** A thin diagonal sash (white with indigo trim) across the chest, with small holographic page-markers clipped to it — fragments of stories collected.
+- **Leg Wraps:** Simple white fabric wraps on lower legs/ankles, with subtle indigo ink-stain patterns at the hems.
+
+## Badge
+- Shape: Graphite hexagon (same as Atlas)
+- Icon: Quill/pen nib (indigo)
+- Placement: Center chest, pinned to the storyteller's sash where it crosses the sternum
+
+## Size Relative to Atlas
+110% of Atlas's height. Taller and slimmer — the most vertically imposing non-tank Keeper. Height comes from long neck and elongated proportions rather than bulk.
+
+## Silhouette Test
+Instantly recognizable by: dramatic flowing wing-cape creating wide sweeping outline, long trailing tail feathers, slim vertical build, small head crest feathers, and the distinctive quill shape on back. The silhouette should read as "flowing cloak figure" — no other Keeper has this draped, theatrical outline.
+
+## Action Poses (Key 5)
+1. **The Narration** — Standing with one wing-arm extended dramatically, the other holding the glowing quill aloft, holographic story panels blooming in the air around them, head tilted up mid-recitation
+2. **The Ink Storm** — Wing-cape spread full width, feathers dripping with animated ink that swirls into forming images, eyes glowing bright indigo, commanding presence
+3. **The Quiet Read** — Perched on a high seat, wing-cape wrapped around self like a blanket, quill in hand, head bowed over a glowing holographic page, peaceful
+4. **The Revelation** — Leaning forward with one hand extended palm-up, a memory/story crystallizing above the palm as holographic panels, eyes wide with the weight of what's been found
+5. **The Landing** — Just touching down from a graceful drop, wing-cape billowing upward around the body, tail feathers fanning, one taloned hand touching ground for balance
+
+## Expression Range
+- **Head Crest:** Feathers rise (surprise/excitement), flatten (fear/submission), fan asymmetrically (curiosity), bristle (anger), droop (sadness)
+- **Wing-Cape:** Wraps tight around body (comfort/cold/shy), spreads wide (confidence/storytelling/protective), flutters at edges (nervous/anticipating), billows dramatically (emotional climax)
+- **Eyes:** Deep and liquid — widen enormously (wonder), narrow thoughtfully (contemplation), glow brighter (accessing stories/memories), half-lid (peaceful/dreamy)
+- **Tail Feathers:** Fan wide (emphasis/excitement), trail long (relaxed), tuck tight (scared), twitch individually (thinking)
+- **Beak:** Slight parting (about to speak/surprised), closed tight (holding back emotion), tilted up (confident narration)
+
+## AI Generation Prompt
+"Chibi anthropomorphic raven character, Pixar/DreamWorks 3D animation style. Standing upright on two legs, tall slender elegant body with oversized head. Soft lavender-white plumage on chest and face, deep indigo-black wing-cape feathers that drape like a flowing cloak with dripping ink texture at edges. Small feather crest on head. Large expressive deep indigo eyes. Short refined black beak. Golden quill with glowing indigo tip holstered on back. Thin white sash across chest with graphite hexagon badge bearing indigo quill icon. Elegant taloned hands. Long trailing tail feathers. Chibi proportions but elongated/graceful. Theatrical, poetic presence. Full body shot, neutral background, character design reference sheet style."
+
+## Interaction with Atlas
+Standing next to Atlas, Ink is noticeably taller — Atlas's head reaches Ink's chin level. The visual contrast is beautiful: Atlas is compact, rounded, and tech-blue; Ink is vertical, flowing, and deep indigo. Ink's organic feathered texture and dramatic cape-wings create rich visual interest next to Atlas's clean robot surfaces. When together, Ink often stands slightly behind and to the side — the quiet presence behind the leader. Their shared white bases connect them, while blue vs. indigo creates a cool-tone harmony.

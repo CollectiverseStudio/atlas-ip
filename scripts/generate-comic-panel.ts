@@ -43,11 +43,14 @@ if (!FAL_KEY) {
 
 const LORA_MODEL_PATH = path.resolve(PROJECT_ROOT, '.lora-model-url.txt');
 
-// Style suffix appended to every prompt to ensure consistent comic panel quality
-const STYLE_SUFFIX = ', 3D Pixar CGI animation style, vibrant colors, detailed environment, professional illustration, comic book panel composition';
+// Character description prefix — ensures the LoRA generates Atlas (the blue/white robot), not a generic character
+const CHARACTER_PREFIX = 'atlas_character, a small cute chibi robot with blue and white armored body, black visor face with glowing eyes, gold star antenna on top of head, hexagonal badge on chest, black mechanical hands, ';
+
+// Style suffix appended to every prompt to ensure consistent quality
+const STYLE_SUFFIX = ', detailed environment, professional illustration, comic book panel composition, vibrant colors, studio lighting, high quality render';
 
 // Negative prompt to avoid common failure modes
-const NEGATIVE_PROMPT = 'realistic, photorealistic, anime, cel-shading, low-poly, dark, scary, horror, violence, blood, nsfw, deformed, ugly, blurry, low quality, text, watermark, speech bubble, comic text, lettering';
+const NEGATIVE_PROMPT = 'human, boy, girl, person, realistic, photorealistic, anime, cel-shading, low-poly, dark, scary, horror, violence, blood, nsfw, deformed, ugly, blurry, low quality, text, watermark, speech bubble, comic text, lettering, organic skin, hair';
 
 // Fal.ai API endpoints
 const FAL_QUEUE_URL = 'https://queue.fal.run/fal-ai/flux-lora';
@@ -131,7 +134,7 @@ Optional:
   --size <WxH|preset>    Image size (default: 1024x1024)
                          Presets: square, landscape, portrait, wide, tall
   --output <path>        Output file (default: generated/panel-<timestamp>.png)
-  --lora-scale <0-2>     LoRA influence strength (default: 1.0)
+  --lora-scale <0-2>     LoRA influence strength (default: 1.4)
   --steps <int>          Inference steps (default: 28)
   --guidance <float>     Guidance scale (default: 7.5)
   --no-style             Don't append the default style suffix
@@ -200,7 +203,7 @@ async function submitGeneration(prompt: string, imageSize: string, loraUrl: stri
     num_images: 1,
     loras: [{
       path: loraUrl,
-      scale: options.scale ?? 1.0,
+      scale: options.scale ?? 1.4,
     }],
     output_format: 'png',
     num_inference_steps: options.steps ?? 28,
@@ -328,9 +331,13 @@ export async function generateComicPanel(options: {
   const imageSize = resolveImageSize(options.size || '1024x1024');
 
   // Build the full prompt with style suffix
+  // Build the full prompt: CHARACTER_PREFIX + user scene description + STYLE_SUFFIX
+  // Strip "atlas_character" from user prompt if present (we prepend the full description instead)
+  const sceneDesc = options.prompt.replace(/atlas_character,?\s*/gi, '').trim();
+  
   const fullPrompt = options.noStyle
-    ? options.prompt
-    : options.prompt + STYLE_SUFFIX;
+    ? CHARACTER_PREFIX + sceneDesc
+    : CHARACTER_PREFIX + sceneDesc + STYLE_SUFFIX;
 
   console.log(`\n🎬 Generating panel scene...`);
   console.log(`   📝 Prompt: "${options.prompt.substring(0, 80)}${options.prompt.length > 80 ? '...' : ''}"`);
