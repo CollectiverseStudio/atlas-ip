@@ -14,8 +14,9 @@
     "atlas:sync": "tsx scripts/validate-atlas-assets.ts && tsx scripts/resize-poses.ts --new && tsx scripts/generate-atlas-manifest.ts && tsx scripts/generate-types.ts",
     "atlas:deploy": "bash scripts/deploy-to-app.sh",
     "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run",
-    "comic:panel": "tsx scripts/compose-comic-panel.ts",
-    "comic:batch": "tsx scripts/compose-comic-panel.ts --batch"
+    "comic:generate": "tsx scripts/generate-comic-panel.ts",
+    "comic:strip": "tsx scripts/compose-comic-strip.ts",
+    "comic:full": "tsx scripts/generate-full-comic.ts"
   },
   "devDependencies": {
     "sharp": "^0.33.0",
