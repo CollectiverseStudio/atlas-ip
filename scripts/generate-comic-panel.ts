@@ -44,7 +44,7 @@ if (!FAL_KEY) {
 const LORA_MODEL_PATH = path.resolve(PROJECT_ROOT, '.lora-model-url.txt');
 
 // Character description prefix — ensures the LoRA generates Atlas (the blue/white robot), not a generic character
-const CHARACTER_PREFIX = 'atlas_character, a small cute chibi robot with blue and white armored body, black visor face with glowing eyes, gold star antenna on top of head, hexagonal badge on chest, black mechanical hands, ';
+const CHARACTER_PREFIX = 'atlas_character, a small cute chibi robot with blue and white armored body, black visor face with glowing eyes, gold star antenna on top of head, black mechanical hands, ';
 
 // Style suffix appended to every prompt to ensure consistent quality
 const STYLE_SUFFIX = ', detailed environment, professional illustration, comic book panel composition, vibrant colors, studio lighting, high quality render';

@@ -59,11 +59,11 @@ async function main() {
   for (const file of poseFiles) {
     // Copy image
     fs.copyFileSync(path.join(POSES_DIR, file), path.join(captionDir, file));
-    
+
     // Create caption file
     const captionName = file.replace('.png', '.txt');
     const poseName = file.replace('.png', '').replace(/-/g, ' ');
-    const caption = `${TRIGGER_WORD}, a cute chibi robot with glossy white and metallic blue body, glowing blue crescent eyes, rounded toy-like proportions, Pixar-quality 3D animation style, ${poseName}`;
+    const caption = `${TRIGGER_WORD}, a cute chibi robot with glossy white and metallic blue body, glowing green crescent eyes, rounded toy-like proportions, Pixar-quality 3D animation style, ${poseName}`;
     fs.writeFileSync(path.join(captionDir, captionName), caption);
   }
 
@@ -71,7 +71,7 @@ async function main() {
 
   // Create ZIP
   if (fs.existsSync(zipPath)) fs.unlinkSync(zipPath);
-  
+
   try {
     // Use PowerShell to create ZIP (works on Windows)
     const psCommand = `Compress-Archive -Path "${captionDir}\\*" -DestinationPath "${zipPath}" -Force`;

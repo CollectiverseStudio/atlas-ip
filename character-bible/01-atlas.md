@@ -16,7 +16,7 @@
 | **Home** | The Vault, The Collectiverse |
 | **Accent Color** | Guardian Blue (#2F7DF6) |
 | **Star Color** | Gold (#F5C542) |
-| **Eye Color** | Guardian Blue (#2F7DF6) |
+| **Eye Color** | Green (#66FF99) |
 | **Mouth Color** | Orange (#FF8C42) |
 
 ---
@@ -228,7 +228,7 @@ See: `ATLAS_CHARACTER_SPEC.md` for complete visual specification.
 - **Accent Color:** Guardian Blue (#2F7DF6)
 - **Signature Feature:** Gold five-point star on helmet
 - **Chest Badge:** Dark graphite hexagon with blue "C"
-- **Eyes:** Blue illuminated crescents (#2F7DF6)
+- **Eyes:** Green illuminated crescents (#66FF99)
 - **Mouth:** Small orange rounded rectangle (#FF8C42)
 - **Ear Pieces:** Silver metallic discs
 - **Hands:** Black segmented mechanical, five fingers, expressive
