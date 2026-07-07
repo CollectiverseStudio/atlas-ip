@@ -13,7 +13,9 @@
     "atlas:hashes": "tsx scripts/compare-hashes.ts",
     "atlas:sync": "tsx scripts/validate-atlas-assets.ts && tsx scripts/resize-poses.ts --new && tsx scripts/generate-atlas-manifest.ts && tsx scripts/generate-types.ts",
     "atlas:deploy": "bash scripts/deploy-to-app.sh",
-    "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run"
+    "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run",
+    "comic:panel": "tsx scripts/compose-comic-panel.ts",
+    "comic:batch": "tsx scripts/compose-comic-panel.ts --batch"
   },
   "devDependencies": {
     "sharp": "^0.33.0",
@@ -22,6 +24,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1079.0",
+    "canvas": "^3.1.0",
     "dotenv": "^17.4.2"
   }
 }

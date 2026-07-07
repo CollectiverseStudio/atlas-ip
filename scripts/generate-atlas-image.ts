@@ -10,6 +10,7 @@
  *   - LoRA training completed (check .lora-training-info.json for model URL)
  */
 
+import 'dotenv/config';
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
@@ -17,15 +18,44 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const FAL_KEY = process.env.FAL_KEY || 'a67e5fb9-eb60-4cbf-b63f-06e47213cd95:02df65ff835c49a3186c819cb170671e';
+const FAL_KEY = process.env.FAL_KEY || '';
+if (!FAL_KEY) {
+  console.error('❌ FAL_KEY not set. Add it to .env or set as environment variable.');
+  process.exit(1);
+}
 
 // Load trained model info
-const TRAINING_INFO_PATH = path.resolve(__dirname, '../.lora-training-info.json');
 const LORA_MODEL_PATH = path.resolve(__dirname, '../.lora-model-url.txt');
 
 const STYLE_SUFFIX = ', Pixar-quality cinematic 3D animation, premium stylized CGI, cute chibi robot aesthetic, glossy white and metallic blue materials, rounded toy-like proportions, expressive glowing green crescent eyes, high-end PBR rendering, soft global illumination, cinematic depth of field, ultra-clean white and blue color palette, family-friendly design';
 
 const NEGATIVE_PROMPT = 'realistic, photorealistic, anime, cel-shading, low-poly, dark, scary, horror, violence, blood, nsfw, deformed, ugly, blurry, low quality, text, watermark';
+
+async function pollForResult(requestId: string): Promise<any> {
+  const maxAttempts = 60; // 60 * 2s = 2 minutes max wait
+  for (let i = 0; i < maxAttempts; i++) {
+    const statusResponse = await fetch(`https://queue.fal.run/fal-ai/flux-lora/requests/${requestId}/status`, {
+      headers: { 'Authorization': `Key ${FAL_KEY}` },
+    });
+    const status = await statusResponse.json() as { status: string };
+
+    if (status.status === 'COMPLETED') {
+      // Fetch the result
+      const resultResponse = await fetch(`https://queue.fal.run/fal-ai/flux-lora/requests/${requestId}`, {
+        headers: { 'Authorization': `Key ${FAL_KEY}` },
+      });
+      return await resultResponse.json();
+    } else if (status.status === 'FAILED') {
+      throw new Error(`Generation failed. Status: ${JSON.stringify(status)}`);
+    }
+
+    // Still in progress — wait 2 seconds
+    if (i === 0) process.stdout.write('   Generating');
+    process.stdout.write('.');
+    await new Promise(r => setTimeout(r, 2000));
+  }
+  throw new Error('Timeout waiting for image generation (2 minutes)');
+}
 
 async function generateImage(prompt: string, outputName?: string): Promise<string> {
   // Get LoRA model URL
@@ -43,6 +73,7 @@ async function generateImage(prompt: string, outputName?: string): Promise<strin
   console.log(`🎨 Generating: "${prompt}"`);
   console.log(`   LoRA: ${loraUrl.substring(0, 60)}...`);
 
+  // Submit to queue
   const response = await fetch('https://queue.fal.run/fal-ai/flux-lora', {
     method: 'POST',
     headers: {
@@ -57,24 +88,41 @@ async function generateImage(prompt: string, outputName?: string): Promise<strin
       num_images: 1,
       guidance_scale: 7.5,
       num_inference_steps: 28,
-      seed: null, // random seed for variety
     }),
   });
 
   if (!response.ok) {
     const error = await response.text();
-    throw new Error(`Generation failed: ${response.status} — ${error}`);
+    throw new Error(`Queue submission failed: ${response.status} — ${error}`);
   }
 
-  const result = await response.json() as { images: { url: string }[]; request_id: string };
-  
-  if (!result.images || result.images.length === 0) {
-    throw new Error('No images returned');
+  const queueResult = await response.json() as any;
+
+  // Check if images are returned directly (synchronous response)
+  if (queueResult.images && queueResult.images.length > 0) {
+    return await saveImage(queueResult.images[0].url, outputName);
   }
 
-  const imageUrl = result.images[0].url;
-  
-  // Download and save
+  // Otherwise, poll for result (async queue)
+  if (queueResult.request_id) {
+    console.log(`   Queued: ${queueResult.request_id}`);
+    const result = await pollForResult(queueResult.request_id);
+    
+    if (result.images && result.images.length > 0) {
+      process.stdout.write('\n');
+      return await saveImage(result.images[0].url, outputName);
+    } else {
+      console.error('   Full response:', JSON.stringify(result, null, 2));
+      throw new Error('No images in completed result');
+    }
+  }
+
+  // Unknown response format — log it
+  console.error('   Unexpected response:', JSON.stringify(queueResult, null, 2));
+  throw new Error('Unexpected API response format');
+}
+
+async function saveImage(imageUrl: string, outputName?: string): Promise<string> {
   const imageResponse = await fetch(imageUrl);
   const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
   
@@ -99,9 +147,8 @@ async function main() {
     console.log('  npx tsx scripts/generate-atlas-image.ts "atlas_character holding a baseball card, excited pose"');
     console.log('  npx tsx scripts/generate-atlas-image.ts "atlas_character examining a rare coin with magnifying glass"');
     console.log('  npx tsx scripts/generate-atlas-image.ts "atlas_character in a comic book store, browsing shelves"');
-    console.log('  npx tsx scripts/generate-atlas-image.ts "atlas_character waving hello, front-facing"');
     console.log('');
-    console.log('IMPORTANT: Always include "atlas_character" in your prompt (this is the trigger word).');
+    console.log('IMPORTANT: Always include "atlas_character" in your prompt (trigger word).');
     process.exit(0);
   }
 
@@ -114,6 +161,6 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error('Fatal error:', err);
+  console.error('Fatal error:', err.message || err);
   process.exit(1);
 });
