@@ -11,10 +11,16 @@ Atlas is the official mascot, AI assistant, and brand ambassador of **Collective
 ```
 atlas-ip/
 ├── production-bible/        ← Core docs (Character Spec, Brand Bible, Animation, Content Plan)
+├── character-bible/         ← Full character bibles (7 Keepers + villains + world + franchise)
+├── templates/               ← Production templates (8 specs for comics, thumbnails, social, etc.)
+├── scripts/                 ← Automation (LoRA training, comic generation, image pipeline)
+├── generated/               ← AI-generated images (test panels, hero concepts)
 ├── ai-prompts/              ← AI generation templates (Veo, Runway, Kling, DALL-E, etc.)
+│   ├── keeper-lora-training-prompts.md   ← 6 Keepers × 40 poses (240 images)
+│   └── villain-lora-training-prompts.md  ← 8 Villains × 40 poses (320 images)
 ├── reference-images/        ← Character Lock Kit (canonical turnaround views)
 ├── social-media/            ← Campaign images
-├── comics/                  ← Published comic strips (31 strips)
+├── comics/                  ← Published strips (31) + scripts/ (10 new comic scripts)
 ├── animation/               ← Animation references and motion studies
 ├── color-specifications/    ← Color palette files (Pantone/RGB/HEX)
 ├── expressions/             ← Expression sheets and emotion references
@@ -72,6 +78,55 @@ New canonical files:
 | Metallic Blue | `#2F7DF6` | Accent panels, chest emblem, boot trim |
 | Dark Graphite | `#2C2F36` | Visor, joints, hands, badge background |
 | Silver | `#C7CCD4` | Ear discs, metallic details |
+| Glowing Green | `#66FF99` | Eyes (FINAL — cannot be changed) |
+| Gold | `#FFD700` | Star antenna, accents, badge "C" |
+
+---
+
+## The Keepers — Atlas's Team
+
+Atlas leads **The Keepers of the Collectiverse** — a mixed-species team of heroes protecting collectors.
+
+| Character | Species | Role | Height | Accent Color |
+|-----------|---------|------|--------|--------------|
+| **Atlas** | Robot | Leader, AI guide | 100% | Guardian Blue (#2F7DF6) |
+| **Pixel** | Arctic Fox | Scanner, tech | 90% | Cyan |
+| **Ink** | Raven | Storyteller, comics | 80% | Indigo |
+| **Sterling** | British Shorthair Cat | Appraiser, value | 60% | Silver |
+| **Forge** | Gorilla | Builder, crafts | 130% | Copper |
+| **Porter** | Rhino | Protector, vault | 140% | Forest Green |
+| **Echo** | Great Horned Owl | Memory, archive | 80% | Violet |
+
+### The Shadow Syndicate (Villains)
+
+| Villain | Species | Opposes |
+|---------|---------|---------|
+| The Director | Corrupted Robot | Atlas |
+| The Counterfeiter | Chameleon | Sterling |
+| The Archivist | Spider | Echo |
+| The Broker | Cobra | Atlas/team |
+| The Smuggler | Octopus | Porter |
+| The Restorer | Praying Mantis | Ink |
+| The Hacker | Electric Eel | Pixel |
+| The Hoarder | Hermit Crab | Forge |
+
+All characters share: chibi proportions, Pixar/DreamWorks style, graphite hexagon badge with gold "C".
+
+Full character bibles in `character-bible/` (12 files, 23,501 words).
+
+---
+
+## LoRA Training Pipeline
+
+Atlas is trained as a Fal.ai LoRA model for consistent AI image generation.
+
+- **Trigger word:** `atlas_character`
+- **Training data:** 41 canonical poses (PNG + captions)
+- **Model file:** See `.lora-model-url.txt`
+- **Scripts:** `scripts/train-atlas-lora.ts`, `scripts/generate-comic-panel.ts`
+
+Keepers + Villains training prompts are written (560 total poses across 14 characters).
+Training order: Pixel → Ink → Sterling → Forge → Porter → Echo → Villains.
 | Gold Star | `#F5C542` | Star on head |
 | Eye Green | `#66FF99` | Crescent eyes (glow) |
 | Mouth Orange | `#FF8C42` | Mouth |
