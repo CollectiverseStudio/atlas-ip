@@ -1,109 +1,53 @@
-# Comic #007 — Coin Collecting 101
-
-## Metadata
-- **Title:** Coin Collecting 101
-- **Format:** 4-panel (2×2 grid)
-- **Category:** Atlas Tips
-- **Target Platform:** Instagram (square 1080×1080 per panel, carousel post)
-- **Series:** Collectiverse Educational Series — Beyond Cards
-- **Difficulty Level:** Beginner
-- **Tags:** #coinscollecting #numismatics #mintmarks #keydates #coins #collecting101
-
----
+# Comic 007: Coin Collecting 101
+Layout: grid
+Title: Atlas Tips #007: Coin Collecting 101
 
 ## Panel 1
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, standing at a workbench with a large magnifying lamp, holding a coin between gloved fingers (white cotton gloves), surrounded by coin albums and holders, warm workshop lighting, coin reference books visible on shelf, enthusiastic excited expression, educational setting`
-
-### Speech Bubble
-"Think collecting is JUST cards? Think again! Welcome to the world of COINS — one of the oldest collecting hobbies on Earth! Let me show you the basics!"
-
-### Caption/Narration
-*(top banner)*
-Atlas Tips #007: Coin Collecting 101 — Grades, Mint Marks & Key Dates
-
-*(small footnote)*
-Also called "numismatics" — fancy word, awesome hobby!
-
-### Atlas Expression/Emotion
-**Enthusiastic, inviting** — bright eyes, welcoming gesture with the coin held up, slight lean toward viewer. "Come on in, the water's fine" energy.
-
----
+Prompt: atlas_character standing at a wooden workbench wearing white cotton gloves, holding a shining coin up between his fingers, surrounded by coin albums and reference books and a large magnifying lamp, warm workshop lighting with metallic gold and copper reflections, enthusiastic inviting expression
+Text: Think collecting is JUST cards? Think again! Welcome to the world of COINS — one of the oldest and most fascinating collecting hobbies on Earth. Let's dive in!
+Bubble: top-left
 
 ## Panel 2
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, pointing at a large holographic coin grading scale floating in the air (showing grades from Poor P-1 to Mint State MS-70), the scale presented as a thermometer-style visual going from red at bottom to gold at top, Atlas in professor mode with pointer, coin examination workshop background, educational infographic style overlay`
-
-### Speech Bubble
-"Coins use a 1-70 SHELDON SCALE! At the bottom: Poor (P-1) — heavily worn. At the top: MS-70 — absolutely PERFECT, fresh from the mint with zero contact marks!"
-
-### Caption/Narration
-*(organized info graphic)*
-📊 **Key Coin Grades:**
-- MS-70: Perfect Uncirculated
-- MS-65: Gem Uncirculated (slight contact marks)
-- AU-50: About Uncirculated (light wear on high points)
-- EF-40: Extremely Fine (light wear, full detail)
-- VF-20: Very Fine (moderate wear)
-- G-4: Good (heavily worn but major design visible)
-
-### Atlas Expression/Emotion
-**Teaching, authoritative** — pointer in hand, confident stance, animated explaining expression. One eyebrow up for emphasis on the "70" point.
-
----
+Prompt: atlas_character pointing at a large holographic timeline floating in the air showing ancient Greek coins through modern commemoratives, different eras highlighted in gold, warm educational lighting, animated professor pose with pointer, coin workshop background with specimens in cases
+Text: People have collected coins for over 2,000 years! They call it NUMISMATICS. Every coin tells a story — of history, art, economics, and sometimes incredible errors!
+Bubble: top-right
 
 ## Panel 3
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, holding an enormous magnified coin showing a tiny mint mark letter, holographic zoom-in showing the small "S" "D" "P" letters, map of United States in background with mint locations highlighted (Philadelphia, Denver, San Francisco), detective/discovery expression, glowing highlights on the mint mark location`
-
-### Speech Bubble
-"MINT MARKS! That tiny letter tells you WHERE the coin was made! P = Philadelphia, D = Denver, S = San Francisco. Some marks are RARE — and that rarity means VALUE!"
-
-### Caption/Narration
-*(info callout boxes)*
-🏛️ **P** — Philadelphia (main mint, sometimes no mark!)
-🏔️ **D** — Denver
-🌉 **S** — San Francisco (often proof coins)
-⭐ **W** — West Point (special editions)
-🌙 **CC** — Carson City (historic, highly collectible!)
-
-### Atlas Expression/Emotion
-**Detective-like, discovering** — one eye squinting through magnification, excited "eureka" energy when pointing at the mint mark. Playful investigator vibe.
-
----
+Prompt: atlas_character standing next to a giant floating holographic thermometer-style grading scale showing coin grades from Poor P-1 at the bottom in red to MS-70 at the top in blazing gold, educational infographic lighting, one finger pointing at the MS-70 peak, clean modern background
+Text: Coins use the SHELDON SCALE — grades from 1 to 70! At the bottom, Poor means heavily worn. At the top, MS-70 means absolutely PERFECT, fresh from the mint!
+Bubble: top-left
 
 ## Panel 4
+Prompt: atlas_character holding three coins at different grade levels with holographic labels floating above each — MS-65 gleaming bright, AU-50 with slight wear highlighted, VF-20 showing moderate wear, progressive lighting from bright to warm on each coin, analytical calm expression, white examination background
+Text: MS-65 is GEM uncirculated — gorgeous! AU-50 means ABOUT uncirculated — just a touch of wear on the high points. VF-20 is VERY FINE — moderate wear but great detail!
+Bubble: top-right
 
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, surrounded by floating coins with years highlighted in gold (1909-S VDB, 1916-D, 1955 doubled die), calendar/timeline effect showing key years, Atlas with arms wide in a grand presentation gesture, coins orbiting around him like planets, warm golden lighting, excited celebratory expression`
+## Panel 5
+Prompt: atlas_character holding an enormously magnified coin with a tiny mint mark letter visible, holographic zoom showing the small S D P letters with labels, map of United States in background with mint locations highlighted as glowing points, detective discovery expression, magnifying glass in hand
+Text: MINT MARKS! That tiny letter tells you WHERE the coin was made! P for Philadelphia, D for Denver, S for San Francisco. Some marks are SUPER rare — and rare means VALUABLE!
+Bubble: top-left
 
-### Speech Bubble
-"KEY DATES are the holy grail of coin collecting! These are years where FEWER coins were minted — making them rare and valuable! The 1909-S VDB Lincoln cent? Chef's kiss!"
+## Panel 6
+Prompt: atlas_character excitedly pointing at a holographic display showing the famous Carson City CC mint mark with historical mining town imagery behind it, gold rush era aesthetics mixed with educational infographic, dramatic warm golden western-style lighting, passionate animated expression
+Text: The holy grail mint mark? CC for Carson City! That old Nevada mint only operated from 1870 to 1893. Any CC coin gets collectors EXCITED because the mintages were tiny!
+Bubble: top-right
 
-### Caption/Narration
-*(bottom banner)*
-💡 **Famous Key Dates to Know:**
-- 1909-S VDB Lincoln Cent (legendary!)
-- 1916-D Mercury Dime (low mintage)
-- 1955 Doubled Die Lincoln Cent (error coin!)
-- 1893-S Morgan Dollar (the king of Morgans)
+## Panel 7
+Prompt: atlas_character surrounded by floating coins with years highlighted in gold — 1909-S VDB, 1916-D, 1955 doubled die, 1893-S — calendar timeline effect connecting them, golden sparkle effects on each key date, arms wide in grand presentation, warm golden collectible lighting
+Text: KEY DATES are the treasure of coin collecting! Years where FEWER coins were minted, making survivors rare and valuable. The 1909-S VDB Lincoln cent? LEGENDARY!
+Bubble: top-left
 
-🎯 Start by checking your pocket change — key dates hide in plain sight!
+## Panel 8
+Prompt: atlas_character holding a coin next to a magnified holographic projection showing a doubled die error — doubled lettering clearly visible in the magnification, dramatic eureka lighting, excited wide-eyed discovery expression, workshop background with reference materials
+Text: ERROR COINS are the wild cards! Doubled dies, off-center strikes, wrong planchets — the mint makes mistakes and those mistakes become the RAREST coins of all!
+Bubble: top-right
 
-### Atlas Expression/Emotion
-**Grand, passionate, inspiring** — arms wide in a showman's gesture, head tilted back slightly, beaming smile. The passion of someone sharing their favorite topic.
+## Panel 9
+Prompt: atlas_character demonstrating proper coin handling with white cotton gloves, holding a coin by its edges only, red X showing fingerprints on a coin face as a bad example, split-screen educational comparison, careful serious expression, clean examination lighting
+Text: GOLDEN RULE — hold coins by the EDGES only! Oils from your fingers can damage the surface permanently. White cotton gloves for your best pieces. Respect the metal!
+Bubble: top-left
 
----
-
-## Production Notes
-- Color palette: Metallic golds, silvers, coppers — warm mint workshop tones
-- Coins should look realistic but not replicate exact designs (avoid counterfeiting concerns)
-- The Sheldon Scale visual should be clear and readable even at small sizes
-- Mint mark section should clearly show how tiny these marks are (emphasize the detective work)
-- White cotton gloves on Atlas = proper coin handling practice (educational detail!)
-- This expands the Collectiverse beyond cards — shows breadth of collecting
-- Consider follow-up comics: "Coin Errors 101," "Building a Type Set," "Morgan Dollars Deep Dive"
-- Alt text: "Atlas teaches coin collecting basics including grading scale, mint marks, and key dates"
+## Panel 10
+Prompt: atlas_character holding up a handful of pocket change with a magnifying glass hovering nearby, winking at the viewer conspiratorially, warm everyday lighting suggesting you could find treasures anywhere, excited encouraging expression, sparkle effects on a few special coins in the handful
+Text: Here's the best part — check your pocket change TODAY! Key dates and errors hide in plain sight. Your next valuable coin might already be in your pocket. Happy hunting!
+Bubble: top-right

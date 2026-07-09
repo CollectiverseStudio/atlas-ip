@@ -691,7 +691,11 @@ async function main(): Promise<void> {
   await composeComicStrip(config);
 }
 
-main().catch(err => {
-  console.error('\n❌ Fatal error:', err.message || err);
-  process.exit(1);
-});
+// Only run main() when executed directly (not when imported)
+const isDirectRun = process.argv[1]?.includes('compose-comic-strip');
+if (isDirectRun) {
+  main().catch(err => {
+    console.error('\n❌ Fatal error:', err.message || err);
+    process.exit(1);
+  });
+}

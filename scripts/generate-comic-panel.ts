@@ -392,7 +392,11 @@ async function main(): Promise<void> {
   console.log(`   ${outputPath}`);
 }
 
-main().catch(err => {
-  console.error('\n❌ Fatal error:', err.message || err);
-  process.exit(1);
-});
+// Only run main() when executed directly (not when imported by generate-full-comic.ts)
+const isDirectRun = process.argv[1]?.includes('generate-comic-panel');
+if (isDirectRun) {
+  main().catch(err => {
+    console.error('\n❌ Fatal error:', err.message || err);
+    process.exit(1);
+  });
+}

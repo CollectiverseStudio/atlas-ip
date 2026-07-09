@@ -1,115 +1,53 @@
-# Comic #006 — Meet Pixel
-
-## Metadata
-- **Title:** Meet Pixel
-- **Format:** 4-panel (2×2 grid)
-- **Category:** Keeper Adventures
-- **Target Platform:** Instagram (square 1080×1080 per panel, carousel post)
-- **Series:** Keeper Introductions — Character Debut
-- **Difficulty Level:** Beginner
-- **Tags:** #meetpixel #variants #rarecards #keepers #collectiverse #spottherare
-
----
+# Comic 006: Meet Pixel
+Layout: grid
+Title: Keeper Adventures: Meet Pixel
 
 ## Panel 1
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, standing at a card show dealer table with another Keeper — PIXEL (young woman, vibrant purple-streaked hair, tech-enhanced goggles pushed up on forehead, wearing a sleek modified keeper uniform with digital pattern accents), both browsing a dollar bin of common cards, casual relaxed scene, busy convention background, Atlas looking bored flipping through cards`
-
-### Speech Bubble
-*(Atlas, casual)*
-"Dollar bins are fun for bulk, but I doubt there's anything special in h—"
-
-*(Pixel, interrupting, excited)*
-"WAIT. Hold on. Don't move."
-
-### Caption/Narration
-*(top banner)*
-**KEEPER ADVENTURES: Introducing PIXEL** — The Detail Keeper
-
-### Characters
-- **Atlas** — relaxed, casually browsing
-- **Pixel** — FIRST APPEARANCE! Young woman, early 20s, purple-streaked hair, tech goggles (pushed up), sleek keeper uniform with digital/circuit-board pattern accents. Sharp observant eyes.
-
-### Atlas Expression/Emotion
-**Casual, slightly bored** — half-lidded eyes, lazily flipping through cards. About to be proven wrong.
-
----
+Prompt: atlas_character browsing a dollar bin at a card show dealer table looking slightly bored, lazily flipping through common cards with half-lidded eyes, busy convention background with other collectors, warm casual convention lighting, unimpressed expression
+Text: Dollar bins. The graveyard of commons and base cards nobody wants. I mean, you MIGHT find something in here but the odds are pretty slim...
+Bubble: top-left
 
 ## Panel 2
-
-### Visual Description
-`Pixar CGI style, 3D rendered character, soft volumetric lighting, close-up of PIXEL pulling her tech goggles down over her eyes, the goggles lighting up with a cyan blue glow showing scanning interface overlays, her expression intensely focused, one hand reaching into the dollar bin to grab a specific card, targeting reticle effect in her goggle lenses, dramatic lighting shift to cool blues and cyans`
-
-### Speech Bubble
-*(Pixel, focused)*
-"My eyes don't lie... There — third row, seventh card back. That's NOT what the seller thinks it is."
-
-### Caption/Narration
-*(tech overlay style text box)*
-🔎 PIXEL'S ABILITY: Pattern Recognition — spots micro-variations invisible to the naked eye. Variant hunter. Error card specialist.
-
-### Characters
-- **Pixel** — goggles down, scanning mode activated, intense focus
-
-### Pixel Expression/Emotion
-**Laser-focused, intense** — eyes narrowed behind glowing goggles, slight smirk forming. She KNOWS she's found something.
-
----
+Prompt: atlas_character startled as Pixel the arctic fox appears beside him in a flash of cyan digital particles, Pixel is a sleek white arctic fox with glowing cyan circuit-pattern markings on her fur and high-tech goggles pushed up on her forehead, excited alert posture with ears perked forward, convention booth background
+Text: ATLAS! Don't move. Don't shuffle anything. I just picked up a signal from that bin — there's something in there that doesn't belong with those commons!
+Bubble: top-right
 
 ## Panel 3
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, Pixel triumphantly holding up a card that has a subtle difference (slightly different color border or missing print element) while Atlas leans in with jaw dropped, the card has a subtle glow highlighting the variant difference, other collectors in background not noticing, spotlight effect on the rare card, comparison ghost image showing the normal version beside it`
-
-### Speech Bubble
-*(Pixel, triumphant)*
-"See this border? It's 0.5mm thicker than standard print. This is a MISPRINT VARIANT — there's maybe 50 of these in existence!"
-
-*(Atlas, stunned)*
-"You found a $500 card... in a DOLLAR BIN?!"
-
-### Caption/Narration
-*(educational callout with magnifying glass icon)*
-💡 Variants can include: different borders, color shifts, missing foil stamps, inverted images, or wrong backs. Always look closely!
-
-### Atlas Expression/Emotion
-**Stunned, jaw-dropped, impressed** — mouth hanging open, eyes wide, leaning forward. Genuine amazement at Pixel's skill.
-
----
+Prompt: atlas_character watching with surprise as Pixel the arctic fox pulls her tech goggles down over her eyes, the goggles lighting up with cyan scanning interface overlays and targeting reticles, her expression intensely focused, dramatic lighting shift to cool blues and digital scan lines across the scene
+Text: Pixel's scanning goggles can detect micro-variations invisible to the naked eye. When she says something's off... you listen. What do you see, Pixel?
+Bubble: top-left
 
 ## Panel 4
+Prompt: atlas_character leaning in curiously as Pixel the arctic fox reaches one paw into the dollar bin with surgical precision, targeting a specific card with a cyan highlight beam from her goggles, holographic data readouts floating around her showing pattern analysis, intense focused blue lighting
+Text: Third row, seventh card back. The border width is 0.5mm thicker than standard print run. Pull it. Carefully. That's NOT what the seller thinks it is!
+Bubble: top-right
 
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, Atlas and Pixel standing together facing the viewer, Atlas with arm around Pixel's shoulder introducing her proudly, Pixel doing a two-finger salute with a confident smirk, her goggles pushed back up on forehead, the rare card held up between them, warm friendly team lighting, confetti sparkle effects, heroic partner pose`
+## Panel 5
+Prompt: atlas_character and Pixel the arctic fox both examining the pulled card under Pixel's goggle projection, holographic comparison showing the card versus a standard version side by side, subtle differences highlighted in cyan — thicker border, slight color shift, magnified detail callouts, dramatic discovery lighting
+Text: See it now? Standard print run on the left, THIS card on the right. The border, the color saturation on the foil — this is a MISPRINT VARIANT!
+Bubble: top-left
 
-### Speech Bubble
-*(Atlas, to viewer)*
-"Collectors, meet PIXEL — the sharpest eyes in the Collectiverse! If there's a variant, an error, or a hidden gem — she'll find it before ANYONE else!"
+## Panel 6
+Prompt: atlas_character jaw dropped in disbelief, Pixel the arctic fox sitting proudly with a confident smirk, the rare variant card glowing between them with golden rarity energy, other collectors in background completely unaware, spotlight effect on the card, dramatic reveal lighting
+Text: You found a five-hundred dollar card in a ONE DOLLAR BIN?! Pixel, you absolute GENIUS! The seller had no idea what they were sitting on!
+Bubble: top-right
 
-*(Pixel, to viewer)*
-"Nice to meet you all! Pro tip: slow down and really LOOK at your cards. You might be sitting on a hidden treasure! 👀"
+## Panel 7
+Prompt: atlas_character and Pixel the arctic fox standing together as Pixel projects holographic examples of different variant types — color shifts, missing foil stamps, inverted images, wrong backs — educational display floating in the air, convention background, teaching pose from both characters
+Text: Variants come in all forms! Color shifts, missing stamps, inverted images, error backs. They happen during printing and create some of the RAREST cards in existence!
+Bubble: top-left
 
-### Caption/Narration
-*(bottom banner)*
-✨ **PIXEL** — Keeper of Variants & Errors
-**Specialty:** Pattern recognition, micro-variations, misprint identification
-**Motto:** "The details tell the real story."
+## Panel 8
+Prompt: atlas_character watching admiringly as Pixel the arctic fox demonstrates her scanning technique on a row of cards, cyan scan beams sweeping across them like a barcode reader, data readouts popping up over each card, teaching moment with other young collectors watching nearby, warm educational lighting
+Text: Pixel's advice — slow DOWN when you browse. Really LOOK at your cards. Compare them to reference images. Your eyes are better than you think once you know what to look for!
+Bubble: top-right
 
-🔜 *Pixel returns in Issue #012: "The Error That Changed Everything"*
+## Panel 9
+Prompt: atlas_character and Pixel the arctic fox walking side by side through the convention hall as a team, both looking confident and purposeful, warm golden partnership lighting, other convention-goers watching them with admiration, dynamic forward-motion pose
+Text: Collectors, meet PIXEL — the sharpest eyes in the entire Collectiverse! Variant hunter, error specialist, and the newest member of the Keeper team!
+Bubble: top-left
 
-### Atlas Expression/Emotion
-**Proud, welcoming** — big smile, arm around Pixel's shoulder in a teamwork gesture. Proud to introduce his colleague.
-
----
-
-## Production Notes
-- Color palette: Pixel's personal palette is CYAN/PURPLE/DIGITAL BLUE vs Atlas's GOLD/BLUE
-- Pixel's goggles are her signature item — always visible (up on forehead or over eyes)
-- Her keeper uniform should feel "techy" — circuit patterns, digital accents
-- She's sharp, quick-witted, confident — NOT a sidekick but an equal
-- Dollar bin setting is relatable — every collector has dug through one
-- The variant should be subtle enough that it's educational (real variants ARE subtle)
-- This establishes the "Keeper team" concept — Atlas isn't alone
-- Consider Pixel having her own mini-series spinoff: "Pixel's Variant Vault"
-- Alt text: "Atlas introduces Pixel, a new Keeper who can spot rare card variants that others miss"
+## Panel 10
+Prompt: atlas_character with his arm companionably around Pixel the arctic fox, both facing the viewer, Pixel doing a two-paw salute with her goggles pushed up and a confident smirk, the rare variant card held up between them, confetti and sparkle effects, warm heroic team lighting, friendly inviting expressions
+Text: The details tell the real story — that's Pixel's motto! Now get out there and check your collections with fresh eyes. You might be sitting on a hidden treasure!
+Bubble: top-right

@@ -1,98 +1,53 @@
-# Comic #005 — Grading Explained
-
-## Metadata
-- **Title:** Grading Explained
-- **Format:** 4-panel (2×2 grid)
-- **Category:** Atlas Tips
-- **Target Platform:** Instagram (square 1080×1080 per panel, carousel post)
-- **Series:** Collectiverse Educational Series
-- **Difficulty Level:** Beginner-Intermediate
-- **Tags:** #PSA #cardgrading #gemmint #PSA10 #gradedcards #slabs #collectingtips
-
----
+# Comic 005: Grading Explained
+Layout: grid
+Title: Atlas Tips #005: Card Grading Explained
 
 ## Panel 1
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, standing next to a giant floating holographic scale numbered 1-10, pointing at the scale with a presenter's pointer stick, wearing reading glasses perched on nose for professor effect, lecture hall style background with floating graded card slabs orbiting around him, warm educational lighting`
-
-### Speech Bubble
-"Today's lesson: GRADING! When you send a card to be professionally graded, experts rate its condition on a scale of 1 to 10. Let's break it down!"
-
-### Caption/Narration
-*(top banner)*
-Atlas Tips #005: Understanding the PSA Grading Scale
-
-### Atlas Expression/Emotion
-**Professorial, enthusiastic teacher** — glasses on nose, pointer in hand, standing tall and confident. The "cool teacher" energy — making a complex topic approachable.
-
----
+Prompt: atlas_character standing in a clean bright examination room wearing reading glasses perched on his nose, a giant holographic grading scale numbered 1-10 floating beside him, graded card slabs orbiting around him in a slow spiral, professorial pointer stick in hand, warm educational lighting, enthusiastic teacher expression
+Text: Class is in session! Today's lesson — PROFESSIONAL CARD GRADING! When experts rate your card's condition on a scale of 1 to 10, it can change EVERYTHING about its value!
+Bubble: top-left
 
 ## Panel 2
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, holding up a PSA 10 graded card slab with golden rays of light emanating from it like a holy artifact, awestruck reverent expression, the slab glowing with divine golden light, angels-singing effect with sparkles and stars, dramatic upward lighting on Atlas's face`
-
-### Speech Bubble
-"PSA 10 — GEM MINT! ✨ The holy grail! Perfect centering, sharp corners, pristine surface, and flawless edges. This is what collectors DREAM about!"
-
-### Caption/Narration
-*(info box)*
-📊 PSA 10: Virtually perfect in every way
-📊 PSA 9 (MINT): A slight imperfection — maybe 55/45 centering
-
-### Atlas Expression/Emotion
-**Awestruck, reverent** — head tilted back slightly, eyes wide with wonder, mouth slightly open in amazement. Holding the slab up like presenting a sacred artifact.
-
----
+Prompt: atlas_character holding up a PSA 10 graded card slab with golden rays of divine light emanating from it like a sacred artifact, angelic sparkle effects and stars surrounding the slab, dramatic upward lighting illuminating his awestruck face, reverent careful hands, clean white examination backdrop
+Text: PSA 10 — GEM MINT! The holy grail! Perfect centering, razor-sharp corners, flawless surface, pristine edges. This is what collectors DREAM about pulling!
+Bubble: top-right
 
 ## Panel 3
-
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, showing a lineup of three graded slabs floating side by side (labeled 8, 6, and 4), using a magnifying glass to point out increasingly visible flaws on each, calm analytical expression, holographic zoom-in callouts showing corner wear and surface scratches, clean white examination background`
-
-### Speech Bubble
-"PSA 8 is NEAR MINT — slight wear. PSA 6 is EXCELLENT — noticeable but not major issues. PSA 4 is VERY GOOD — visible wear but still presentable!"
-
-### Caption/Narration
-*(organized info boxes beneath each slab)*
-- PSA 8 (NM-MT): Minor flaw on close inspection
-- PSA 6 (EX-MT): Visible wear on corners/edges
-- PSA 4 (VG-EX): Obvious handling, still decent eye appeal
-
-### Atlas Expression/Emotion
-**Analytical, measured** — calm and professional, one eyebrow slightly raised, nodding along as he explains. Not judgmental — just factual.
-
----
+Prompt: atlas_character with Sterling the cat (wearing a monocle and bow tie) beside him, Sterling holding a PSA 9 slab with refined appreciation, both examining it under a magnifying lamp, elegant study setting with leather chairs, warm sophisticated lighting, Atlas gesturing to a tiny imperfection
+Text: PSA 9 — MINT! Almost perfect but with one tiny flaw. Maybe the centering is 55/45 instead of 50/50. Sterling here says it's still magnificent — and he's right!
+Bubble: top-left
 
 ## Panel 4
+Prompt: atlas_character pointing at a lineup of three graded slabs floating side by side labeled 8, 7, and 6, holographic zoom-in callouts showing increasingly visible imperfections on each — minor corner wear, slight surface marks, clean analytical white background, calm educational expression
+Text: PSA 8 is NEAR MINT — a minor flaw on close inspection. PSA 7 has a bit more wear. PSA 6, EXCELLENT — noticeable issues but still a solid card!
+Bubble: top-right
 
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, standing with hands on hips in a confident power pose, surrounded by a complete gradient of floating graded slabs from 1-10 arranged in a rainbow arc behind him, warm encouraging smile, motivational lighting with lens flare, clean modern background`
+## Panel 5
+Prompt: atlas_character holding a magnifying glass over lower-grade slabs labeled 5, 4, and 3, showing visible corner rounding and edge wear through the magnification, gentle non-judgmental expression, warm lighting suggesting these cards still have value, educational diagram style background
+Text: PSA 5 through 3 show moderate to heavy wear — rounded corners, surface scratches, creases. BUT these cards still have stories to tell and value to give!
+Bubble: top-left
 
-### Speech Bubble
-"Remember: a lower grade doesn't mean a card is worthless! A PSA 1 Babe Ruth is still a PSA 1 Babe Ruth! Grade affects VALUE, not your JOY of collecting!"
+## Panel 6
+Prompt: atlas_character standing next to a large holographic infographic showing what graders examine — four categories highlighted as centering, corners, edges, and surface — each with a visual example, bright clean educational lighting, animated pointing pose cycling through each category
+Text: Here's what graders ACTUALLY look at — CENTERING, CORNERS, EDGES, and SURFACE! Master these four areas and you can predict your own grades before sending cards in!
+Bubble: top-right
 
-### Caption/Narration
-*(bottom banner)*
-💡 **Quick Guide:**
-10 = Gem Mint | 9 = Mint | 8 = Near Mint | 7 = Near Mint
-6 = Excellent | 5 = Excellent | 4 = Very Good | 3 = Very Good
-2 = Good | 1 = Poor (but still authenticated!)
+## Panel 7
+Prompt: atlas_character demonstrating card centering by holding a card against a measurement grid, holographic percentage overlays showing 50/50 vs 60/40 vs 70/30 centering, split-screen comparison effect, precise technical lighting, focused measuring expression
+Text: CENTERING is the big one! A perfectly centered card has equal borders on all sides. Even a tiny shift can drop you from a 10 to a 9. Grab a ruler and check yours!
+Bubble: top-left
 
-🎯 PSA, BGS, SGC, and CGC all grade — each has slightly different scales!
+## Panel 8
+Prompt: atlas_character showing a shipping box with proper packing materials — cards in semi-rigid holders, sandwiched between cardboard, bubble mailer, fragile stickers — step-by-step packing process displayed, workshop setting with shipping supplies, careful methodical expression
+Text: Ready to submit? Pack your cards like they're made of GLASS! Semi-rigid holder, cardboard sandwich, bubble mailer. One cracked slab from bad shipping ruins everything!
+Bubble: top-right
 
-### Atlas Expression/Emotion
-**Encouraging, confident, motivational** — hands on hips, warm genuine smile, direct eye contact with viewer. The "you've got this" energy. Approachable and reassuring.
+## Panel 9
+Prompt: atlas_character standing with hands on hips next to a floating comparison showing the same card at PSA 1 and PSA 10 with their respective values, the PSA 1 still glowing softly with worth, warm encouraging golden lighting, motivational confident smile
+Text: Remember — a lower grade doesn't mean WORTHLESS! A PSA 1 Babe Ruth is still a PSA 1 Babe Ruth! Grade affects value, but never let it affect your JOY of collecting!
+Bubble: top-left
 
----
-
-## Production Notes
-- Color palette: Clean whites, professional blues, golden highlights for high grades
-- The PSA slabs should look recognizable but stylized (avoid exact trademark replication)
-- Grade numbers should be clearly readable in each panel
-- Consider a "golden glow" intensity that decreases with lower grades (10 = blazing, 5 = soft, 1 = dim but still present)
-- Final panel's message is IMPORTANT: Don't make low-grade collectors feel bad
-- Atlas wears reading glasses in Panel 1 only (professor bit) — removes them after
-- Could pair with a longer YouTube/blog breakdown of each grade
-- Alt text: "Atlas explains the PSA card grading scale from 1 to 10 with visual examples"
+## Panel 10
+Prompt: atlas_character giving a confident thumbs up surrounded by a complete rainbow arc of graded slabs from 1 to 10 behind him, each grade glowing in progressively brighter gold, confetti sparkle effects, warm encouraging lighting, direct eye contact with viewer, Sterling the cat in the background nodding approvingly
+Text: PSA, BGS, SGC, CGC — each company grades slightly differently but the goal is the same. Now you know the system! Go check your collection with fresh eyes!
+Bubble: top-right

@@ -1,154 +1,53 @@
-# Comic #010 — The Director
-
-## Metadata
-- **Title:** The Director
-- **Format:** 4-panel (2×2 grid)
-- **Category:** The Shadow Syndicate
-- **Target Platform:** Twitter/X (landscape panels 1200×675, thread format) + Website (full-page layout)
-- **Series:** Shadow Syndicate Saga — Episode 2
-- **Difficulty Level:** All Levels (story-driven)
-- **Tags:** #thedirector #shadowsyndicate #collectiverse #villain #keepers #mystery
-
----
+# Comic 010: The Director
+Layout: grid
+Title: Shadow Syndicate Saga #002: The Director
 
 ## Panel 1
-
-### Visual Description
-`Pixar CGI style, 3D rendered scene, soft volumetric lighting, dark room filled with multiple glowing screens/monitors showing surveillance footage of the Keepers — footage of Atlas teaching at a card show, Pixel scanning cards, Porter at The Vault entrance, all from hidden camera angles, a single leather chair facing the screens (occupant not yet visible), only a gloved hand visible resting on the chair arm, cold blue monitor light illuminating the dark space, noir cinematography style, ominous atmosphere`
-
-### Speech Bubble
-*(Off-screen voice, from the chair, elegant sinister font)*
-"There they are... the Keepers. So noble. So dedicated. So... predictable."
-
-### Caption/Narration
-*(top, dramatic location text)*
-**UNKNOWN LOCATION. UNKNOWN TIME.**
-
-*(small, ominous)*
-Someone is watching.
-
-### Characters
-- **The Director** — NOT yet fully revealed. Only a gloved hand on a chair arm. Voice only.
-- Keepers visible only on surveillance screens (Atlas, Pixel, Porter)
-
-### Mood/Tone
-**Ominous, unsettling, surveillance** — the viewer realizes someone has been watching everything we've seen in previous comics.
-
----
+Prompt: atlas_character nowhere in scene — a dark room filled with multiple glowing surveillance monitors showing footage of the Keepers from hidden angles — Atlas teaching at a card show, Pixel scanning cards, Porter at the Vault — only a gloved hand visible resting on a leather chair arm, cold blue monitor light, noir cinematography, ominous threatening atmosphere
+Text: Unknown location. Unknown time. Someone has been watching the Keepers. Every lesson. Every mission. Every move — recorded and analyzed.
+Bubble: top-left
 
 ## Panel 2
-
-### Visual Description
-`Pixar CGI style, 3D rendered scene, soft volumetric lighting, the gloved hand reaches forward and touches one of the screens — freezing on an image of The Vault door, the screen glows red at the touch point, ripple effect emanating from the finger press, other screens show blueprints and schematics of Keeper security systems, chess pieces visible on a small table beside the chair (one king piece being held between thumb and finger in other hand), cold blue and deep red color scheme, extreme close-up on the hand and screen`
-
-### Speech Bubble
-*(The Director, calculated)*
-"The Vault. Fascinating security... but every vault has a key. Every system has a flaw. Every Keeper has a... weakness."
-
-### Caption/Narration
-*(data overlay text scrolling on screens, partially visible)*
-- [KEEPER FILE: ATLAS — Status: Active — Weakness: ████████]
-- [KEEPER FILE: PIXEL — Status: Active — Weakness: ████████]
-- [VAULT SCHEMATIC — Security Layer 7 — Potential breach point: ████████]
-
-### Characters
-- **The Director** — Still hidden. Gloved hand only. Chess piece held = strategic mind.
-
-### Mood/Tone
-**Calculated, threatening** — this villain is SMART. Not brute force — strategy. The redacted text implies they know things we don't.
-
----
+Prompt: atlas_character visible only on a surveillance screen being watched — the main focus is The Director's gloved hand reaching forward to touch a monitor, freezing on an image of the Vault door which glows red at the touch point, chess pieces visible on a side table, blueprints of Keeper security systems on adjacent screens, cold blue and crimson lighting
+Text: The Vault. Fascinating security — three-foot walls, multi-factor biometric, seismic isolation. Impressive. But every vault has a key. Every system has a flaw...
+Bubble: top-right
 
 ## Panel 3
-
-### Visual Description
-`Pixar CGI style, 3D rendered scene, soft volumetric lighting, wider shot revealing the silhouette of THE DIRECTOR standing from the chair — tall, impeccably dressed figure in a long tailored coat, face completely in shadow except for the faint reflection of the screens in what might be a monocle or single lens over one eye, surrounded by organized chaos — maps with pins, photos of collectibles connected by red string, a wall of stolen/targeted rare items, dramatic backlighting creating a pure black silhouette with only the faintest details visible, cinematic noir composition`
-
-### Speech Bubble
-*(The Director, standing, commanding)*
-"The Counterfeiter was merely... an audition. A test of their response time. Phase One of something much larger."
-
-*(aside, to someone off-screen)*
-"Prepare the others. It's time the Syndicate moved from the shadows."
-
-### Caption/Narration
-*(dramatic reveal text)*
-**THE DIRECTOR** — Leader of the Shadow Syndicate.
-Motive: Unknown. Resources: Unlimited. Patience: Infinite.
-
-*(connected pin-board visible in background has labels — barely readable:)*
-- "The Counterfeiter" ✓ (checkmark = deployed)
-- "The Flipper" (next?)
-- "The Shill" (next?)
-- "The Vault" (circled in red = TARGET)
-
-### Characters
-- **The Director** — Full silhouette reveal. TALL, commanding presence. Tailored coat, possible monocle. Face remains hidden. Body language: composed, powerful, patient. Think classic Bond villain meets art collector.
-
-### Mood/Tone
-**Menacing reveal, building dread** — we see the SCOPE of the threat. This isn't one villain — it's an organization.
-
----
+Prompt: atlas_character not present — wider shot revealing the tall imposing silhouette of The Director standing from the chair, a figure in a long tailored dark coat, face completely in shadow except for the faint glint of a monocle over one eye, surrounded by maps with pins and photos connected by red string, cinematic noir backlighting creating pure black silhouette with minimal detail
+Text: The Counterfeiter was merely an audition. A test of their response time and methods. Phase One is complete. The data is... illuminating.
+Bubble: top-left
 
 ## Panel 4
+Prompt: atlas_character not present — extreme close-up of The Director's pin board showing photographs and connected red strings — labels visible reading The Counterfeiter with a checkmark, The Flipper, The Shill, and The Vault circled in red as a target, dim sinister planning room lighting with red accent, strategic chess-game atmosphere
+Text: Prepare the others. The Flipper. The Shill. Each has a role to play. It's time the Shadow Syndicate moved from whispers... to action.
+Bubble: top-right
 
-### Visual Description
-`atlas_character, Pixar CGI style, 3D rendered character, soft volumetric lighting, SMASH CUT to Atlas in bright daylight, cheerfully waving goodbye to collectors at a card show, completely unaware, sunny warm lighting in total contrast to the previous dark panels, but — subtle detail — a small surveillance camera is barely visible in the upper corner of the frame, casting a tiny red dot of light, ominous shadow creeping at the very edge of the otherwise happy scene, dramatic irony composition`
+## Panel 5
+Prompt: atlas_character not present — The Director's silhouette walking down a dark corridor, coat flowing behind, passing walls lined with stolen rare collectibles in glass cases — each glowing with a sickly green possessive light instead of warm gold, cold threatening color palette of deep purples and greens, powerful commanding stride
+Text: Every legendary item deserves to be possessed by someone who understands TRUE power. The Keepers preserve for everyone? How... wasteful. Some things belong to the few.
+Bubble: top-left
 
-### Speech Bubble
-*(Atlas, cheerful, unaware)*
-"Great show today! Remember — protect your collection, trust your instincts, and keep hunting for those gems! See you next time!"
+## Panel 6
+Prompt: atlas_character not present — The Director's gloved hand placing a final chess piece — a black king — onto a board where white pieces represent the Keepers, the black king towering over them, dramatic top-down lighting on the chess board, red and purple ambient glow, strategic patient menace
+Text: Atlas is enthusiastic but predictable. Pixel is sharp but overconfident. Porter is loyal but rigid. Each strength is also a weakness. Patience will unravel them all.
+Bubble: top-right
 
-### Caption/Narration
-*(bottom, shifting from warm to cold text)*
-Atlas doesn't know yet. None of them do.
+## Panel 7
+Prompt: atlas_character not present — The Director's silhouette standing before a massive window overlooking a dark cityscape at night, coat silhouetted against city lights below, arms clasped behind back in a commanding overlord pose, reflection of the surveillance screens visible in the glass, lonely powerful isolation
+Text: The Keepers believe they protect the Collectiverse from threats. They don't yet realize... the greatest threat has been studying them from the beginning.
+Bubble: top-left
 
-*(final dramatic text, dark background strip at very bottom)*
-**THE SHADOW SYNDICATE IS COMING.**
+## Panel 8
+Prompt: atlas_character not present — sudden static burst across all surveillance monitors simultaneously, screens flickering to show a single symbol — the Shadow Syndicate logo — a dark geometric eye inside a broken shield, the logo pulsing with crimson energy, dramatic digital glitch effects, the dark room lit only by the ominous logo
+Text: Shadow Syndicate — activated. Phase Two begins now. Let the Keepers enjoy their peace... while it lasts.
+Bubble: top-right
 
-*(small teaser)*
-🔜 *Continue the story in Issue #015: "The First Move"*
+## Panel 9
+Prompt: atlas_character cheerfully waving goodbye to collectors at a sunny card show, bright warm daylight in total contrast to previous dark panels, happy genuine smile, other collectors around him in a positive community moment — BUT a tiny surveillance camera is barely visible in the upper corner with a blinking red light, ominous detail hidden in warmth
+Text: Great show today, everyone! Remember — protect your collection, trust your instincts, and keep hunting for those gems! See you at the next one!
+Bubble: top-left
 
-### Atlas Expression/Emotion
-**Happy, oblivious, cheerful** — waving warmly, big genuine smile. The dramatic irony: he has NO IDEA he's being watched. The audience knows something the hero doesn't.
-
----
-
-## Production Notes
-
-### Visual Direction
-- Panels 1-3: DARK. Cold blues, deep shadows, noir cinematography. Villain world.
-- Panel 4: BRIGHT. Warm sunshine, happy Atlas. Normal world. The contrast IS the horror.
-- The tiny surveillance camera in Panel 4 = the reveal that dark world has invaded light world
-- The Director is NEVER fully shown — mystery is preserved. Silhouette + voice + hands only.
-
-### Character Design — The Director
-- Tall, slim, impeccably dressed (tailored coat, gloves, possible monocle)
-- Gender: Deliberately ambiguous in silhouette (revealed later in series)
-- Color scheme: Black, deep crimson, cold silver
-- Design motifs: Chess, film directing (hence "Director"), puppet strings, shadow
-- Voice style: Elegant, precise, never raises voice. Most dangerous person in the room.
-
-### Story Thread Setup
-- This comic establishes: The Shadow Syndicate is an ORGANIZATION, not just one villain
-- The Counterfeiter (Comic #004) was "Phase One" — a test
-- The Director has files on all Keepers (implies moles or deep surveillance)
-- Future villains teased on the pin board: The Flipper, The Shill
-- The Vault is the ultimate target
-- Atlas is unaware = builds tension for future issues
-
-### Tone
-- All-ages appropriate but genuinely suspenseful
-- Think Pixar villain energy — Syndrome, Lotso, Ernesto de la Cruz
-- Scary through INTELLIGENCE and PATIENCE, not violence
-- The audience should feel "I need to warn Atlas!" — engagement hook
-
-### Thread Format (Twitter/X)
-- Panel 1: "Someone is watching the Keepers..." (hook)
-- Panel 2: "They know about The Vault..." (escalation)
-- Panel 3: "Meet The Director." (reveal)
-- Panel 4: "And Atlas has no idea." (gut punch)
-- Each panel posted 30 min apart for maximum suspense engagement
-
-### Alt Text
-"The mysterious Director of the Shadow Syndicate watches surveillance footage of the Keepers, planning something ominous while Atlas remains unaware"
+## Panel 10
+Prompt: atlas_character walking away from the card show into warm sunset light looking cheerful and carefree, but the viewer can see a long dark shadow creeping into frame from behind him that doesn't match his shape — an ominous elongated silhouette of The Director stretching across the ground toward Atlas, dramatic contrast between warm foreground and cold encroaching shadow
+Text: Atlas doesn't know yet. None of them do. The Shadow Syndicate is coming... and the Collectiverse will never be the same. To be continued.
+Bubble: top-right
