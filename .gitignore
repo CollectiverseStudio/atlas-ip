@@ -27,3 +27,11 @@ tmp/
 
 # Large model weights (use LFS or external storage)
 *.safetensors
+
+# Large media assets (store externally)
+assets/music/archive/
+videos/
+generated/
+*.mp4
+mpeg
+npx
