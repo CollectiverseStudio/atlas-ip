@@ -1,0 +1,9 @@
+{
+  "character": "director",
+  "requestId": "019f4860-0710-7bc3-bdfb-ff8b5d5898bc",
+  "triggerWord": "director_character",
+  "imageCount": 40,
+  "imagesDir": "C:\\Users\\bellgj\\Documents\\Personal\\collectiverse\\atlas-ip\\reference-images\\villains\\the-director",
+  "startedAt": "2026-07-09T19:34:40.656Z",
+  "zipUrl": "https://collectiverse-assets.s3.us-east-1.amazonaws.com/atlas-training/director-training-images.zip"
+}

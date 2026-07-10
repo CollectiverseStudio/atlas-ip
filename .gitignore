@@ -7,6 +7,12 @@ Thumbs.db
 .idea/
 *.swp
 
+# Environment / Secrets
+.env
+.env.local
+.lora-training-info.json
+.lora-model-url.txt
+
 # Node
 node_modules/
 dist/
@@ -18,3 +24,14 @@ tmp/
 # Do NOT ignore generated/ — it's committed (auto-generated TypeScript)
 # Do NOT ignore atlas-registry.json — it's committed (auto-generated manifest)
 # Do NOT ignore poses/sm, poses/md, poses/lg — they're committed (auto-resized)
+
+# Large model weights (use LFS or external storage)
+*.safetensors
+
+# Large media assets (store externally)
+assets/music/archive/
+videos/
+generated/
+*.mp4
+mpeg
+npx

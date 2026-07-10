@@ -1,0 +1,125 @@
+{
+  "name": "Collectiverse Design System",
+  "version": "1.0",
+  "colors": {
+    "brand": {
+      "primary-blue": "#2F7DF6",
+      "dark-navy": "#1B2B5E",
+      "gold": "#F5C542",
+      "atlas-green": "#66FF99"
+    },
+    "background": {
+      "bg-dark": "#111318",
+      "bg-card": "#1A1D24",
+      "bg-card-hover": "#232730",
+      "bg-surface": "#0D0F13"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A0A8B7",
+      "muted": "#707786",
+      "link": "#2F7DF6"
+    },
+    "border": {
+      "default": "#2C313C",
+      "hover": "#3D4452",
+      "focus": "#2F7DF6"
+    },
+    "status": {
+      "success": "#32CD65",
+      "danger": "#E63946",
+      "warning": "#F5A623",
+      "info": "#2F7DF6"
+    }
+  },
+  "typography": {
+    "fontFamily": "Inter, system-ui, sans-serif",
+    "heading": {
+      "h1": {
+        "size": 32,
+        "weight": 700,
+        "lineHeight": 1.2
+      },
+      "h2": {
+        "size": 24,
+        "weight": 600,
+        "lineHeight": 1.3
+      },
+      "h3": {
+        "size": 20,
+        "weight": 600,
+        "lineHeight": 1.4
+      },
+      "h4": {
+        "size": 16,
+        "weight": 600,
+        "lineHeight": 1.4
+      }
+    },
+    "body": {
+      "large": {
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 1.5
+      },
+      "regular": {
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 1.5
+      },
+      "small": {
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 1.4
+      }
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 48,
+    "3xl": 64
+  },
+  "borderRadius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "full": 9999
+  },
+  "screens": [
+    {
+      "name": "Item Detail - Price Card",
+      "width": 1440,
+      "height": 900,
+      "description": "Collectible detail page with market value breakdown"
+    },
+    {
+      "name": "Portfolio Dashboard",
+      "width": 1440,
+      "height": 900,
+      "description": "Collection value overview with best/worst performers"
+    },
+    {
+      "name": "Collection Grid",
+      "width": 1440,
+      "height": 900,
+      "description": "Grid of collectible cards with quick-value badges"
+    },
+    {
+      "name": "Smart Capture",
+      "width": 390,
+      "height": 844,
+      "description": "Mobile camera scanner identifying a card"
+    },
+    {
+      "name": "Atlas Chat",
+      "width": 1440,
+      "height": 900,
+      "description": "Atlas AI assistant with price recommendations"
+    }
+  ]
+}
