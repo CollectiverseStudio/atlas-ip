@@ -14,6 +14,7 @@
  *   - Panel images already generated (via generate-full-comic.ts)
  *   - ffmpeg installed and in PATH
  *   - AWS credentials for S3 upload
+ *   - Video clips cached in generated/{comic}/clips/ (re-used on subsequent runs)
  */
 
 import 'dotenv/config';
@@ -22,6 +23,10 @@ import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { fal } from '@fal-ai/client';
+import ffmpegPath from 'ffmpeg-static';
+
+const FFMPEG = ffmpegPath || 'ffmpeg'; // Use bundled binary, fall back to PATH
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -31,6 +36,9 @@ const FAL_KEY = process.env.FAL_KEY || '';
 const S3_BUCKET = 'collectiverse-assets';
 const S3_REGION = 'us-east-1';
 const s3 = new S3Client({ region: S3_REGION });
+
+// Configure fal.ai client
+fal.config({ credentials: FAL_KEY });
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // CONFIGURATION
@@ -186,9 +194,10 @@ async function animatePanel(
 ): Promise<AnimatedClip> {
   const modelInfo = MODEL_ENDPOINTS[config.model];
   
-  // Read image as base64
+  // Upload image to Fal.ai CDN (faster than S3 for their pipeline)
   const imageBuffer = fs.readFileSync(panel.imagePath);
-  const base64Image = `data:image/png;base64,${imageBuffer.toString('base64')}`;
+  const imageFile = new File([imageBuffer], path.basename(panel.imagePath), { type: 'image/png' });
+  const imageUrl = await fal.storage.upload(imageFile);
 
   // Motion prompt — subtle animation appropriate for comic panels
   const motionPrompt = panel.prompt
@@ -197,69 +206,27 @@ async function animatePanel(
 
   console.log(`   🎬 Animating panel ${panel.number} (${config.secondsPerPanel}s via ${config.model})...`);
 
-  // Submit to Fal.ai queue
-  const submitResponse = await fetch(`https://queue.fal.run/${modelInfo.endpoint}`, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Key ${FAL_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      image_url: base64Image,
+  // Use fal.subscribe() — handles queue, polling, and result automatically
+  const result = await fal.subscribe(modelInfo.endpoint, {
+    input: {
+      start_image_url: imageUrl,
       prompt: motionPrompt,
       duration: config.secondsPerPanel,
       aspect_ratio: '1:1',
-    }),
-  });
-
-  if (!submitResponse.ok) {
-    const err = await submitResponse.text();
-    throw new Error(`Fal.ai submit failed (${submitResponse.status}): ${err}`);
-  }
-
-  const { request_id } = await submitResponse.json() as { request_id: string };
-  console.log(`      Request ID: ${request_id}`);
-
-  // Poll for completion
-  let result: any = null;
-  const maxWait = 300000; // 5 minutes max
-  const pollInterval = 5000; // 5 seconds
-  let waited = 0;
-
-  while (waited < maxWait) {
-    await new Promise(r => setTimeout(r, pollInterval));
-    waited += pollInterval;
-
-    const statusResponse = await fetch(
-      `https://queue.fal.run/${modelInfo.endpoint}/requests/${request_id}/status`,
-      { headers: { 'Authorization': `Key ${FAL_KEY}` } }
-    );
-
-    const status = await statusResponse.json() as { status: string };
-
-    if (status.status === 'COMPLETED') {
-      // Fetch result
-      const resultResponse = await fetch(
-        `https://queue.fal.run/${modelInfo.endpoint}/requests/${request_id}`,
-        { headers: { 'Authorization': `Key ${FAL_KEY}` } }
-      );
-      result = await resultResponse.json();
-      break;
-    } else if (status.status === 'FAILED') {
-      throw new Error(`Panel ${panel.number} generation failed`);
-    }
-
-    process.stdout.write(`      ⏳ ${Math.round(waited / 1000)}s...`);
-    process.stdout.write('\r');
-  }
-
-  if (!result) {
-    throw new Error(`Panel ${panel.number} timed out after ${maxWait / 1000}s`);
-  }
+    },
+    pollInterval: 5000,
+    logs: true,
+    onQueueUpdate: (update) => {
+      if (update.status === 'IN_PROGRESS') {
+        process.stdout.write(`      ⏳ Processing...\r`);
+      }
+    },
+  }) as any;
 
   // Download video
-  const videoUrl = result.video?.url || result.data?.video_url;
+  const videoUrl = result.data?.video?.url || result.video?.url || result.data?.video_url;
   if (!videoUrl) {
+    console.error(`      ⚠️  Response keys:`, Object.keys(result.data || result));
     throw new Error(`No video URL in response for panel ${panel.number}`);
   }
 
@@ -308,12 +275,12 @@ function stitchVideos(
   } else {
     // Multiple clips — concat with crossfade
     // Simple concat first (crossfade is complex filter — can enhance later)
-    const ffmpegConcat = `ffmpeg -y -f concat -safe 0 -i "${fileListPath}" -c copy "${concatOutput}" 2>&1`;
+    const ffmpegConcat = `"${FFMPEG}" -y -f concat -safe 0 -i "${fileListPath}" -c copy "${concatOutput}" 2>&1`;
     try {
       execSync(ffmpegConcat, { stdio: 'pipe' });
     } catch {
       // If copy fails (different codecs), re-encode
-      const ffmpegReencode = `ffmpeg -y -f concat -safe 0 -i "${fileListPath}" -c:v libx264 -preset fast -crf 23 "${concatOutput}" 2>&1`;
+      const ffmpegReencode = `"${FFMPEG}" -y -f concat -safe 0 -i "${fileListPath}" -c:v libx264 -preset fast -crf 23 "${concatOutput}" 2>&1`;
       execSync(ffmpegReencode, { stdio: 'pipe' });
     }
   }
@@ -327,7 +294,7 @@ function stitchVideos(
     fs.writeFileSync(srtPath, srtContent);
 
     const subtitledOutput = path.join(tmpDir, 'subtitled.mp4');
-    const ffmpegSubs = `ffmpeg -y -i "${currentOutput}" -vf "subtitles='${srtPath.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}':force_style='FontSize=24,FontName=Arial,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=2'" -c:a copy "${subtitledOutput}" 2>&1`;
+    const ffmpegSubs = `"${FFMPEG}" -y -i "${currentOutput}" -vf "subtitles='${srtPath.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}':force_style='FontSize=24,FontName=Arial,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,Outline=2'" -c:a copy "${subtitledOutput}" 2>&1`;
     
     try {
       execSync(ffmpegSubs, { stdio: 'pipe' });
@@ -340,7 +307,7 @@ function stitchVideos(
   // Step 3: Add background music if enabled
   if (config.addMusic && config.musicTrack && fs.existsSync(config.musicTrack)) {
     const musicOutput = path.join(tmpDir, 'with-music.mp4');
-    const ffmpegMusic = `ffmpeg -y -i "${currentOutput}" -i "${config.musicTrack}" -filter_complex "[1:a]volume=0.3[music];[0:a][music]amix=inputs=2:duration=first[a]" -map 0:v -map "[a]" -c:v copy -shortest "${musicOutput}" 2>&1`;
+    const ffmpegMusic = `"${FFMPEG}" -y -i "${currentOutput}" -i "${config.musicTrack}" -filter_complex "[1:a]volume=0.3[music];[0:a][music]amix=inputs=2:duration=first[a]" -map 0:v -map "[a]" -c:v copy -shortest "${musicOutput}" 2>&1`;
     
     try {
       execSync(ffmpegMusic, { stdio: 'pipe' });
@@ -499,8 +466,9 @@ Options:
   console.log(`📸 STEP 1: Animate panels (${panels.length} × ${config.secondsPerPanel}s)`);
   console.log(`${'═'.repeat(50)}\n`);
 
-  const clipDir = path.resolve(PROJECT_ROOT, 'tmp', 'video-clips');
-  if (fs.existsSync(clipDir)) fs.rmSync(clipDir, { recursive: true });
+  // Save clips permanently alongside panel images (not in tmp/)
+  const scriptBasename2 = args.scriptPath ? path.basename(args.scriptPath, '.md') : path.basename(args.panelsDir!);
+  const clipDir = path.resolve(PROJECT_ROOT, 'generated', scriptBasename2, 'clips');
   fs.mkdirSync(clipDir, { recursive: true });
 
   const clips: AnimatedClip[] = [];
@@ -508,6 +476,13 @@ Options:
   for (const panel of panels) {
     const clipPath = path.join(clipDir, `clip-${String(panel.number).padStart(2, '0')}.mp4`);
     
+    // Skip if clip already exists (cached from previous run)
+    if (fs.existsSync(clipPath)) {
+      console.log(`   ⏭️  Panel ${panel.number} — cached clip exists, skipping`);
+      clips.push({ panelNumber: panel.number, videoPath: clipPath, duration: config.secondsPerPanel, text: panel.text });
+      continue;
+    }
+
     try {
       const clip = await animatePanel(panel, config, clipPath);
       clips.push(clip);
@@ -558,8 +533,7 @@ Options:
   console.log(`   📦 Size: ${(finalSize / 1024 / 1024).toFixed(1)} MB`);
   console.log(`   💰 Cost: ~$${estimatedCost.toFixed(2)}`);
 
-  // Cleanup clips
-  fs.rmSync(clipDir, { recursive: true });
+  // Clips kept in generated/{comic}/clips/ for future re-stitching
 }
 
 main().catch(err => {

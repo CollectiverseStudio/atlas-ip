@@ -24,3 +24,6 @@ tmp/
 # Do NOT ignore generated/ — it's committed (auto-generated TypeScript)
 # Do NOT ignore atlas-registry.json — it's committed (auto-generated manifest)
 # Do NOT ignore poses/sm, poses/md, poses/lg — they're committed (auto-resized)
+
+# Large model weights (use LFS or external storage)
+*.safetensors

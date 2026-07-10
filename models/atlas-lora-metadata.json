@@ -1,0 +1,8 @@
+{
+  "character": "atlas",
+  "requestId": "019f48af-b434-71a3-9ff2-fedf727456a4",
+  "modelUrl": "https://v3b.fal.media/files/b/0aa19b18/jSr3lWIfe4yY0INbSNBm5_pytorch_lora_weights.safetensors",
+  "downloadedAt": "2026-07-09T21:14:59.019Z",
+  "fileSizeMB": 85.6,
+  "localPath": "models/atlas-lora.safetensors"
+}
