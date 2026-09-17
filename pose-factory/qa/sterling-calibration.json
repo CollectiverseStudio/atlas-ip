@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "character": "sterling",
+  "form": "humanized",
+  "batch": "initial-text-only-calibration",
+  "status": "CALIBRATION_NOT_PRODUCTION_APPROVED",
+  "reviewedCount": 40,
+  "summary": "Strong overall identity consistency, but the batch was generated from text without an actual approved master reference image. Do not treat the output/approved directory name as visual approval.",
+  "observedIssues": {
+    "29": ["unwanted horizontal object/bar introduced for peeking action"],
+    "36": ["unexpected dark prop/object introduced"],
+    "global": [
+      "monocle and chain behavior varies across poses",
+      "minor wardrobe/color drift exists",
+      "generation was not reference-image conditioned",
+      "visual QA was not part of the generation worker"
+    ]
+  },
+  "nextGate": [
+    "move future generation into generated staging rather than approved",
+    "condition generation/editing on an approved humanized master reference image",
+    "run image QA before promotion to approved",
+    "regenerate only failed poses"
+  ]
+}
