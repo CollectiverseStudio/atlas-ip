@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "imageModel": "gpt-image-2.5-sunburst-2026-09-08",
+  "schemaVersion": 2,
+  "imageModel": "gpt-image-2",
   "outputFormat": "png",
   "quality": "high",
   "size": "1024x1536",
