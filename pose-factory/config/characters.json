@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "imageModel": "gpt-image-2.5-sunburst-2026-09-08",
+  "outputFormat": "png",
+  "quality": "high",
+  "size": "1024x1536",
+  "background": "opaque",
+  "maxRetries": 3,
+  "batchSize": 4,
+  "characters": [
+    {"id":"atlas","name":"Atlas","faction":"keepers","reference":"pose-factory/references/atlas/master.png","poseManifest":"pose-factory/manifests/atlas.json","status":"needs-pose-manifest"},
+    {"id":"pixel","name":"Pixel","faction":"keepers","reference":"pose-factory/references/pixel/master.png","poseManifest":"pose-factory/manifests/pixel.json","status":"ready-after-reference"},
+    {"id":"ink","name":"Ink","faction":"keepers","reference":"pose-factory/references/ink/master.png","poseManifest":"pose-factory/manifests/ink.json","status":"40-approved-existing"},
+    {"id":"sterling","name":"Sterling","faction":"keepers","reference":"pose-factory/references/sterling/master.png","poseManifest":"pose-factory/manifests/sterling.json","status":"partially-approved-existing"},
+    {"id":"forge","name":"Forge","faction":"keepers","reference":"pose-factory/references/forge/master.png","poseManifest":"pose-factory/manifests/forge.json","status":"ready-after-reference"},
+    {"id":"porter","name":"Porter","faction":"keepers","reference":"pose-factory/references/porter/master.png","poseManifest":"pose-factory/manifests/porter.json","status":"ready-after-reference"},
+    {"id":"echo","name":"Echo","faction":"keepers","reference":"pose-factory/references/echo/master.png","poseManifest":"pose-factory/manifests/echo.json","status":"ready-after-reference"},
+    {"id":"director","name":"The Director","faction":"syndicate","reference":"pose-factory/references/director/master.png","poseManifest":"pose-factory/manifests/director.json","status":"ready-after-reference"},
+    {"id":"counterfeiter","name":"The Counterfeiter","faction":"syndicate","reference":"pose-factory/references/counterfeiter/master.png","poseManifest":"pose-factory/manifests/counterfeiter.json","status":"ready-after-reference"},
+    {"id":"restorer","name":"The Restorer","faction":"syndicate","reference":"pose-factory/references/restorer/master.png","poseManifest":"pose-factory/manifests/restorer.json","status":"ready-after-reference"},
+    {"id":"hacker","name":"The Hacker","faction":"syndicate","reference":"pose-factory/references/hacker/master.png","poseManifest":"pose-factory/manifests/hacker.json","status":"ready-after-reference"},
+    {"id":"hoarder","name":"The Hoarder","faction":"syndicate","reference":"pose-factory/references/hoarder/master.png","poseManifest":"pose-factory/manifests/hoarder.json","status":"ready-after-reference"},
+    {"id":"vault","name":"The Vault","faction":"syndicate","reference":"pose-factory/references/vault/master.png","poseManifest":"pose-factory/manifests/vault.json","status":"ready-after-reference"},
+    {"id":"whisper","name":"The Whisper","faction":"syndicate","reference":"pose-factory/references/whisper/master.png","poseManifest":"pose-factory/manifests/whisper.json","status":"ready-after-reference"},
+    {"id":"smuggler","name":"The Smuggler","faction":"syndicate","reference":"pose-factory/references/smuggler/master.png","poseManifest":"pose-factory/manifests/smuggler.json","status":"ready-after-reference"}
+  ]
+}
