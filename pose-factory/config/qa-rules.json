@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "required": [
+    "character identity matches approved reference",
+    "apparent age and facial geometry remain consistent",
+    "hair color and hairstyle remain consistent",
+    "eye color remains consistent",
+    "skin tone remains consistent",
+    "body proportions remain consistent",
+    "canonical wardrobe and footwear remain consistent",
+    "faction emblem and signature identifiers are correct",
+    "asymmetric left/right details are on the correct side",
+    "requested pose is clearly readable",
+    "requested expression is clearly readable",
+    "requested camera angle is correct",
+    "required prop is present when specified",
+    "no unrequested animal anatomy appears in humanized characters",
+    "no embedded pose number, title, caption, QA label, border, or watermark",
+    "no recognizable third-party character imitation"
+  ],
+  "characterSpecific": {
+    "pixel": ["platinum/icy-blonde hair with cyan accents", "scanner gauntlet on LEFT arm", "no fox ears or tail"],
+    "forge": ["mechanical arm is RIGHT arm", "Mexican/Mexican-American humanized identity", "no primate anatomy"],
+    "porter": ["no human horn", "blue shield/energy technology replaces horn motif"],
+    "echo": ["no owl ears/ear tufts", "no beak or talons", "violet memory-crystal motif retained"],
+    "director": ["crimson eyes retained", "locked geometric-buckle belt retained"],
+    "counterfeiter": ["green eyes retained", "no four arms, tail, or chameleon anatomy"],
+    "vault": ["hazel eyes retained", "no wings, beak, or magpie tail"],
+    "whisper": ["no wolf ears or tail", "do not add romantic symbolism unless pose/story explicitly requests it"],
+    "smuggler": ["no tentacles", "octopus versatility translated through modular cargo gear"],
+    "hacker": ["RED ear LED retained", "visually distinct from Hoarder, Whisper, and Smuggler"],
+    "hoarder": ["stockier silhouette", "visually distinct from Hacker, Whisper, and Smuggler"]
+  },
+  "decision": {
+    "pass": "save PNG to approved output and advance queue",
+    "fail": "record failure reasons and regenerate same pose",
+    "maxRetryExceeded": "mark NEEDS_REVIEW and continue other queued poses"
+  }
+}
