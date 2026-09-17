@@ -13,7 +13,9 @@
     "atlas:hashes": "tsx scripts/compare-hashes.ts",
     "atlas:sync": "tsx scripts/validate-atlas-assets.ts && tsx scripts/resize-poses.ts --new && tsx scripts/generate-atlas-manifest.ts && tsx scripts/generate-types.ts",
     "atlas:deploy": "bash scripts/deploy-to-app.sh",
-    "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run"
+    "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run",
+    "poses:generate": "tsx pose-factory/scripts/generate-poses.ts",
+    "poses:sterling": "tsx pose-factory/scripts/generate-poses.ts --character=sterling"
   },
   "devDependencies": {
     "sharp": "^0.33.0",
