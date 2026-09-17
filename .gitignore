@@ -15,6 +15,12 @@ dist/
 tmp/
 *.tmp
 
+# Secrets
+.env
+.env.*
+!.env.example
+pose-factory/.env
+
 # Do NOT ignore generated/ — it's committed (auto-generated TypeScript)
 # Do NOT ignore atlas-registry.json — it's committed (auto-generated manifest)
 # Do NOT ignore poses/sm, poses/md, poses/lg — they're committed (auto-resized)
