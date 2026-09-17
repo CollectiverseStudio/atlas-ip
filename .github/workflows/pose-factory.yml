@@ -1,0 +1,77 @@
+name: Collectiverse Pose Factory
+
+on:
+  workflow_dispatch:
+    inputs:
+      character:
+        description: 'Character id (sterling, pixel, forge, porter, echo, director, counterfeiter, restorer, hacker, hoarder, vault, whisper, smuggler)'
+        required: true
+        default: sterling
+      commit_outputs:
+        description: 'Commit generated PNGs to repository'
+        type: boolean
+        required: true
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pose-factory-${{ inputs.character }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package.json
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Verify API secret exists
+        shell: bash
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo 'OPENAI_API_KEY GitHub Actions secret is missing.' >&2
+            exit 1
+          fi
+
+      - name: Generate missing poses
+        run: npx tsx pose-factory/scripts/generate-poses.ts --character=${{ inputs.character }}
+
+      - name: Upload generated poses artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pose-factory-${{ inputs.character }}-${{ github.run_number }}
+          path: pose-factory/output/${{ inputs.character }}/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit generated PNGs
+        if: ${{ success() && inputs.commit_outputs }}
+        shell: bash
+        run: |
+          git config user.name 'collectiverse-pose-factory[bot]'
+          git config user.email 'pose-factory@users.noreply.github.com'
+          git add pose-factory/output/${{ inputs.character }}/
+          if git diff --cached --quiet; then
+            echo 'No new generated files to commit.'
+            exit 0
+          fi
+          git commit -m "poses(${{ inputs.character }}): generate missing humanized pose assets"
+          git push
