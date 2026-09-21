@@ -35,3 +35,6 @@ generated/
 *.mp4
 mpeg
 npx
+
+# Oversized imported production packages
+_import/computer-archive-2026-09/Collectiverse_Ink_Humanized_40_Pose_Production_Package.zip
