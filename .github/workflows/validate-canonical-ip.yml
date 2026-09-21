@@ -1,0 +1,24 @@
+name: Validate Canonical IP
+
+on:
+  push:
+    branches:
+      - reconciliation-canonical-v1
+    paths:
+      - 'characters/**'
+      - 'canon/**'
+      - 'reconciliation/**'
+      - 'scripts/validate-canonical-ip.ts'
+      - '.github/workflows/validate-canonical-ip.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - run: npm run ip:validate
