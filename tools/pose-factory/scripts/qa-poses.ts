@@ -3,7 +3,7 @@ import path from 'node:path';
 
 const API_KEY=process.env.OPENAI_API_KEY;
 if(!API_KEY) throw new Error('OPENAI_API_KEY is required');
-const ROOT=path.resolve('pose-factory');
+const ROOT=path.resolve('tools/pose-factory');
 const cfg=JSON.parse(await fs.readFile(path.join(ROOT,'config/characters.json'),'utf8'));
 const rules=JSON.parse(await fs.readFile(path.join(ROOT,'config/qa-rules.json'),'utf8'));
 const arg=process.argv.find(a=>a.startsWith('--character='));
@@ -27,9 +27,9 @@ async function judge(candidate:Buffer, pose:any){
   return JSON.parse(text.replace(/^```json\s*|\s*```$/g,''));
 }
 
-const generated=path.join(ROOT,'output',c.id,'humanized','generated');
-const approved=path.join(ROOT,'output',c.id,'humanized','approved');
-const failed=path.join(ROOT,'output',c.id,'humanized','failed');
+const generated=path.resolve('characters',c.faction,c.id,'humanized','poses','generated');
+const approved=path.resolve('characters',c.faction,c.id,'humanized','poses','approved');
+const failed=path.resolve('characters',c.faction,c.id,'humanized','poses','rejected');
 await fs.mkdir(approved,{recursive:true}); await fs.mkdir(failed,{recursive:true});
 const report:any={schemaVersion:1,character:c.id,form:'humanized',createdAt:new Date().toISOString(),results:[]};
 for(const pose of manifest.poses){
