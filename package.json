@@ -16,7 +16,9 @@
     "atlas:deploy:dry": "bash scripts/deploy-to-app.sh --dry-run",
     "comic:generate": "tsx scripts/generate-comic-panel.ts",
     "comic:strip": "tsx scripts/compose-comic-strip.ts",
-    "comic:full": "tsx scripts/generate-full-comic.ts"
+    "comic:full": "tsx scripts/generate-full-comic.ts",
+    "ip:validate": "tsx scripts/validate-canonical-ip.ts",
+    "ip:contact-sheet": "tsx scripts/generate-character-contact-sheet.ts"
   },
   "devDependencies": {
     "sharp": "^0.33.0",
