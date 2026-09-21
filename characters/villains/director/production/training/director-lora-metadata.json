@@ -1,0 +1,8 @@
+{
+  "character": "director",
+  "requestId": "019f4860-0710-7bc3-bdfb-ff8b5d5898bc",
+  "modelUrl": "https://v3b.fal.media/files/b/0aa198da/KnEmfnZDKm_-CJdfFotVB_pytorch_lora_weights.safetensors",
+  "downloadedAt": "2026-07-09T19:50:07.921Z",
+  "fileSizeMB": 85.6,
+  "localPath": "models/director-lora.safetensors"
+}
