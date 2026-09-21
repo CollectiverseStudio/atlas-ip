@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm install --no-audit --no-fund
+      - run: npm ci --no-audit --no-fund
       - name: Generate original-form contact sheets
         shell: bash
         run: |
@@ -42,6 +42,7 @@ jobs:
         run: |
           git config user.name 'collectiverse-reconciliation[bot]'
           git config user.email 'reconciliation@users.noreply.github.com'
+          git restore package-lock.json package.json 2>/dev/null || true
           git add characters/*/*/*/contact-sheet/ || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "assets: generate canonical character contact sheets"
