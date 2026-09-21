@@ -1,5 +1,7 @@
 # Atlas IP — Collectiverse Character & World Assets
 
+> **Canonical structure migration in progress.** Production character assets now live under `characters/heroes/<character>/` and `characters/villains/<character>/`, with separate `original/` and `humanized/` forms. See `characters/README.md`, `canon/CURRENT-CHARACTER-ROSTER.md`, and `reconciliation/CANONICAL-STRUCTURE-V1.md`. The older structure documented below is retained temporarily for compatibility/provenance and is not the target layout.
+
 > The complete intellectual property repository for the Atlas universe: characters, stories, comics, brand assets, and production materials.
 
 ## Repository Structure
