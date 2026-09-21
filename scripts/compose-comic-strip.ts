@@ -91,11 +91,15 @@ const DESIGN = {
 const CIRCLED_NUMBERS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨'];
 
 // Layout dimension presets
-const LAYOUT_PRESETS: Record<string, { cols: number; rows: number; width: number; height: number }> = {
-  'grid':       { cols: 2, rows: 2, width: 1200, height: 1200 },  // Instagram square
-  'horizontal': { cols: 4, rows: 1, width: 2400, height: 628 },   // Twitter/newspaper
-  'vertical':   { cols: 1, rows: 4, width: 600, height: 2400 },   // Webtoon/story
-  '3x3':        { cols: 3, rows: 3, width: 1200, height: 1200 },  // 9-panel page
+const LAYOUT_PRESETS: Record<string, { cols: number; rows: number; width: number; height: number; panelSize?: number }> = {
+  'grid':       { cols: 2, rows: 2, width: 1200, height: 1200 },    // Instagram square (4 panels)
+  'horizontal': { cols: 4, rows: 1, width: 2400, height: 628 },     // Twitter/newspaper
+  'vertical':   { cols: 1, rows: 4, width: 600, height: 2400 },     // Webtoon/story
+  '3x3':        { cols: 3, rows: 3, width: 1200, height: 1200 },    // 9-panel page
+  '2x5':        { cols: 2, rows: 5, width: 2400, height: 6080, panelSize: 1200 },  // 10 panels, BIG (4" each), portrait scroll
+  '5x2':        { cols: 5, rows: 2, width: 6080, height: 2400, panelSize: 1200 },  // 10 panels, BIG (4" each), landscape
+  '2x5-small':  { cols: 2, rows: 5, width: 1200, height: 3040 },    // 10 panels, small (original behavior)
+  'page':       { cols: 2, rows: 5, width: 2400, height: 6080, panelSize: 1200 },  // Full comic page, big panels
 };
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -134,7 +138,7 @@ function parseArgs(argv: string[]): StripConfig {
 
   const layout = (get('--layout') || 'grid') as LayoutType;
   if (!LAYOUT_PRESETS[layout]) {
-    console.error(`❌ Unknown layout: "${layout}". Options: grid, horizontal, vertical, 3x3`);
+    console.error(`❌ Unknown layout: "${layout}". Options: grid, horizontal, vertical, 3x3, 2x5, 5x2, 2x5-small, page`);
     process.exit(1);
   }
 
@@ -187,7 +191,15 @@ Usage:
 Required:
   --panel1 <path>      Panel 1 scene image
   --text1 <string>     Panel 1 dialogue (prefix with "NAR:" for narration box)
-  --layout <type>      grid (2x2) | horizontal (1x4) | vertical (4x1) | 3x3 (3x3)
+  --layout <type>      Layout options:
+                         grid       2×2, 1200px (4 panels, small — Instagram)
+                         2x5        2×5, 2400px wide (10 panels, BIG ~4" each — recommended for 10-panel comics)
+                         5x2        5×2, 6080px wide (10 panels, BIG ~4" each — landscape)
+                         page       Same as 2x5 (full comic page)
+                         horizontal 4×1, 2400px (4 panels — Twitter strip)
+                         vertical   1×4, 600px (4 panels — webtoon)
+                         3x3        3×3, 1200px (9 panels)
+                         2x5-small  2×5, 1200px (10 panels, small — original)
 
 Optional:
   --bubble1 <pos>      top-left | top-right | top-center (default alternates)

@@ -326,8 +326,10 @@ export async function generateComicPanel(options: {
   guidance?: number;
   noStyle?: boolean;
   seed?: number;
+  loraUrl?: string;
+  characterPrefix?: string;
 }): Promise<string> {
-  const loraUrl = getLoraUrl();
+  const loraUrl = options.loraUrl || getLoraUrl();
   const imageSize = resolveImageSize(options.size || '1024x1024');
 
   // Build the full prompt with style suffix

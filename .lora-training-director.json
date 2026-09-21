@@ -5,5 +5,7 @@
   "imageCount": 40,
   "imagesDir": "C:\\Users\\bellgj\\Documents\\Personal\\collectiverse\\atlas-ip\\reference-images\\villains\\the-director",
   "startedAt": "2026-07-09T19:34:40.656Z",
-  "zipUrl": "https://collectiverse-assets.s3.us-east-1.amazonaws.com/atlas-training/director-training-images.zip"
+  "zipUrl": "https://collectiverse-assets.s3.us-east-1.amazonaws.com/atlas-training/director-training-images.zip",
+  "modelUrl": "https://v3b.fal.media/files/b/0aa198da/KnEmfnZDKm_-CJdfFotVB_pytorch_lora_weights.safetensors",
+  "completedAt": "2026-07-13T15:59:52.908Z"
 }

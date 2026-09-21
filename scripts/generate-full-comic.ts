@@ -295,11 +295,26 @@ async function main(): Promise<void> {
     console.log(`\n   🎬 Panel ${panel.number}/${script.panels.length}:`);
 
     try {
+      // Determine which LoRA to use based on prompt content
+      let panelLoraUrl: string | undefined;
+      const promptLower = panel.prompt.toLowerCase();
+      if (promptLower.includes('director_character') || promptLower.includes('the director')) {
+        // Try to load Director LoRA
+        const directorModelPath = path.resolve(PROJECT_ROOT, '.lora-model-url-director.txt');
+        if (fs.existsSync(directorModelPath)) {
+          panelLoraUrl = fs.readFileSync(directorModelPath, 'utf-8').trim();
+          console.log(`   🎭 Using Director LoRA`);
+        } else {
+          console.log(`   ⚠️  Director LoRA not found (.lora-model-url-director.txt) — using Atlas LoRA`);
+        }
+      }
+
       await generateComicPanel({
         prompt: panel.prompt,
         size: '1024x1024',
         output: relativePanelPath,
         seed: panel.seed,
+        loraUrl: panelLoraUrl,
       });
       panelPaths.push(relativePanelPath);
     } catch (err: any) {
