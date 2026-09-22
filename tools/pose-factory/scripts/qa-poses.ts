@@ -9,6 +9,8 @@ const rules=JSON.parse(await fs.readFile(path.join(ROOT,'config/qa-rules.json'),
 const arg=process.argv.find(a=>a.startsWith('--character='));
 const id=arg?.split('=')[1];
 const c=cfg.characters.find((x:any)=>x.id===id);
+const poseArg=process.argv.find(a=>a.startsWith('--pose='));
+const onlyPose=poseArg?Number(poseArg.split('=')[1]):undefined;
 if(!c) throw new Error(`Unknown character: ${id}`);
 const manifest=JSON.parse(await fs.readFile(path.resolve(c.poseManifest),'utf8'));
 const referencePath=path.resolve(c.reference);
@@ -33,6 +35,7 @@ const failed=path.resolve('characters',c.faction,c.id,'humanized','poses','rejec
 await fs.mkdir(approved,{recursive:true}); await fs.mkdir(failed,{recursive:true});
 const report:any={schemaVersion:1,character:c.id,form:'humanized',createdAt:new Date().toISOString(),results:[]};
 for(const pose of manifest.poses){
+  if(onlyPose && Number(pose[0])!==onlyPose) continue;
   const num=String(pose[0]).padStart(2,'0');
   const name=`${c.id}_humanized_${num}.png`; const src=path.join(generated,name);
   if(!(await exists(src))){report.results.push({pose:pose[0],status:'MISSING'});continue}
