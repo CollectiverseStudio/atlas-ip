@@ -1,0 +1,53 @@
+name: Sterling Corrected Production Retry
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [reconciliation-canonical-v1]
+    paths: ['tools/pose-factory/sterling-retry.request']
+
+permissions:
+  contents: write
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci --no-audit --no-fund
+      - name: Regenerate failed poses 20-40
+        shell: bash
+        run: |
+          for pose in $(seq 20 40); do
+            npx tsx tools/pose-factory/scripts/generate-poses.ts --character=sterling --pose=$pose --force
+          done
+      - name: QA corrected poses
+        run: npx tsx tools/pose-factory/scripts/qa-poses.ts --character=sterling
+      - name: Commit retry results
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'collectiverse-pose-factory[bot]'
+          git config user.email 'pose-factory@users.noreply.github.com'
+          git add characters/heroes/sterling/humanized/poses/ tools/pose-factory/qa/ || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "poses(sterling): corrected production retry"
+          for attempt in 1 2 3 4 5 6; do
+            git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((attempt*5))
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sterling-corrected-production
+          path: |
+            characters/heroes/sterling/humanized/poses/
+            tools/pose-factory/qa/sterling-latest.json
+          retention-days: 30
