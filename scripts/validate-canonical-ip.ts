@@ -16,8 +16,10 @@ for(const [faction,id] of roster){
   const master=path.join(base,'humanized','master','master.png');
   const hasMaster=fs.existsSync(master);
   const originalOk=original.length>=40;
-  if(!originalOk) failed=true;
-  console.log(`${faction}/${id}: original=${original.length} ${originalOk?'OK':'FAIL'} | humanized-approved=${human.length} | humanized-master=${hasMaster?'YES':'NO'}`);
+  const manifest=path.join('tools','pose-factory','manifests',`${id}.json`);
+  const manifestOk=fs.existsSync(manifest);
+  if(!originalOk || !hasMaster || !manifestOk) failed=true;
+  console.log(`${faction}/${id}: original=${original.length} ${originalOk?'OK':'FAIL'} | humanized-approved=${human.length} | humanized-master=${hasMaster?'YES':'NO'} | manifest=${manifestOk?'YES':'NO'}`);
 }
 const ink=pngs(path.join('characters','heroes','ink','humanized','poses','approved'));
 if(ink.length!==40){console.error(`Ink humanized expected 40 approved, found ${ink.length}`);failed=true;}
