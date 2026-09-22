@@ -1,0 +1,33 @@
+name: Pixel Final Calibration
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [reconciliation-canonical-v1]
+    paths: ['tools/pose-factory/pixel-final.request']
+
+permissions:
+  contents: read
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+jobs:
+  pixel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci --no-audit --no-fund
+      - run: npx tsx tools/pose-factory/scripts/generate-poses.ts --character=pixel --pose=1 --force
+      - run: npx tsx tools/pose-factory/scripts/qa-poses.ts --character=pixel --pose=1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pixel-final-calibration
+          path: |
+            characters/heroes/pixel/humanized/poses/generated/
+            characters/heroes/pixel/humanized/poses/approved/
+            characters/heroes/pixel/humanized/poses/rejected/
+            tools/pose-factory/qa/pixel-latest.json
+          retention-days: 30
