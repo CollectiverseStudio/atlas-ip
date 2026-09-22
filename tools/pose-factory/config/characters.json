@@ -8,20 +8,125 @@
   "maxRetries": 3,
   "batchSize": 4,
   "characters": [
-    {"id":"atlas","name":"Atlas","faction":"heroes","reference":"characters/heroes/atlas/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/atlas.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"pixel","name":"Pixel","faction":"heroes","reference":"characters/heroes/pixel/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/pixel.json","status":"needs-humanized-master"},
-    {"id":"ink","name":"Ink","faction":"heroes","reference":"characters/heroes/ink/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/ink.json","status":"40-approved-existing"},
-    {"id":"sterling","name":"Sterling","faction":"heroes","reference":"characters/heroes/sterling/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/sterling.json","status":"partial-manual-approved"},
-    {"id":"forge","name":"Forge","faction":"heroes","reference":"characters/heroes/forge/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/forge.json","status":"needs-humanized-master"},
-    {"id":"porter","name":"Porter","faction":"heroes","reference":"characters/heroes/porter/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/porter.json","status":"needs-humanized-master"},
-    {"id":"echo","name":"Echo","faction":"heroes","reference":"characters/heroes/echo/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/echo.json","status":"needs-humanized-master"},
-    {"id":"director","name":"The Director","faction":"villains","reference":"characters/villains/director/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/director.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"counterfeiter","name":"The Counterfeiter","faction":"villains","reference":"characters/villains/counterfeiter/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/counterfeiter.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"restorer","name":"The Restorer","faction":"villains","reference":"characters/villains/restorer/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/restorer.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"hacker","name":"The Hacker","faction":"villains","reference":"characters/villains/hacker/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/hacker.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"hoarder","name":"The Hoarder","faction":"villains","reference":"characters/villains/hoarder/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/hoarder.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"vault","name":"The Vault","faction":"villains","reference":"characters/villains/vault/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/vault.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"whisper","name":"The Whisper","faction":"villains","reference":"characters/villains/whisper/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/whisper.json","status":"needs-humanized-master-and-manifest"},
-    {"id":"smuggler","name":"The Smuggler","faction":"villains","reference":"characters/villains/smuggler/humanized/master/master.png","poseManifest":"tools/pose-factory/manifests/smuggler.json","status":"needs-humanized-master-and-manifest"}
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "faction": "heroes",
+      "reference": "characters/heroes/atlas/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/atlas.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "faction": "heroes",
+      "reference": "characters/heroes/pixel/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/pixel.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "ink",
+      "name": "Ink",
+      "faction": "heroes",
+      "reference": "characters/heroes/ink/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/ink.json",
+      "status": "complete-40-approved"
+    },
+    {
+      "id": "sterling",
+      "name": "Sterling",
+      "faction": "heroes",
+      "reference": "characters/heroes/sterling/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/sterling.json",
+      "status": "production-ready-complete-poses-20-40"
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "faction": "heroes",
+      "reference": "characters/heroes/forge/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/forge.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "porter",
+      "name": "Porter",
+      "faction": "heroes",
+      "reference": "characters/heroes/porter/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/porter.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "echo",
+      "name": "Echo",
+      "faction": "heroes",
+      "reference": "characters/heroes/echo/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/echo.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "director",
+      "name": "The Director",
+      "faction": "villains",
+      "reference": "characters/villains/director/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/director.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "counterfeiter",
+      "name": "The Counterfeiter",
+      "faction": "villains",
+      "reference": "characters/villains/counterfeiter/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/counterfeiter.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "restorer",
+      "name": "The Restorer",
+      "faction": "villains",
+      "reference": "characters/villains/restorer/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/restorer.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "hacker",
+      "name": "The Hacker",
+      "faction": "villains",
+      "reference": "characters/villains/hacker/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/hacker.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "hoarder",
+      "name": "The Hoarder",
+      "faction": "villains",
+      "reference": "characters/villains/hoarder/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/hoarder.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "vault",
+      "name": "The Vault",
+      "faction": "villains",
+      "reference": "characters/villains/vault/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/vault.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "whisper",
+      "name": "The Whisper",
+      "faction": "villains",
+      "reference": "characters/villains/whisper/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/whisper.json",
+      "status": "production-ready-calibration-passed"
+    },
+    {
+      "id": "smuggler",
+      "name": "The Smuggler",
+      "faction": "villains",
+      "reference": "characters/villains/smuggler/humanized/master/master.png",
+      "poseManifest": "tools/pose-factory/manifests/smuggler.json",
+      "status": "production-ready-calibration-passed"
+    }
   ]
 }
