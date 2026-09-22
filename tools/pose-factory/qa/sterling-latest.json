@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "character": "sterling",
+  "form": "humanized",
+  "createdAt": "2026-09-22T21:27:38.788Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "MISSING"
+    },
+    {
+      "pose": 2,
+      "status": "MISSING"
+    },
+    {
+      "pose": 3,
+      "status": "MISSING"
+    },
+    {
+      "pose": 4,
+      "status": "MISSING"
+    },
+    {
+      "pose": 5,
+      "status": "MISSING"
+    },
+    {
+      "pose": 6,
+      "status": "MISSING"
+    },
+    {
+      "pose": 7,
+      "status": "MISSING"
+    },
+    {
+      "pose": 8,
+      "status": "MISSING"
+    },
+    {
+      "pose": 9,
+      "status": "MISSING"
+    },
+    {
+      "pose": 10,
+      "status": "MISSING"
+    },
+    {
+      "pose": 11,
+      "status": "MISSING"
+    },
+    {
+      "pose": 12,
+      "status": "MISSING"
+    },
+    {
+      "pose": 13,
+      "status": "MISSING"
+    },
+    {
+      "pose": 14,
+      "status": "MISSING"
+    },
+    {
+      "pose": 15,
+      "status": "MISSING"
+    },
+    {
+      "pose": 16,
+      "status": "MISSING"
+    },
+    {
+      "pose": 17,
+      "status": "MISSING"
+    },
+    {
+      "pose": 18,
+      "status": "MISSING"
+    },
+    {
+      "pose": 19,
+      "status": "MISSING"
+    },
+    {
+      "pose": 20,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes are blue rather than required amber-gold.",
+        "Gold monocle is over the character's left eye instead of the required right eye."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested armchair-style seated pose is not shown; the character is standing with ankles crossed.",
+        "Eyes appear blue rather than the required amber-gold.",
+        "Monocle is over the character's left eye rather than the required right eye."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Eyes are blue rather than the required amber-gold.",
+        "Gold monocle is over the character's LEFT eye, not the required RIGHT eye.",
+        "Tiptoe stretch is somewhat readable, but the feet appear nearly suspended, weakening grounded tiptoe contact."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eye color is blue/teal rather than the locked amber-gold.",
+        "Gold monocle is over the character's LEFT eye rather than the required RIGHT eye.",
+        "Facial geometry and apparent age drift older and narrower than the approved master reference."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Eyes appear blue/teal rather than required amber-gold.",
+        "Monocle is over the character's left eye, not the required right eye.",
+        "Facial geometry and build are broader and more mature than the approved reference, causing identity/proportion drift."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Eye color is amber-gold rather than the canonical reference's blue, causing identity drift.",
+        "Monocle is over the subject's LEFT eye (viewer-right), violating the explicit RIGHT-eye lock."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes are blue rather than canonical amber-gold.",
+        "Monocle is over the character's left eye, not the required right eye."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Eye color drifts from the approved master: candidate has amber-gold eyes while the reference has bright blue eyes.",
+        "Canonical identity consistency therefore fails despite the spinning-monocle pose and wardrobe being otherwise clear."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Facial geometry and apparent age drift substantially from the youthful canonical reference; candidate appears older, broader-jawed, and more rugged.",
+        "Visible eye is blue rather than the required amber-gold.",
+        "Pose and suspicious squint are clear, and the wardrobe/accessories otherwise closely match."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested tiptoe stance is not readable; both feet are visibly airborne, making the pose appear like jumping or hovering.",
+        "The horizontal barrier does not convincingly occlude the body, so the action does not clearly read as peeking over something.",
+        "Eye color drifts from the required amber-gold, with a visibly blue uncovered eye."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Gold monocle is on the character's left eye rather than the required RIGHT eye.",
+        "Visible eye is blue rather than the required amber-gold.",
+        "The glowing monocle and diamond-appraisal pose are otherwise clear and wardrobe closely matches the reference."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Eye color is blue/cyan rather than the required amber-gold."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes are blue rather than the locked amber-gold color."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Eye color is blue/cyan rather than the required amber-gold.",
+        "Gold monocle is over the character's LEFT eye, not the required RIGHT eye.",
+        "Requested badge-buffing pose is clear and identity/wardrobe otherwise closely match the master reference."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Eyes are blue/teal rather than the required amber-gold.",
+        "Gold monocle is over the character's left eye, not the required right eye."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eye color is blue/teal rather than the required amber-gold.",
+        "The monocle is over the character's left eye (viewer-right), not the required right eye."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes are bright blue rather than the required amber-gold.",
+        "Gold monocle is over the character's left eye rather than the required right eye."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Eye color is bright blue rather than the required amber-gold."
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes are blue/cyan rather than the required amber-gold.",
+        "Monocle is over the character's left eye rather than the required right eye.",
+        "Worm's-eye camera angle is clear and wardrobe otherwise closely matches the master reference."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes appear blue rather than required amber-gold.",
+        "Monocle is over the character's left eye, not the required right eye."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Eyes are blue rather than the required amber-gold.",
+        "Monocle is over the character's LEFT eye (viewer-right), not the required RIGHT eye.",
+        "Pose, wardrobe, and overall identity otherwise closely match the approved reference."
+      ]
+    }
+  ]
+}
