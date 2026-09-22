@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "character": "sterling",
   "form": "humanized",
-  "createdAt": "2026-09-22T21:27:38.788Z",
+  "createdAt": "2026-09-22T22:04:49.898Z",
   "results": [
     {
       "pose": 1,
@@ -82,11 +82,13 @@
     },
     {
       "pose": 20,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.97,
       "reasons": [
-        "Eyes are blue rather than required amber-gold.",
-        "Gold monocle is over the character's left eye instead of the required right eye."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, skin tone, and proportions match the master reference.",
+        "Wardrobe, footwear, gloves, emblem, watch, cravat, waistcoat, and monocle placement/chain match the approved design; no long coat.",
+        "Crouched posture, lifted foot, bent knees, cautious hands, and sly expression clearly communicate stealthy sneaking.",
+        "No malformed anatomy, unrequested props/scenery, text, border, watermark, or third-party imitation."
       ]
     },
     {
@@ -94,9 +96,8 @@
       "status": "FAIL",
       "confidence": 0.99,
       "reasons": [
-        "Requested armchair-style seated pose is not shown; the character is standing with ankles crossed.",
-        "Eyes appear blue rather than the required amber-gold.",
-        "Monocle is over the character's left eye rather than the required right eye."
+        "Requested armchair-style seated pose is not readable; the character is standing upright with crossed arms and ankles rather than sitting with one leg crossed.",
+        "Identity, wardrobe, emblem, monocle, and overall design otherwise closely match the canonical reference."
       ]
     },
     {
@@ -104,19 +105,19 @@
       "status": "FAIL",
       "confidence": 0.98,
       "reasons": [
-        "Eyes are blue rather than the required amber-gold.",
-        "Gold monocle is over the character's LEFT eye, not the required RIGHT eye.",
-        "Tiptoe stretch is somewhat readable, but the feet appear nearly suspended, weakening grounded tiptoe contact."
+        "Requested tiptoe stretch is not correctly depicted: both shoes are visibly suspended above the ground, making Sterling appear to levitate rather than balance on his toes.",
+        "Canonical identity, wardrobe, monocle placement, colors, and accessories otherwise closely match the approved reference."
       ]
     },
     {
       "pose": 23,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.96,
       "reasons": [
-        "Eye color is blue/teal rather than the locked amber-gold.",
-        "Gold monocle is over the character's LEFT eye rather than the required RIGHT eye.",
-        "Facial geometry and apparent age drift older and narrower than the approved master reference."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, skin tone, and proportions match the reference.",
+        "Wardrobe, footwear, emblem, gloves, monocle placement and chain, cravat, waistcoat, watch, and other signature details are consistent.",
+        "Clipboard and pen are present; the writing-notes pose and focused expression are clearly readable.",
+        "No long coat, malformed anatomy, unrequested scenery, text, border, watermark, or imitation is present."
       ]
     },
     {
@@ -124,156 +125,178 @@
       "status": "FAIL",
       "confidence": 0.98,
       "reasons": [
-        "Eyes appear blue/teal rather than required amber-gold.",
-        "Monocle is over the character's left eye, not the required right eye.",
-        "Facial geometry and build are broader and more mature than the approved reference, causing identity/proportion drift."
+        "Gold monocle is over the character's left eye rather than the required RIGHT eye; this is a locked asymmetric identifier."
       ]
     },
     {
       "pose": 25,
-      "status": "FAIL",
-      "confidence": 0.98,
+      "status": "PASS",
+      "confidence": 0.97,
       "reasons": [
-        "Eye color is amber-gold rather than the canonical reference's blue, causing identity drift.",
-        "Monocle is over the subject's LEFT eye (viewer-right), violating the explicit RIGHT-eye lock."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, skin tone, and proportions match the approved reference.",
+        "Wardrobe, footwear, gloves, emblem, cravat, waistcoat, watch, monocle, chain, and other signature details are consistent with the reference.",
+        "High-angle camera view and upward gaze are clearly readable.",
+        "No long coat, malformed anatomy, unrequested prop/scenery, text, border, or watermark is present."
       ]
     },
     {
       "pose": 26,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.98,
       "reasons": [
-        "Eyes are blue rather than canonical amber-gold.",
-        "Monocle is over the character's left eye, not the required right eye."
+        "Canonical identity, facial geometry, hair, eyes, skin tone, proportions, wardrobe, footwear, emblem, monocle, chain, and watch match the approved reference.",
+        "Both open, upturned gloved hands clearly read as a presenting showman gesture.",
+        "Expression and frontal camera angle are clear; anatomy is sound.",
+        "No long coat, unrequested props, scenery, text, border, watermark, or animal anatomy."
       ]
     },
     {
       "pose": 27,
-      "status": "FAIL",
-      "confidence": 0.94,
+      "status": "PASS",
+      "confidence": 0.98,
       "reasons": [
-        "Eye color drifts from the approved master: candidate has amber-gold eyes while the reference has bright blue eyes.",
-        "Canonical identity consistency therefore fails despite the spinning-monocle pose and wardrobe being otherwise clear."
+        "Identity, facial geometry, silver-gray hairstyle, blue eyes, skin tone, and proportions match the approved reference.",
+        "Canonical waistcoat, shirt, cravat, gloves, trousers, footwear, emblem, watch, and gold monocle chain are consistent; no long coat.",
+        "Monocle is clearly shown spinning on its chain with motion cues and a playful raised-finger pose and expression.",
+        "No malformed anatomy, unrequested scenery, text, border, watermark, or third-party imitation is visible."
       ]
     },
     {
       "pose": 28,
-      "status": "FAIL",
-      "confidence": 0.98,
+      "status": "PASS",
+      "confidence": 0.97,
       "reasons": [
-        "Facial geometry and apparent age drift substantially from the youthful canonical reference; candidate appears older, broader-jawed, and more rugged.",
-        "Visible eye is blue rather than the required amber-gold.",
-        "Pose and suspicious squint are clear, and the wardrobe/accessories otherwise closely match."
+        "Canonical identity, facial structure, silver-gray hairstyle, blue eyes, skin tone, proportions, wardrobe, footwear, emblem, gloves, watch, and gold chained monocle are consistent with the master reference.",
+        "Leaning-forward pose and suspicious squint are clearly readable.",
+        "No long coat, malformed anatomy, unrequested scenery, text, border, or watermark is present."
       ]
     },
     {
       "pose": 29,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.96,
       "reasons": [
-        "Requested tiptoe stance is not readable; both feet are visibly airborne, making the pose appear like jumping or hovering.",
-        "The horizontal barrier does not convincingly occlude the body, so the action does not clearly read as peeking over something.",
-        "Eye color drifts from the required amber-gold, with a visibly blue uncovered eye."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, and skin tone match the reference.",
+        "Wardrobe and identifiers are consistent: cream waistcoat, gray-blue shirt, silver cravat, white gloves, emblem, monocle with chain, trousers, and brown footwear.",
+        "Tiptoe stance and peeking over the plain barrier are clearly readable from the frontal camera angle.",
+        "No malformed anatomy, text, watermark, border, animal traits, long coat, or unrelated scenery is present."
       ]
     },
     {
       "pose": 30,
       "status": "FAIL",
-      "confidence": 0.98,
+      "confidence": 0.9,
       "reasons": [
-        "Gold monocle is on the character's left eye rather than the required RIGHT eye.",
-        "Visible eye is blue rather than the required amber-gold.",
-        "The glowing monocle and diamond-appraisal pose are otherwise clear and wardrobe closely matches the reference."
+        "No valuable object is present, so the requested action of appraising something valuable is not clearly readable.",
+        "Canonical gold wristwatch from the approved reference is missing."
       ]
     },
     {
       "pose": 31,
-      "status": "FAIL",
-      "confidence": 0.97,
+      "status": "PASS",
+      "confidence": 0.98,
       "reasons": [
-        "Eye color is blue/cyan rather than the required amber-gold."
+        "Canonical identity, facial geometry, hair, blue eyes, wardrobe, emblem, monocle placement, and accessories match the approved reference.",
+        "Polite laughter is clearly conveyed with a smiling expression and a white-gloved hand covering the mouth.",
+        "Anatomy and proportions are coherent; no coat, extra prop, scenery, text, border, or watermark is present."
       ]
     },
     {
       "pose": 32,
-      "status": "FAIL",
+      "status": "PASS",
       "confidence": 0.99,
       "reasons": [
-        "Eyes are blue rather than the locked amber-gold color."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, and skin tone match the approved reference.",
+        "Wardrobe and identifiers are consistent: cream waistcoat, gray-blue shirt, silver cravat, white gloves, emblem, gold monocle and chain, watch, trousers, and brown footwear.",
+        "Monocle remains on the same eye as the canonical reference.",
+        "Whispering pose is clearly readable with a gloved hand cupped beside the mouth and an appropriate speaking expression.",
+        "No malformed anatomy, long coat, unrequested prop/scenery, text, border, or watermark is present."
       ]
     },
     {
       "pose": 33,
-      "status": "FAIL",
-      "confidence": 0.98,
+      "status": "PASS",
+      "confidence": 0.94,
       "reasons": [
-        "Eye color is blue/cyan rather than the required amber-gold.",
-        "Gold monocle is over the character's LEFT eye, not the required RIGHT eye.",
-        "Requested badge-buffing pose is clear and identity/wardrobe otherwise closely match the master reference."
+        "Canonical identity, facial geometry, silver-gray hair, blue eyes, wardrobe, footwear, monocle, and emblem are consistent with the approved reference.",
+        "Gloved hands visibly buff and present the chest badge with a proud expression.",
+        "No malformed anatomy, long coat, text, watermark, border, scenery, or unrequested prop is present."
       ]
     },
     {
       "pose": 34,
-      "status": "FAIL",
+      "status": "PASS",
       "confidence": 0.98,
       "reasons": [
-        "Eyes are blue/teal rather than the required amber-gold.",
-        "Gold monocle is over the character's left eye, not the required right eye."
+        "Canonical identity, facial geometry, silver-gray hairstyle, bright blue eyes, skin tone, and proportions match the reference.",
+        "Cream waistcoat, gray-blue shirt, silver-gray cravat, white gloves, emblem, monocle and chain, watch, trousers, and footwear remain consistent.",
+        "Concerned expression and gloved hand-to-chest pose are clearly readable.",
+        "No malformed anatomy, unrequested props or scenery, text, border, or watermark."
       ]
     },
     {
       "pose": 35,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.97,
       "reasons": [
-        "Eye color is blue/teal rather than the required amber-gold.",
-        "The monocle is over the character's left eye (viewer-right), not the required right eye."
+        "Canonical identity, facial geometry, silver-gray hairstyle, bright blue eyes, skin tone, and proportions match the approved reference.",
+        "Wardrobe and signature details are consistent: cream waistcoat, gray-blue shirt, silver-gray cravat, white gloves, emblem, watch, chain, trousers, and brown footwear; no long coat.",
+        "Gold monocle and chain match the canonical placement shown in the master reference.",
+        "The glove-pulling gesture is clear and the confident, focused expression reads as ready to work.",
+        "No malformed anatomy, unrequested props or scenery, text, border, watermark, or third-party imitation is visible."
       ]
     },
     {
       "pose": 36,
-      "status": "FAIL",
+      "status": "PASS",
       "confidence": 0.99,
       "reasons": [
-        "Eyes are bright blue rather than the required amber-gold.",
-        "Gold monocle is over the character's left eye rather than the required right eye."
+        "Canonical identity, facial geometry, silver-gray hairstyle, bright blue eyes, and skin tone match the reference.",
+        "Wardrobe, footwear, gloves, emblem, watch, cravat, waistcoat, and right-eye gold monocle with chain are consistent and correctly placed.",
+        "Raised leg, tilted posture, outstretched arms, wide eyes, and open mouth clearly communicate balancing on one foot while caught off guard.",
+        "No malformed anatomy, long coat, unrequested prop or scenery, text, border, or watermark is present."
       ]
     },
     {
       "pose": 37,
       "status": "FAIL",
-      "confidence": 0.98,
+      "confidence": 0.97,
       "reasons": [
-        "Eye color is bright blue rather than the required amber-gold."
+        "Canonical waistcoat design has drifted from single-breasted to double-breasted with altered lapels, buttons, and chain placement.",
+        "Faction emblem lettering/design does not match the approved master.",
+        "Requested side-lying, elbow-propped catalogue pose is otherwise clearly readable and identity is largely consistent."
       ]
     },
     {
       "pose": 38,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.98,
       "reasons": [
-        "Eyes are blue/cyan rather than the required amber-gold.",
-        "Monocle is over the character's left eye rather than the required right eye.",
-        "Worm's-eye camera angle is clear and wardrobe otherwise closely matches the master reference."
+        "Canonical identity, facial features, hair, eyes, wardrobe, emblem, monocle and accessories match the approved reference.",
+        "Strong low-angle perspective clearly reads as a worm's-eye view.",
+        "Anatomy and proportions are coherent; no prohibited coat, props, scenery, text, border or watermark."
       ]
     },
     {
       "pose": 39,
-      "status": "FAIL",
-      "confidence": 0.99,
+      "status": "PASS",
+      "confidence": 0.98,
       "reasons": [
-        "Eyes appear blue rather than required amber-gold.",
-        "Monocle is over the character's left eye, not the required right eye."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, and skin tone match the approved reference.",
+        "Wardrobe, gloves, footwear, emblem, cravat, and gold monocle with chain remain consistent.",
+        "Arms-wide presenting/revealing pose is clear, with a confident welcoming expression.",
+        "Anatomy is coherent and no unrequested props, scenery, text, border, or watermark are present."
       ]
     },
     {
       "pose": 40,
-      "status": "FAIL",
+      "status": "PASS",
       "confidence": 0.99,
       "reasons": [
-        "Eyes are blue rather than the required amber-gold.",
-        "Monocle is over the character's LEFT eye (viewer-right), not the required RIGHT eye.",
-        "Pose, wardrobe, and overall identity otherwise closely match the approved reference."
+        "Canonical identity, facial geometry, silver-gray hairstyle, blue eyes, skin tone, proportions, wardrobe, footwear, emblem, monocle placement, chain, gloves, and watch match the approved reference.",
+        "Power stance is clearly readable with legs apart and both hands on hips.",
+        "Confident expression and frontal camera angle are clear.",
+        "No malformed anatomy, long coat, unrequested prop/scenery, text, border, or watermark."
       ]
     }
   ]
