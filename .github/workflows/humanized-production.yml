@@ -1,0 +1,51 @@
+name: Humanized Production Batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      character:
+        description: 'Character id to produce'
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci --no-audit --no-fund
+      - name: Generate missing poses
+        run: npx tsx tools/pose-factory/scripts/generate-poses.ts --character=${{ inputs.character }}
+      - name: QA generated poses
+        run: npx tsx tools/pose-factory/scripts/qa-poses.ts --character=${{ inputs.character }}
+      - name: Commit production results
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'collectiverse-pose-factory[bot]'
+          git config user.email 'pose-factory@users.noreply.github.com'
+          git add characters/*/${{ inputs.character }}/humanized/poses/ tools/pose-factory/qa/ || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "poses(${{ inputs.character }}): generate and QA humanized production batch"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((attempt*3))
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: humanized-production-${{ inputs.character }}-${{ github.run_number }}
+          path: |
+            characters/*/${{ inputs.character }}/humanized/poses/
+            tools/pose-factory/qa/${{ inputs.character }}-latest.json
+          retention-days: 30
