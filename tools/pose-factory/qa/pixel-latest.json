@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "character": "pixel",
+  "form": "humanized",
+  "createdAt": "2026-09-22T21:50:18.708Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, facial features, cyan eyes, fair complexion, and platinum hair with cyan tips match the reference.",
+        "White/cyan techwear, black structural accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "Neutral front-facing stance, arms at sides, and friendly smile are clearly readable.",
+        "No animal anatomy, extraneous props, text, border, watermark, or malformed anatomy is present."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Requested 3/4 facing-left angle is incorrect; character faces toward image-right.",
+        "Identity, wardrobe, Keeper C badge, goggles-down scan action, and LEFT-arm scanner gauntlet otherwise match the reference."
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Keeper C badge is missing despite the partially visible chest area",
+        "Body proportions drift from the petite lean canonical build, with exaggerated bust and hips",
+        "Wardrobe detailing omits canonical orange trim and differs substantially from the approved suit design",
+        "Pose and left-arm scanner placement are correct, but signature identity and design identifiers are not"
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical face, platinum hair with cyan tips, cyan eyes, fair complexion, goggles, techwear, and Keeper C badge match the reference.",
+        "Clearly seated cross-legged while examining a cyan hologram projected from the scanner gauntlet on her left arm.",
+        "Wardrobe, footwear, proportions, and left/right asymmetry are consistent; no animal anatomy, malformed anatomy, text, border, watermark, or extraneous prop is present."
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, fair complexion, cyan eyes, and icy-blonde hair with cyan tips match the reference.",
+        "White/cyan techwear, black accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "Excited airborne jump, both hands raised, and big smile are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial features, fair complexion, platinum hair with cyan tips, and cyan eyes are consistent",
+        "White/cyan techwear, black structural accents, footwear, and Keeper C badge match the reference",
+        "Scanner gauntlet is correctly placed on the character's left arm",
+        "Low crouch, goggles-down state, and active ground-scanning action are clearly readable",
+        "No animal anatomy, malformed anatomy, watermark, border, caption, or third-party imitation is visible"
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, complexion, cyan eyes, and platinum hair with cyan tips match the reference.",
+        "White/cyan techwear, black structural accents, goggles, Keeper C badge, and footwear are consistent.",
+        "Scanner gauntlet is on the anatomical left arm.",
+        "Arms-crossed pose and confident smirk are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Pose reads as running toward the camera rather than clearly running right.",
+        "Expression is a slight smile/neutral confidence, not clearly determined.",
+        "Body proportions appear more curvy and mature than the canonical petite lean build."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, complexion, cyan eyes, and platinum hair with cyan tips match the reference.",
+        "White/cyan techwear, black accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly worn on the character's left arm.",
+        "Right hand clearly points forward with an engaged discovery expression.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, facial features, hair, cyan eyes, complexion, and proportions are consistent with the reference.",
+        "White/cyan techwear, black accents, goggles, Keeper C badge, scanner gauntlet, and footwear are retained.",
+        "Upward gaze, parted lips, and open-handed posture clearly convey wonder.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, fair complexion, cyan eyes, and platinum hair with cyan tips match the reference.",
+        "White/cyan techwear, black structural accents, goggles, Keeper C badge, and footwear are consistent.",
+        "Clearly waving with her right hand and wearing the scanner gauntlet on her left arm.",
+        "Cheerful expression and front-facing camera angle are readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, facial features, fair complexion, icy-blonde hair with cyan tips, and cyan eyes match the reference.",
+        "White/cyan techwear, black structural accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on the left arm.",
+        "Clear left-profile walking pose with coherent anatomy and proportions.",
+        "No animal anatomy, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Scanner gauntlet is on the character's right arm instead of the required LEFT arm.",
+        "Body is presented in a three-quarter view rather than a clear right-profile standing pose."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial features, cyan eyes, fair complexion, and platinum hair with cyan tips match",
+        "White/cyan techwear, black accents, goggles, Keeper C badge, and footwear are consistent",
+        "Scanner gauntlet is correctly placed on the character's left arm",
+        "Both hands are clearly on hips with a proud, confident expression",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, cyan eyes, fair complexion, platinum hair with cyan tips, and goggles match the reference.",
+        "White/cyan techwear, black structural accents, Keeper C badge, boots, and left-arm scanner gauntlet are consistent.",
+        "Glowing trading card is clearly held with both hands.",
+        "No animal anatomy, malformed anatomy, watermark, caption, border, or unrequested scenery is present."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, complexion, icy-blonde/cyan hair, and cyan eye match the reference.",
+        "Right-hand thumbs-up and wink are clearly readable.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "White/cyan techwear, black structural accents, goggles, Keeper C badge, proportions, and footwear are consistent.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "PASS",
+      "confidence": 0.93,
+      "reasons": [
+        "Canonical identity, facial features, fair complexion, cyan eyes, and icy-blonde/cyan-tipped hairstyle match",
+        "White/cyan techwear, black accents, goggles, footwear, and Keeper C badge are consistent",
+        "Scanner gauntlet is correctly placed on her left arm",
+        "Startled expression and reactive posture are clearly readable",
+        "No animal anatomy, unrequested props, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, hair, cyan eyes, complexion, proportions, techwear, goggles, Keeper C badge, and footwear match.",
+        "Thinking pose is clear with hand on chin and gaze directed up-right.",
+        "Scanner gauntlet is correctly placed on her anatomical left arm.",
+        "No animal anatomy, unrequested props, scenery, text, border, watermark, or malformed anatomy."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, hair, cyan eyes, complexion, and techwear are consistent with the master reference.",
+        "Celebratory right-fist pump is clearly readable; the scanner gauntlet is correctly on her left arm.",
+        "Keeper C badge, goggles, footwear, and white/cyan/black wardrobe details are present and coherent.",
+        "No animal anatomy, malformed anatomy, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity and white/cyan/black techwear match the reference.",
+        "Platinum hair with cyan tips, cyan eyes, forehead goggles, and Keeper C badge are correct.",
+        "Scanner gauntlet is correctly placed on her left arm.",
+        "Crouched, guarded step and outstretched hands clearly convey cautious sneaking.",
+        "No animal anatomy, malformed anatomy, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, complexion, icy-blonde/cyan hair, and cyan eyes match",
+        "White/cyan techwear, black accents, goggles, footwear, and Keeper C badge are consistent",
+        "Scanner gauntlet is correctly placed on the character's left arm",
+        "Relaxed ground-seated pose with legs extended forward is clearly readable",
+        "No animal anatomy, malformed anatomy, unrequested props, scenery, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, face, fair complexion, icy-blonde/cyan-tipped hair, and cyan eyes match the reference.",
+        "White/cyan techwear, black structural accents, goggles, Keeper C badge, and footwear are consistent.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "Both arms reach overhead in a clearly readable stretching pose.",
+        "No animal anatomy, unrequested props, text, border, watermark, or obvious anatomical defects are present."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, facial features, complexion, icy-blonde/cyan hair, and cyan eyes match the reference.",
+        "White/cyan techwear, black accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on her left arm, with a clearly visible hologram.",
+        "Gaze and focused expression are directed toward the left-gauntlet hologram.",
+        "No animal anatomy, malformed anatomy, watermark, border, caption, or unrelated prop is present."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, facial geometry, fair complexion, cyan eyes, platinum hair with cyan tips, and goggles match the master reference.",
+        "White/cyan techwear, black structural accents, Keeper C chest badge, and footwear are consistent.",
+        "Scanner gauntlet is present on the character's left arm; the opposite forearm armor does not obscure the required asymmetry.",
+        "Heroic stance and slight low camera angle are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Identity, facial geometry, fair complexion, icy-blonde/cyan hair, and cyan eyes match the approved reference.",
+        "Canonical white/cyan/black techwear, forehead goggles, Keeper C badge, and footwear are consistent.",
+        "Scanner gauntlet is correctly placed on her left arm.",
+        "Cute expression and slight high-angle full-body pose are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Peace sign is made with the left hand rather than the requested right hand.",
+        "Scanner-like cyan gauntlets appear on both forearms, weakening the required left-arm asymmetry."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical Keeper C chest badge is missing.",
+        "Body proportions drift from the approved petite, lean build, with exaggerated hips.",
+        "Core hair, goggles, cyan eyes, techwear, left-arm scanner gauntlet, and dynamic twirl pose otherwise read correctly."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, fair complexion, icy-blonde/cyan-tipped hair, and cyan eye match the master reference.",
+        "White/cyan techwear, black structural accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on her left arm.",
+        "Forward lean and one-eyed squint clearly communicate detective mode.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "A visible male partner is present, violating the requested back-to-back stance with an invisible partner and the ban on unrequested characters.",
+        "The hand-holding interaction weakens the intended independent ready stance."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial features, complexion, cyan eyes, and icy-blonde hair with cyan tips match the reference.",
+        "White/cyan techwear, black accents, footwear, goggles, and Keeper C badge are consistent.",
+        "Glowing goggles and scanning beam from the anatomical LEFT gauntlet are clearly readable.",
+        "No animal anatomy, malformed anatomy, watermark, border, caption, or unrequested prop is present."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity and white/cyan techwear match the reference, including goggles, cyan-tipped platinum hair, black accents, boots, and Keeper C badge.",
+        "Scanner gauntlet is correctly placed on her left arm.",
+        "Laughing expression is clear with eyes closed and head tilted back.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, hair, cyan eyes, complexion, and petite proportions match the master reference.",
+        "White/cyan techwear, black structural accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "Cupped hand at mouth and sneaky grin clearly communicate whispering.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial features, cyan eyes, fair complexion, icy-blonde/cyan hair, goggles, techwear, footwear, and Keeper C badge match the reference.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "Both-arm flex pose and playful confident expression are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial features, fair complexion, cyan eyes, and platinum hair with cyan tips match the master reference.",
+        "White/cyan techwear, black structural accents, goggles, Keeper C badge, and footwear are consistent.",
+        "Scanner gauntlet is correctly placed on her left arm.",
+        "Sad/concerned expression and hand-to-chest pose are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial features, complexion, hair, cyan eyes, proportions, and techwear match the approved reference.",
+        "Determined expression and both clenched fists are clearly readable.",
+        "Scanner gauntlet is correctly placed on her left arm; goggles and Keeper C badge are present.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "The signature scanner gauntlet is prominently placed on the character's RIGHT arm (viewer-left), not the required LEFT arm.",
+        "Both forearms have similar heavy tech modules, weakening the canonical asymmetric arm design.",
+        "Pose, identity, colors, goggles, C badge, and lack of animal anatomy otherwise match the reference."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial features, hair, cyan eyes, complexion, techwear, goggles, and Keeper C badge match the reference",
+        "Scanner gauntlet is correctly placed on the character's left arm",
+        "Lying prone with chin supported by both hands is clear and relaxed",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Clear worm's-eye camera angle with strong upward perspective.",
+        "Canonical identity, facial features, fair skin, cyan eyes, platinum hair with cyan tips, and goggles are consistent.",
+        "White/cyan techwear, black accents, footwear, and Keeper C badge match the reference.",
+        "Scanner gauntlet is correctly placed on the character's left arm.",
+        "No animal anatomy, unrequested props, text, border, or watermark visible."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, complexion, cyan eyes, platinum hair with cyan tips, goggles, and white/cyan/black techwear match the reference.",
+        "Scanner gauntlet is correctly placed on the character's left arm, and the Keeper C badge is present.",
+        "Arms-wide welcoming/presenting pose and friendly expression are clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, fair complexion, cyan eyes, and platinum hair with cyan tips match the reference.",
+        "White/cyan techwear, black structural accents, goggles, footwear, and Keeper C badge are consistent.",
+        "Scanner gauntlet is correctly placed on her anatomical left arm.",
+        "Dramatic hero landing with one knee and one fist grounded is clearly readable.",
+        "No animal anatomy, malformed anatomy, unrequested props, text, border, or watermark is present."
+      ]
+    }
+  ]
+}
