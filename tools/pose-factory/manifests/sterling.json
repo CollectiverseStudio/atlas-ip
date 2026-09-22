@@ -1,10 +1,189 @@
 {
-  "character":"sterling",
-  "name":"Sterling",
-  "humanized":true,
-  "lock":"British male; silver-gray hair; amber-gold eyes; cream/off-white waistcoat; gray-blue shirt; silver-gray cravat; white gloves; gold monocle over RIGHT eye with chain; refined wealthy appraiser; no long coat.",
-  "poses":[
-    [1,"Neutral front-facing, hands at sides, dignified smile"],[2,"3/4 facing left, examining through monocle"],[3,"Back view, looking over shoulder"],[4,"Sitting primly on small stool, legs crossed"],[5,"Holding magnifying glass, inspecting closely"],[6,"Adjusting RIGHT-eye monocle with gloved hand, critical look"],[7,"Hands behind back, chest puffed, proud"],[8,"Walking right, dignified stride"],[9,"Pointing with gloved hand, indicating value/importance"],[10,"Looking up, monocle gleaming"],[11,"Polite hat-tip gesture"],[12,"Left profile"],[13,"Right profile, monocle visible"],[14,"Both hands on hips, disapproving/fake detected"],[15,"Rare coin raised to monocle, examining"],[16,"Refined thumbs up, subtle approval"],[17,"Startled, monocle popping away but attached by chain"],[18,"Thinking, gloved hand on chin"],[19,"Clapping politely, pleased"],[20,"Sneaking/tiptoeing, surprisingly stealthy"],[21,"Armchair pose without chair, relaxed, one leg crossed"],[22,"Stretching on tiptoes, trying to appear taller"],[23,"Writing notes on clipboard, focused"],[24,"Low angle, important despite compact stature"],[25,"High angle, looking up"],[26,"Presenting with both hands, showman gesture"],[27,"Spinning monocle on chain, playful"],[28,"Leaning forward, squinting through monocle, suspicious"],[29,"Standing on tiptoes, peeking over something"],[30,"Monocle glowing, appraising something valuable"],[31,"Laughing politely, gloved hand over mouth"],[32,"Whispering, hand cupped near mouth"],[33,"Buffing badge proudly with gloved hand"],[34,"Concerned, hand to chest"],[35,"Determined, pulling on gloves, ready to work"],[36,"Balancing on one foot, caught off guard"],[37,"Lying on side, propped on elbow, catalogue pose"],[38,"Worm's-eye view"],[39,"Arms wide, presenting/revealing ta-da"],[40,"Power stance, legs apart, hands on hips"]
+  "character": "sterling",
+  "name": "Sterling",
+  "humanized": true,
+  "lock": "British male; silver-gray hair; bright blue eyes; cream/off-white waistcoat; gray-blue shirt; silver-gray cravat; white gloves; gold monocle over RIGHT eye with chain; refined wealthy appraiser; no long coat.",
+  "poses": [
+    [
+      1,
+      "Neutral front-facing, hands at sides, dignified smile"
+    ],
+    [
+      2,
+      "3/4 facing left, examining through monocle"
+    ],
+    [
+      3,
+      "Back view, looking over shoulder"
+    ],
+    [
+      4,
+      "Sitting primly on small stool, legs crossed"
+    ],
+    [
+      5,
+      "Holding magnifying glass, inspecting closely"
+    ],
+    [
+      6,
+      "Adjusting RIGHT-eye monocle with gloved hand, critical look"
+    ],
+    [
+      7,
+      "Hands behind back, chest puffed, proud"
+    ],
+    [
+      8,
+      "Walking right, dignified stride"
+    ],
+    [
+      9,
+      "Pointing with gloved hand, indicating value/importance"
+    ],
+    [
+      10,
+      "Looking up, monocle gleaming"
+    ],
+    [
+      11,
+      "Polite hat-tip gesture"
+    ],
+    [
+      12,
+      "Left profile"
+    ],
+    [
+      13,
+      "Right profile, monocle visible"
+    ],
+    [
+      14,
+      "Both hands on hips, disapproving/fake detected"
+    ],
+    [
+      15,
+      "Rare coin raised to monocle, examining"
+    ],
+    [
+      16,
+      "Refined thumbs up, subtle approval"
+    ],
+    [
+      17,
+      "Startled, monocle popping away but attached by chain"
+    ],
+    [
+      18,
+      "Thinking, gloved hand on chin"
+    ],
+    [
+      19,
+      "Clapping politely, pleased"
+    ],
+    [
+      20,
+      "Sneaking/tiptoeing, surprisingly stealthy"
+    ],
+    [
+      21,
+      "Armchair pose without chair, relaxed, one leg crossed"
+    ],
+    [
+      22,
+      "Stretching on tiptoes, trying to appear taller"
+    ],
+    [
+      23,
+      "Writing notes on clipboard, focused"
+    ],
+    [
+      24,
+      "Low angle, important despite compact stature"
+    ],
+    [
+      25,
+      "High angle, looking up"
+    ],
+    [
+      26,
+      "Presenting with both hands, showman gesture"
+    ],
+    [
+      27,
+      "Spinning monocle on chain, playful"
+    ],
+    [
+      28,
+      "Leaning forward, squinting through monocle, suspicious"
+    ],
+    [
+      29,
+      "Standing on tiptoes, peeking over something"
+    ],
+    [
+      30,
+      "Monocle glowing, appraising something valuable"
+    ],
+    [
+      31,
+      "Laughing politely, gloved hand over mouth"
+    ],
+    [
+      32,
+      "Whispering, hand cupped near mouth"
+    ],
+    [
+      33,
+      "Buffing badge proudly with gloved hand"
+    ],
+    [
+      34,
+      "Concerned, hand to chest"
+    ],
+    [
+      35,
+      "Determined, pulling on gloves, ready to work"
+    ],
+    [
+      36,
+      "Balancing on one foot, caught off guard"
+    ],
+    [
+      37,
+      "Lying on side, propped on elbow, catalogue pose"
+    ],
+    [
+      38,
+      "Worm's-eye view"
+    ],
+    [
+      39,
+      "Arms wide, presenting/revealing ta-da"
+    ],
+    [
+      40,
+      "Power stance, legs apart, hands on hips"
+    ]
   ],
-  "existingApproved":{"1":true,"2":true,"3":true,"4":true,"5":true,"6":true,"7":true,"8":true,"9":true,"10":true,"11":true,"12":true,"13":true,"14":true,"15":true,"16":true,"17":true,"18":true,"19":true}
+  "existingApproved": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true,
+    "12": true,
+    "13": true,
+    "14": true,
+    "15": true,
+    "16": true,
+    "17": true,
+    "18": true,
+    "19": true
+  }
 }
