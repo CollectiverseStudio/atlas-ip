@@ -1,0 +1,56 @@
+name: Humanized Master Calibration
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [reconciliation-canonical-v1]
+    paths:
+      - 'tools/pose-factory/calibration.request'
+
+permissions:
+  contents: write
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { faction: heroes, character: atlas }
+          - { faction: heroes, character: pixel }
+          - { faction: heroes, character: forge }
+          - { faction: heroes, character: porter }
+          - { faction: heroes, character: echo }
+          - { faction: villains, character: director }
+          - { faction: villains, character: counterfeiter }
+          - { faction: villains, character: restorer }
+          - { faction: villains, character: hacker }
+          - { faction: villains, character: hoarder }
+          - { faction: villains, character: vault }
+          - { faction: villains, character: whisper }
+          - { faction: villains, character: smuggler }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci --no-audit --no-fund
+      - name: Generate pose 01 calibration
+        run: npx tsx tools/pose-factory/scripts/generate-poses.ts --character=${{ matrix.character }} --pose=1 --force
+      - name: QA pose 01
+        run: npx tsx tools/pose-factory/scripts/qa-poses.ts --character=${{ matrix.character }} --pose=1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: calibration-${{ matrix.character }}
+          path: |
+            characters/${{ matrix.faction }}/${{ matrix.character }}/humanized/poses/generated/
+            characters/${{ matrix.faction }}/${{ matrix.character }}/humanized/poses/approved/
+            characters/${{ matrix.faction }}/${{ matrix.character }}/humanized/poses/rejected/
+            tools/pose-factory/qa/${{ matrix.character }}-latest.json
+          retention-days: 30
