@@ -25,7 +25,7 @@ async function generateTextOnly(prompt:string){
 
 async function generateFromReference(prompt:string,referencePath:string){
   const image=await fs.readFile(referencePath); const form=new FormData();
-  for(const [k,v] of Object.entries({model:cfg.imageModel,prompt,n:'1',size:cfg.size,quality:cfg.quality,background:cfg.background,output_format:'png',input_fidelity:'high'})) form.append(k,String(v));
+  for(const [k,v] of Object.entries({model:cfg.imageModel,prompt,n:'1',size:cfg.size,quality:cfg.quality,background:cfg.background,output_format:'png'})) form.append(k,String(v));
   form.append('image',new Blob([image],{type:'image/png'}),'master.png');
   const r=await fetch('https://api.openai.com/v1/images/edits',{method:'POST',headers:{Authorization:`Bearer ${API_KEY}`},body:form});
   if(!r.ok) throw new Error(`Image Edit API ${r.status}: ${await r.text()}`);
