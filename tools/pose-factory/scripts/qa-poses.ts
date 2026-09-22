@@ -21,12 +21,17 @@ function dataUrl(buf:Buffer){return `data:image/png;base64,${buf.toString('base6
 async function judge(candidate:Buffer, pose:any){
   const content:any[]=[{type:'input_text',text:`You are a strict visual QA inspector for a copyrighted character asset library. Evaluate the candidate image against the requested pose and canonical identity. Return ONLY valid compact JSON: {"pass":boolean,"confidence":0-1,"reasons":[string]}. Character: ${c.name}. Lock: ${manifest.lock}. Requested pose: ${pose[1]}. Global requirements: ${rules.required.join('; ')}. Character-specific: ${(rules.characterSpecific[c.id]||[]).join('; ')}. Fail if identity/wardrobe/accessories drift, requested pose is unclear, left/right details are wrong, anatomy is malformed, an unrequested prop/scenery appears, or text/watermark appears.`},{type:'input_image',image_url:dataUrl(candidate),detail:'high'}];
   if(await exists(referencePath)) content.push({type:'input_text',text:'The next image is the canonical approved master reference. Compare identity and design against it.'},{type:'input_image',image_url:dataUrl(await fs.readFile(referencePath)),detail:'high'});
-  const r=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{'Authorization':`Bearer ${API_KEY}`,'Content-Type':'application/json'},body:JSON.stringify({model:'gpt-5.6-sol',input:[{role:'user',content}],max_output_tokens:300})});
+  const r=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{'Authorization':`Bearer ${API_KEY}`,'Content-Type':'application/json'},body:JSON.stringify({model:'gpt-5.6-sol',input:[{role:'user',content}],max_output_tokens:800})});
   if(!r.ok) throw new Error(`QA API ${r.status}: ${await r.text()}`);
   const j:any=await r.json();
   const text=j.output_text ?? j.output?.flatMap((x:any)=>x.content||[]).find((x:any)=>x.type==='output_text')?.text;
   if(!text) throw new Error('QA model returned no text');
-  return JSON.parse(text.replace(/^```json\s*|\s*```$/g,''));
+  const cleaned=text.replace(/^```json\s*|\s*```$/g,'').trim();
+  try { return JSON.parse(cleaned); } catch {
+    const pass=/\"pass\"\s*:\s*true/i.test(cleaned);
+    const cm=cleaned.match(/\"confidence\"\s*:\s*([0-9.]+)/i);
+    return {pass,confidence:cm?Number(cm[1]):0,reasons:[`QA response was malformed/truncated; conservative fail. Raw: ${cleaned.slice(0,240)}`]};
+  }
 }
 
 const generated=path.resolve('characters',c.faction,c.id,'humanized','poses','generated');
