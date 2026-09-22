@@ -9,6 +9,8 @@ const cfg = JSON.parse(await fs.readFile(path.join(TOOL_ROOT,'config/characters.
 const arg = process.argv.find(a=>a.startsWith('--character='));
 const onlyCharacter = arg?.split('=')[1];
 const force = process.argv.includes('--force');
+const poseArg = process.argv.find(a=>a.startsWith('--pose='));
+const onlyPose = poseArg ? Number(poseArg.split('=')[1]) : undefined;
 const selected = cfg.characters.filter((c:any)=>!onlyCharacter || c.id===onlyCharacter);
 if (!selected.length) throw new Error(`Unknown character: ${onlyCharacter}`);
 
@@ -49,8 +51,10 @@ for(const c of selected){
  await fs.mkdir(out,{recursive:true});
  console.log(`[REFERENCE] ${c.name}: ${referencePath}`);
  for(const pose of manifest.poses){
+  if(onlyPose && Number(pose[0])!==onlyPose) continue;
   const num=String(pose[0]).padStart(2,'0'); const file=path.join(out,`${c.id}_humanized_${num}.png`);
-  if(!force && await exists(file)){console.log(`[EXISTS] ${c.name} ${num}`);continue}
+  const approvedFile=path.resolve('characters',c.faction,c.id,'humanized','poses','approved',`${c.id}_humanized_${num}.png`);
+  if(!force && (await exists(file) || await exists(approvedFile))){console.log(`[EXISTS] ${c.name} ${num}`);continue}
   console.log(`[GENERATE] ${c.name} ${num}: ${pose[1]}`);
   const png=await generateFromReference(promptFor(c,manifest,pose),referencePath);
   await fs.writeFile(file,png); console.log(`[STAGED] ${file}`);
