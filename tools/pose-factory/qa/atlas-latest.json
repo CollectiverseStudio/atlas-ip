@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "character": "atlas",
+  "form": "humanized",
+  "createdAt": "2026-09-22T21:50:07.071Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Atlas identity, apparent age, facial features, skin tone, dark wavy hair, and brown eyes align with the approved reference.",
+        "Canonical white/blue/gold leader jacket, high collar, gold trim, and C badge placement are consistent.",
+        "Neutral full-body standing pose is clearly readable and faces the camera.",
+        "Anatomy, proportions, footwear, and asymmetric equipment appear coherent; no unrequested scenery, text, border, watermark, or animal anatomy is present."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical Atlas identity, age, facial geometry, skin tone, dark wavy hair, and eye appearance are preserved.",
+        "White, blue, and gold leader outfit, C chest badge, gloves, trousers, and footwear are consistent with the approved design.",
+        "Three-quarter view facing left is clearly readable.",
+        "Anatomy and proportions are coherent; no unrequested props, scenery, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Prominent cybernetic left forearm and hand are not supported by the canonical reference, causing major anatomy/accessory drift.",
+        "Canonical jacket sleeve design is altered around the cybernetic arm.",
+        "Pose, face, hair, colors, and C badge otherwise read consistently as Atlas in a three-quarter view facing right."
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "QA response was malformed/truncated; conservative fail. Raw: {\"pass\":false,\"confidence\":0.94,\"reasons\":[\"Pose is a three-quarter left-facing view rather than a clear strict left profile.\",\"Canonical glove asymmetry is reversed: the reference shows the right hand gloved, while"
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Clear right-facing profile with matching young-adult facial geometry, Mediterranean skin tone, dark wavy hair, and brown eye.",
+        "Canonical white/blue/gold leader outfit, high collar, C badge, gloves, trousers, and footwear are consistent.",
+        "Anatomy and proportions are sound; no unrequested props, scenery, animal traits, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "Unapproved asymmetric mechanical gauntlet/accessory on the right hand causes canonical design drift.",
+        "Canonical reference shows a standard white glove rather than the black cybernetic glove.",
+        "Requested back view with slight over-shoulder look is clear, and core face, hair, colors, jacket, emblem, and footwear otherwise align."
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical Atlas identity is preserved: matching youthful Mediterranean facial geometry, tan skin, dark wavy hair, and brown eyes.",
+        "White, blue, and gold leader uniform, C badge placement, gloves, belt, trousers, and boots are coherent with the approved design.",
+        "Confident arms-crossed pose and self-assured expression are clearly readable.",
+        "Anatomy and proportions are sound; no unrequested props, scenery, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Cybernetic arm is on Atlas's left side, while the canonical reference places it on his right side.",
+        "Cybernetic limb design is substantially enlarged and drifts from the canonical glove/forearm accessory.",
+        "Walking-forward pose, face, hair, palette, jacket, C badge, and footwear otherwise read clearly and consistently."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Unapproved illuminated technological forearm gauntlet causes clear accessory/wardrobe drift from the canonical master.",
+        "Jacket sleeve construction is substantially more armored and gadget-heavy than the approved design.",
+        "Pose is clearly running forward, and core facial identity, colors, C badge placement, and confident expression otherwise match."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical Atlas identity, facial geometry, skin tone, dark wavy hair, and young-adult proportions match the approved reference.",
+        "White, blue, and gold leader uniform, C badge, gloves, belt, and boots are consistent.",
+        "Extended arm and index finger clearly point left.",
+        "Anatomy is coherent with no extra props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "The C faction badge is mirrored onto Atlas's right chest; the canonical reference places it on his left chest.",
+        "Requested pointing-right pose is clear, and overall identity, hair, facial features, and wardrobe otherwise closely match the reference."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Atlas identity, facial features, skin tone, dark wavy hair, and young-adult appearance match the reference.",
+        "White/blue/gold leader uniform, C badge placement, glove, and footwear are consistent.",
+        "Open-palm presenting pose is clear and readable.",
+        "Anatomy is coherent; no unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical Atlas identity, facial geometry, skin tone, dark wavy hair, and confident expression match the reference.",
+        "White/blue/gold leader uniform, high collar, C badge, belt, and coordinated footwear are consistent.",
+        "Both hands are clearly placed on the hips and anatomy is coherent.",
+        "No unrequested scenery, animal anatomy, text, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical Atlas identity is preserved: young Mediterranean-inspired male with matching dark wavy hair, skin tone, facial geometry, and proportions.",
+        "White/blue/gold leader uniform, C chest badge placement, gloves, belt, and coordinated footwear are consistent.",
+        "Hand-at-chin thoughtful pose and contemplative expression are clearly readable.",
+        "Anatomy is coherent; no unrequested props, scenery, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Asymmetric hand detail is reversed: the approved reference has the glove on Atlas's right hand, while the candidate places it on his left hand.",
+        "The candidate adds a prominent technological forearm gauntlet not established in the approved master.",
+        "The collectible-inspection pose is clear and identity, hair, colors, jacket, and C badge otherwise closely match."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical Atlas identity is preserved: Mediterranean-inspired young adult, matching facial geometry, skin tone, dark wavy hair, and brown eyes.",
+        "White, blue, and gold leader uniform, high collar, C badge placement, gloves, belt, trousers, and coordinated footwear are consistent.",
+        "Wide braced stance, forward open palm, and clenched rear fist clearly communicate a protective/defensive ready pose.",
+        "Anatomy is coherent; no unrequested props, scenery, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Major canonical design drift: the cybernetic right arm, glowing devices, armored left forearm, and wrist technology are absent from the approved reference.",
+        "Wardrobe is substantially more armored and technical than the canonical white/blue/gold leader jacket.",
+        "Although the concerned expression and hand-near-chest pose are clear, the unrequested accessories and altered asymmetric details require failure."
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Major accessory drift: candidate has an oversized cybernetic right forearm/hand not present in the canonical reference.",
+        "Expression reads as a mild smirk rather than clearly determined.",
+        "Facial rendering and geometry appear older and more angular than the approved young-adult identity.",
+        "Fists-set stance is readable, and core hair, colors, jacket, and C badge broadly match."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "FAIL",
+      "confidence": 0.9,
+      "reasons": [
+        "Canonical armwear drifts: the candidate has a large futuristic right forearm bracer and a shortened left sleeve exposing the forearm, while the master shows full jacket sleeves with only a wrist glove.",
+        "Core face, hair, colors, chest badge placement, and relaxed standing pose otherwise match closely."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "Unapproved asymmetric cybernetic forearm/gauntlet and mismatched black mechanical glove introduce accessory drift from the canonical reference.",
+        "The seated relaxed pose, face, hair, jacket colors, and C badge otherwise match Atlas clearly."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Asymmetric hand/arm design is reversed: the canonical white armored glove is on Atlas's right side, while the candidate places the major robotic gauntlet on his left.",
+        "The oversized cybernetic forearm and thigh pouch introduce unsupported accessory/wardrobe drift.",
+        "The upward gaze and focused expression are clearly readable, and the core face, hair, colors, jacket, and C badge otherwise match."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Cybernetic/gloved arm is on the wrong side relative to the canonical reference.",
+        "Canonical wardrobe drifts: the approved jacket has predominantly blue sleeves and a quilted white torso, while the candidate uses mostly white sleeves and altered paneling.",
+        "Requested downward-looking-at-object pose is clear, and facial identity, hair, colors, and C badge placement are otherwise close."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Atlas identity, age, facial geometry, skin tone, and dark wavy hair match the approved reference.",
+        "White/blue/gold leader wardrobe, C badge placement, and cybernetic right arm are consistent with canonical asymmetry.",
+        "Wide eyes, open mouth, raised hands, and recoiling stance clearly convey surprise.",
+        "Anatomy and proportions are coherent; no unrequested props, scenery, text, border, watermark, or animal anatomy appear."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Prominent cybernetic forearm and hand are not established in the canonical reference and constitute major anatomy/accessory drift.",
+        "Sleeve and jacket construction around that arm differs from the approved blue-sleeved design.",
+        "Confident smile, facial identity, hair, colors, and C badge otherwise read consistently."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "FAIL",
+      "confidence": 0.86,
+      "reasons": [
+        "Unapproved large cybernetic forearm gauntlet and thigh-mounted equipment create significant accessory/wardrobe drift from the canonical reference.",
+        "Canonical identity, hair, skin tone, C-badge jacket, and serious focused expression otherwise read clearly.",
+        "No text, watermark, scenery, or malformed anatomy is present."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Signature white tech glove/gauntlet is on Atlas's left hand, while the canonical reference places it on his right; asymmetric detail is reversed.",
+        "Pose and core identity otherwise read correctly as Atlas leaning forward to inspect something."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "Canonical gauntlet asymmetry is reversed: the approved reference places it on Atlas's right arm, while the candidate places it on his left arm."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "The requested object being reached toward is absent, making the pose incomplete.",
+        "The glove/prosthetic accessory is on the opposite hand from the canonical reference; the reaching right hand should retain the signature glove.",
+        "The open grasp reads as a generic reach rather than clearly reaching carefully toward a specific object."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Requested back-to-back ready stance is not readable; Atlas is front-facing in a relaxed arms-crossed pose.",
+        "Large camera-like forearm device is an unapproved accessory/prop not present in the canonical reference.",
+        "Identity, hair, complexion, C badge, and core white/blue/gold wardrobe otherwise largely match the reference."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "The C faction badge is mirrored onto Atlas's right chest instead of the canonical left chest.",
+        "The activated/raised hand is on the opposite side from the approved reference, causing left-right design drift."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Signature armored glove/gauntlet is on Atlas's left hand, while the canonical reference places it on his right; asymmetric identifier is reversed.",
+        "The gauntlet is redesigned as an overtly robotic prosthetic with a glowing palm, causing accessory drift from the canonical white glove.",
+        "Laughing expression is clear and natural, and the core face, hair, colors, jacket, and C badge otherwise match."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical glove asymmetry is reversed: the reference shows Atlas's right hand gloved, while the candidate has the right hand bare and the left hand gloved.",
+        "Requested whispering/cupped-hand pose is clear, and core facial, hair, color, jacket, and C-badge identity otherwise match closely."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical Atlas identity, facial geometry, skin tone, dark wavy hair, and apparent age are preserved.",
+        "White/blue/gold leader outfit, footwear, and C badge match the approved design; badge is on the correct chest side.",
+        "Proud stance and jacket-opening gesture clearly showcase the emblem.",
+        "Anatomy is sound, with no unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "The canonical C chest badge is mirrored onto Atlas's right chest; the approved reference places it on his left chest.",
+        "This incorrect left/right placement is a signature wardrobe detail and requires failure despite the clearly readable worried/protective pose and otherwise strong identity match."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "C chest badge is on the opposite side from the canonical reference, violating locked asymmetric placement.",
+        "Armored glowing palm gauntlets substantially drift from the canonical glove design."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Asymmetric glove is on Atlas's left hand, while the canonical reference places it on his right hand.",
+        "Gloved hand anatomy appears malformed/ambiguous with irregular overlapping digits.",
+        "The one-foot balancing pose and core facial/wardrobe identity otherwise read clearly."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Atlas identity, facial geometry, skin tone, dark wavy hair, and apparent age closely match the approved reference.",
+        "White/blue/gold leader uniform and C badge are consistent, with the emblem on the correct chest side.",
+        "Reclining pose is clear and naturally readable, with relaxed hands behind the head and a calm expression.",
+        "Anatomy and proportions are coherent; canonical footwear is present.",
+        "No unrequested props, scenery, animal anatomy, text, border, or watermark appears."
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested silhouette treatment is absent; the character is fully lit and detailed.",
+        "Low-angle camera view is correct, and identity, hair, wardrobe colors, C badge, and footwear generally match the canonical reference."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical face, skin tone, dark wavy hair, and young-adult proportions match the reference.",
+        "White/blue/gold leader uniform and C badge are consistent with Atlas.",
+        "Arms-spread presenting pose is clear and anatomy is coherent.",
+        "No unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Unapproved bronze cybernetic left arm replaces the canonical normal/gloved arm, causing major accessory and identity drift.",
+        "Chest C badge shape and design do not match the canonical hexagonal emblem.",
+        "Wardrobe construction and detailing significantly deviate from the approved leader jacket despite matching the general colors.",
+        "Landing pose is readable, but the canonical design inconsistencies require failure."
+      ]
+    }
+  ]
+}
