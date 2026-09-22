@@ -1,0 +1,32 @@
+name: Extract Humanized Masters from Approved Roster
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [reconciliation-canonical-v1]
+    paths:
+      - 'scripts/extract-roster-humanized-masters.ts'
+      - '.github/workflows/extract-humanized-masters.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci --no-audit --no-fund
+      - run: npx tsx scripts/extract-roster-humanized-masters.ts
+      - name: Commit masters
+        run: |
+          git config user.name 'collectiverse-reconciliation[bot]'
+          git config user.email 'reconciliation@users.noreply.github.com'
+          git add characters/*/*/humanized/master/master.png
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "assets: extract approved humanized masters from consolidated roster"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
