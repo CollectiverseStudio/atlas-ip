@@ -38,7 +38,7 @@ function promptFor(c:any,manifest:any,pose:any){
 Character: ${c.name}.
 Character lock: ${manifest.lock}
 POSE: ${pose[1]}.
-The supplied image is the canonical approved master reference. Preserve exact identity, apparent age, facial geometry, body proportions, hair, eyes, complexion, wardrobe construction, footwear, emblem placement, accessories, and asymmetric left/right details. Do not redesign the character. Only change pose, expression, camera angle, and specifically requested prop. Premium stylized high-detail 3D/CGI comic render. Full body unless the requested camera angle requires otherwise. Clean pure white background. No other characters. Do not invent furniture, scenery, bars, or props. No embedded text, number, pose label, caption, QA graphic, border, signature, or watermark.`;
+The supplied image is the canonical approved master reference. Preserve exact identity, apparent age, facial geometry, body proportions, hair, eyes, complexion, wardrobe construction, footwear, emblem placement, accessories, and asymmetric left/right details. LEFT and RIGHT always mean the CHARACTER'S anatomical left/right, never the viewer's. Do not mirror or swap asymmetric equipment. Do not redesign the character. Only change pose, expression, camera angle, and specifically requested prop. Premium stylized high-detail 3D/CGI comic render. Full body unless the requested camera angle requires otherwise. Clean pure white background. No other characters. For neutral poses, hands must be empty unless the pose explicitly requests a prop. Do not invent furniture, scenery, bars, tools, shields, weapons, or props. No embedded text, number, pose label, caption, QA graphic, border, signature, or watermark.`;
 }
 
 for(const c of selected){
