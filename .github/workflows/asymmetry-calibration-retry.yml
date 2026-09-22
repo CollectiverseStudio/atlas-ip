@@ -1,0 +1,44 @@
+name: Retry Asymmetry Calibration
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [reconciliation-canonical-v1]
+    paths:
+      - 'tools/pose-factory/asymmetry-retry.request'
+
+permissions:
+  contents: read
+
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { faction: heroes, character: pixel }
+          - { faction: heroes, character: forge }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm ci --no-audit --no-fund
+      - name: Generate pose 01
+        run: npx tsx tools/pose-factory/scripts/generate-poses.ts --character=${{ matrix.character }} --pose=1 --force
+      - name: QA pose 01
+        run: npx tsx tools/pose-factory/scripts/qa-poses.ts --character=${{ matrix.character }} --pose=1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: asymmetry-retry-${{ matrix.character }}
+          path: |
+            characters/${{ matrix.faction }}/${{ matrix.character }}/humanized/poses/generated/
+            characters/${{ matrix.faction }}/${{ matrix.character }}/humanized/poses/approved/
+            characters/${{ matrix.faction }}/${{ matrix.character }}/humanized/poses/rejected/
+            tools/pose-factory/qa/${{ matrix.character }}-latest.json
+          retention-days: 30
