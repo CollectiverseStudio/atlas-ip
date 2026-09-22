@@ -4,24 +4,31 @@
 
 | Character | Original library | Humanized approved | Humanized master | Pose manifest |
 |---|---|---:|---|---|
-| Atlas | Complete | 0 | Missing | Missing definitive 1–40 |
-| Pixel | Complete 1–40 | 0 | Missing | Present |
-| Ink | Complete 1–40 + alternate | **40/40** | **Installed** | Existing 40-pose bible; factory manifest still to normalize |
-| Sterling | Complete 1–40 + alternates | **19/40** | **Installed** | Present |
-| Forge | Complete 1–40 + alternate | 0 | Missing | Present |
-| Porter | Complete 1–40 + alternate | 0 | Missing | Present |
-| Echo | Complete 1–40 | 0 | Missing | Present |
-| Director | Complete 1–40 + alternate | 0 | Missing | Missing |
-| Counterfeiter | Complete 1–40 + extras | 0 | Missing | Missing |
-| Restorer | Complete 1–40 + alternate | 0 | Missing | Missing |
-| Hacker | Complete 1–40 + alternate | 0 | Missing | Missing |
-| Hoarder | Complete 1–40 + alternates | 0 | Missing | Missing |
-| Vault | Complete 1–40 + alternate | 0 | Missing | Missing |
-| Whisper | Complete 1–40 | 0 | Missing | Missing |
-| Smuggler | Complete 1–40 | 0 | Missing | Missing |
+| Atlas | Complete | 0 | **Installed** | **Present** |
+| Pixel | Complete 1–40 | 0 | **Installed** | **Present** |
+| Ink | Complete 1–40 + alternate | **40/40** | **Installed** | **Present** |
+| Sterling | Complete 1–40 + alternates | **19/40** | **Installed** | **Present** |
+| Forge | Complete 1–40 + alternate | 0 | **Installed** | **Present** |
+| Porter | Complete 1–40 + alternate | 0 | **Installed** | **Present** |
+| Echo | Complete 1–40 | 0 | **Installed** | **Present** |
+| Director | Complete 1–40 + alternate | 0 | **Installed** | **Present** |
+| Counterfeiter | Complete 1–40 + extras | 0 | **Installed** | **Present** |
+| Restorer | Complete 1–40 + alternate | 0 | **Installed** | **Present** |
+| Hacker | Complete 1–40 + alternate | 0 | **Installed** | **Present** |
+| Hoarder | Complete 1–40 + alternates | 0 | **Installed** | **Present** |
+| Vault | Complete 1–40 + alternate | 0 | **Installed** | **Present** |
+| Whisper | Complete 1–40 | 0 | **Installed** | **Present** |
+| Smuggler | Complete 1–40 | 0 | **Installed** | **Present** |
 
-## Important
+## Humanized master source
 
-The repository currently contains canonical humanized master/reference material only for Ink and Sterling. The Pose Factory is intentionally configured to **block** generation when a canonical humanized master is absent. This prevents accidental character redesign and API spend on text-only generations.
+Ink and Sterling retain their existing standalone approved masters. For the other 13 active characters, the latest consolidated approved humanized roster representation is installed as the deterministic identity master under the user-authorized “latest approved humanized image” rule. The extraction is reproducible from the archived roster source.
 
-The remaining humanized masters must be sourced from previously approved artwork or explicitly locked before their automated 40-pose runs begin.
+## Generation readiness
+
+All 15 active characters now have:
+- a canonical original-form library;
+- a canonical humanized master;
+- a 40-pose manifest.
+
+Ink requires no generation because 40/40 humanized poses are already approved. Sterling requires poses 20–40 to complete its manually approved sequence. The remaining characters are technically ready for reference-conditioned Pose Factory generation and QA.
