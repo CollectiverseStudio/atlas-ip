@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "character": "counterfeiter",
+  "form": "humanized",
+  "lock": "The Counterfeiter humanized young-adult forger/imposter. Irish-inspired woman, red/copper hair, refined bronze/gold artisan styling, confident precise expression; preserve approved consolidated-roster identity.",
+  "poses": [
+    [
+      1,
+      "Neutral full-body standing pose, facing camera"
+    ],
+    [
+      2,
+      "Three-quarter view facing left"
+    ],
+    [
+      3,
+      "Three-quarter view facing right"
+    ],
+    [
+      4,
+      "Left profile"
+    ],
+    [
+      5,
+      "Right profile"
+    ],
+    [
+      6,
+      "Back view, looking slightly over shoulder"
+    ],
+    [
+      7,
+      "Confident arms-crossed stance"
+    ],
+    [
+      8,
+      "Walking forward"
+    ],
+    [
+      9,
+      "Running forward"
+    ],
+    [
+      10,
+      "Pointing left"
+    ],
+    [
+      11,
+      "Pointing right"
+    ],
+    [
+      12,
+      "Presenting with open palm"
+    ],
+    [
+      13,
+      "Hands on hips"
+    ],
+    [
+      14,
+      "Thoughtful pose, hand at chin"
+    ],
+    [
+      15,
+      "Looking closely at a collectible"
+    ],
+    [
+      16,
+      "Protective/defensive ready stance"
+    ],
+    [
+      17,
+      "Concerned expression, hand near chest"
+    ],
+    [
+      18,
+      "Determined stance, fists set"
+    ],
+    [
+      19,
+      "Relaxed casual standing pose"
+    ],
+    [
+      20,
+      "Seated relaxed pose"
+    ],
+    [
+      21,
+      "Looking upward with focused expression"
+    ],
+    [
+      22,
+      "Looking downward at an object"
+    ],
+    [
+      23,
+      "Surprised reaction"
+    ],
+    [
+      24,
+      "Confident smile"
+    ],
+    [
+      25,
+      "Serious focused expression"
+    ],
+    [
+      26,
+      "Leaning forward to inspect something"
+    ],
+    [
+      27,
+      "Dynamic turn/spin pose"
+    ],
+    [
+      28,
+      "Reaching carefully toward an object"
+    ],
+    [
+      29,
+      "Back-to-back ready stance without another visible character"
+    ],
+    [
+      30,
+      "Signature ability active, subtle energy effect only"
+    ],
+    [
+      31,
+      "Laughing naturally"
+    ],
+    [
+      32,
+      "Whispering/cupping hand near mouth"
+    ],
+    [
+      33,
+      "Proud pose showing badge/emblem"
+    ],
+    [
+      34,
+      "Worried/protective pose"
+    ],
+    [
+      35,
+      "Determined action-ready pose"
+    ],
+    [
+      36,
+      "Balancing on one foot"
+    ],
+    [
+      37,
+      "Resting/reclining pose"
+    ],
+    [
+      38,
+      "Low-angle silhouette view"
+    ],
+    [
+      39,
+      "Arms spread wide, presenting"
+    ],
+    [
+      40,
+      "Dramatic full-power landing/power pose"
+    ]
+  ]
+}
