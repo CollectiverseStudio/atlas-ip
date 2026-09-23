@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "character": "restorer",
+  "form": "humanized",
+  "createdAt": "2026-09-23T18:57:40.574Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity is preserved: matching young-adult facial geometry, skin tone, dark topknot hairstyle, and refined expression.",
+        "White clinical coat, black-and-gold underlayer, teal paint accents, and chest emblem align with the approved design.",
+        "Neutral full-body standing pose is clearly readable and substantially front-facing.",
+        "Anatomy and proportions are coherent; footwear is visible and appropriate.",
+        "No unrequested scenery, animal anatomy, text, border, watermark, or recognizable third-party imitation is present."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, dark tied-back hairstyle, skin tone, and apparent age match the approved reference.",
+        "Clinical white coat, black-and-gold underlayer, teal/peacock detailing, chest emblem, accessories, and footwear are consistent.",
+        "Three-quarter view facing left is clearly readable with correct camera angle and natural anatomy.",
+        "No unrequested props, animal anatomy, text, border, watermark, or third-party imitation is present."
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Pose reads as three-quarter facing left/near-frontal, not clearly facing right.",
+        "Large cybernetic forearm and hand are unapproved accessory/anatomy drift from the canonical humanized design.",
+        "Canonical peacock signature treatment is reduced/altered, weakening approved identity consistency."
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Clear left-facing profile with readable neutral expression",
+        "Identity, age, facial structure, dark tied-back hair, and skin tone align with the approved reference",
+        "Canonical white clinical coat, black-and-gold underlayer, teal/peacock ornamentation, chest emblem, and formal footwear are preserved",
+        "Anatomy and proportions are coherent; no unrequested props, scenery, animal anatomy, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "FAIL",
+      "confidence": 0.86,
+      "reasons": [
+        "Pose is not a strict right profile: the head is near-profile, but the torso and legs remain clearly three-quarter.",
+        "Faction emblem drifts from the canonical turquoise-gem design by adding a prominent letter-like C.",
+        "Coat decoration is substantially altered with large peacock-feather graphics not established on the approved master."
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Major accessory/anatomy drift: the candidate has an elaborate exposed cybernetic right arm not established in the canonical reference.",
+        "Wardrobe detailing is substantially altered, replacing the reference's clinical coat markings with prominent peacock-feather graphics and an oversized back emblem.",
+        "The back-view over-shoulder pose is clear, but canonical identity preservation fails due to the unapproved design additions."
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "Major accessory/wardrobe drift: candidate has a prominent cybernetic forearm/gauntlet not present in the canonical reference.",
+        "Canonical facial markings beneath the eyes are missing or substantially altered.",
+        "Arms-crossed pose, confident expression, hair, coat, palette, and emblem otherwise align."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "FAIL",
+      "confidence": 0.91,
+      "reasons": [
+        "Prominent cybernetic left forearm and hand are not established in the canonical reference and constitute major anatomy/accessory drift.",
+        "The walking-forward pose, facial identity, hairstyle, white coat, peacock cues, and chest emblem otherwise align well with the reference."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical face, dark tied-back hair, skin tone, and young-adult proportions match the reference.",
+        "White clinical coat, black-and-gold underlayer, teal peacock detailing, emblem placement, and formal footwear are consistent.",
+        "Forward-running pose is clear and anatomically coherent.",
+        "No unrequested props, animal anatomy, scenery, captions, borders, or watermarks."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Signature peacock/cybernetic apparatus is on the wrong side versus the canonical reference.",
+        "Candidate adds a prominent fully mechanical arm not established by the approved master.",
+        "Chest emblem drifts from the canonical blue-diamond design by adding a conspicuous letter C.",
+        "Although the left-pointing pose is clear, asymmetric identity and accessory details are incorrect."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical facial geometry, dark tied-back hairstyle, skin tone, and apparent age match the master reference.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock detailing, emblem placement, and elegant styling are consistent.",
+        "Extended arm and index finger clearly point right; anatomy is coherent.",
+        "No unrequested props, animal anatomy, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical facial geometry, skin tone, dark tied hairstyle, and facial markings match the approved reference.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock motifs, chest emblem placement, and elegant styling are consistent.",
+        "Extended palm-up hand clearly reads as presenting; anatomy and proportions are coherent.",
+        "No unrequested scenery, animal anatomy, text, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Large mechanical forearm gauntlet is an unapproved accessory/prop absent from the canonical reference and causes major design drift.",
+        "Chest emblem differs from the canonical teal jewel insignia by adding a prominent letter-like mark.",
+        "Hands-on-hips pose, facial identity, hairstyle, palette, coat, and footwear are otherwise clearly readable and broadly consistent."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "Major accessory drift: candidate adds a prominent cybernetic forearm/gauntlet not present in the approved master.",
+        "Canonical peacock-feather silhouette behind the character is missing or replaced by coat-lining motifs.",
+        "Thoughtful hand-at-chin pose and core facial, hair, coat, color, and chest-emblem identity otherwise match."
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity is preserved: young Japanese-inspired male, dark tied-back hair, matching facial geometry, skin tone, and focused expression.",
+        "White clinical coat, black-and-gold underlayer, teal splatter cues, chest emblem placement, belt, trousers, and footwear closely match the master reference.",
+        "Pose clearly reads as closely inspecting a small collectible held near the face.",
+        "Anatomy and proportions are coherent; no animal traits, extraneous scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "FAIL",
+      "confidence": 0.91,
+      "reasons": [
+        "Major accessory/wardrobe drift: the prominent mechanical forearm and hand are not established by the approved reference.",
+        "An unrequested holstered device is present on the thigh.",
+        "Faction chest emblem differs from the reference by adding a conspicuous letter C.",
+        "Identity, hair, coat palette, and defensive stance otherwise read clearly."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Major accessory/anatomy drift: candidate has an elaborate mechanical right forearm and hand not present in the approved master reference.",
+        "Facial identity drifts through added chin facial hair and a harsher, more mature facial structure.",
+        "Requested concerned expression and hand-near-chest pose are readable, but canonical identity consistency fails."
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Requested pose requires fists set, but the cybernetic right hand is visibly open/relaxed rather than clenched."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical dark vertical facial markings beneath the eyes are missing.",
+        "Unapproved exposed cybernetic forearm/hand causes major anatomy and accessory drift from the master reference.",
+        "Facial geometry and softer expression do not fully preserve the sharper canonical identity."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical face, age, skin tone, dark tied-back hairstyle, and styling match the master reference.",
+        "White clinical coat, black-and-gold underlayer, teal paint cues, chest emblem, and asymmetrical placement are consistent.",
+        "Relaxed seated pose is clearly readable with coherent anatomy and canonical footwear.",
+        "No unrequested scenery, animal anatomy, caption, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, dark tied-back hairstyle, skin tone, and young-adult proportions match the approved reference.",
+        "White clinical coat, black-and-gold underlayer, teal peacock motifs, chest emblem, belt, trousers, and footwear remain consistent.",
+        "Head and eyes are clearly directed upward with a focused, composed expression.",
+        "No malformed anatomy, unrequested props, animal features, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "PASS",
+      "confidence": 0.95,
+      "reasons": [
+        "Canonical identity, age, facial geometry, dark tied-back hairstyle, skin tone, and proportions are consistent with the master reference.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock motifs, chest emblem, belt, trousers, and footwear remain consistent.",
+        "Downward gaze toward the held object is clear and readable, with an appropriately precise, focused expression.",
+        "Anatomy and left/right detailing appear coherent; no animal anatomy, text, border, watermark, or unrelated scenery is present."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Unapproved mechanical right arm/hand causes major anatomy and accessory drift from the canonical humanized design.",
+        "Eye color appears amber/gold rather than the reference's dark eyes.",
+        "Surprised pose and expression are clearly readable, but canonical identity consistency is not preserved."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity is preserved: matching young-adult facial geometry, dark tied-back hair, skin tone, and elegant proportions.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock detailing, chest emblem, belt, and coordinated footwear are consistent with the master reference.",
+        "Relaxed hands-in-pockets stance and direct gaze clearly convey a confident smile.",
+        "Anatomy is coherent, with no unrequested props, animal anatomy, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical facial geometry, skin tone, dark tied-back hairstyle, and apparent age match the reference.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock detailing, chest emblem, belt, trousers, and footwear are consistent.",
+        "Expression reads as serious and focused with a direct gaze.",
+        "Anatomy and proportions are coherent; no animal anatomy, unrequested scenery, captions, borders, or watermarks are present."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical young-adult Japanese-inspired male identity, facial marks, dark tied-back hair, skin tone, and proportions match the reference.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock detailing, crest placement, belt, and formal footwear remain consistent.",
+        "Forward lean, focused gaze, and poised hand clearly communicate close inspection.",
+        "Anatomy is coherent; no unrequested props, animal anatomy, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "FAIL",
+      "confidence": 0.9,
+      "reasons": [
+        "Canonical wardrobe/accessory drift: the candidate adds an unapproved cybernetic right hand and forearm device.",
+        "The oversized back emblem is not established by the approved master reference and substantially alters the coat design.",
+        "The dynamic turning pose is readable, but the signature front lapel, pocket-emblem, and patterned black underlayer details are obscured or replaced."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "No object is present for the character to reach toward.",
+        "The forward palm reads as an assertive projection gesture rather than careful reaching.",
+        "The prominent cybernetic glove appears to be an unverified accessory absent from the canonical reference."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Requested back-to-back ready stance is not clearly readable; the character is in a relaxed three-quarter fashion pose with one hand in a pocket.",
+        "Identity and canonical styling largely match the approved reference, but pose compliance is mandatory."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "FAIL",
+      "confidence": 0.91,
+      "reasons": [
+        "Major accessory drift: the extended arm has an elaborate cybernetic gauntlet absent from the approved reference.",
+        "Faction chest emblem differs from the canonical blue-diamond insignia, including an unapproved prominent letter C.",
+        "Signature peacock/restoration identifiers are reduced or replaced by generic teal energy, weakening canonical ability readability."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Large cybernetic left arm is not established in the canonical reference and constitutes major anatomy/accessory drift.",
+        "Requested natural laughing expression is clear, and the hair, face, coat, emblem, and teal/peacock styling otherwise align closely."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Unapproved cybernetic forearm/gauntlet significantly drifts from the canonical wardrobe and accessories.",
+        "Chest emblem is altered with a prominent 'C' instead of the canonical gem-like insignia.",
+        "Requested whispering pose is clear, but identity-lock accessory and emblem mismatches require failure."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "FAIL",
+      "confidence": 0.91,
+      "reasons": [
+        "Faction badge drifts from the canonical teal diamond/gold emblem into a large shield marked with a prominent 'C'.",
+        "Unapproved cybernetic forearm/gauntlet is a major accessory and anatomy drift absent from the master reference.",
+        "Pose and proud expression are readable, and the face, hair, white coat, and teal/peacock styling otherwise match closely."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "PASS",
+      "confidence": 0.93,
+      "reasons": [
+        "Canonical identity, facial geometry, dark tied-back hairstyle, skin tone, and eye-area markings match the master reference.",
+        "White clinical coat, black-and-gold underlayer, teal/peacock detailing, belt, emblem placement, and formal footwear are consistent.",
+        "Extended open hand and guarded stance clearly read as protective; furrowed brows and tense expression clearly read as worried.",
+        "Anatomy and proportions appear sound, with no unrequested props, scenery, animal anatomy, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Unrequested cybernetic gauntlet and holographic interface introduce accessory/prop drift from the canonical reference.",
+        "Chest emblem appears altered with a prominent letterform not established in the master reference.",
+        "Identity, wardrobe palette, hairstyle, expression, and action-ready pose otherwise match closely."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Requested one-foot balance is unclear because the supporting foot is visibly suspended, making the character appear airborne.",
+        "Canonical chest emblem has drifted into a prominent letter 'C' rather than the approved gem-like insignia.",
+        "Unapproved cybernetic right forearm is a major anatomy/accessory deviation from the master reference."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical dark tied-back hair, facial geometry, skin tone, white clinical coat, black-and-gold underlayer, teal accents, and chest emblem closely match the reference.",
+        "Resting/reclining pose is immediately readable with natural body proportions and valid anatomy.",
+        "Wardrobe, footwear, and accessory placement are consistent; no side-detail reversal is evident.",
+        "No unrequested props, animal anatomy, text, border, watermark, or third-party imitation is present."
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested silhouette view is not satisfied; the character is fully lit with clearly visible facial, wardrobe, and surface details.",
+        "Low-angle camera angle and canonical identity/wardrobe are otherwise consistent with the master reference."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Unapproved cybernetic left forearm/hand is a major anatomy and accessory drift from the humanized canonical reference.",
+        "Canonical peacock identifier is absent or replaced by the prosthetic design.",
+        "Chest emblem drifts from the approved reference by adding a prominent letter-like \"C\".",
+        "Pose, face, hair, coat, palette, and presenting expression otherwise match closely."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "FAIL",
+      "confidence": 0.84,
+      "reasons": [
+        "Prominent technological forearm gauntlet is not present in the canonical master and constitutes accessory/prop drift.",
+        "Chest emblem design appears altered from the canonical blue-gem insignia.",
+        "Pose, face, hair, coat, peacock cues, and footwear otherwise closely match the reference."
+      ]
+    }
+  ]
+}
