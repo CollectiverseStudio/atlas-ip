@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "character": "hacker",
+  "form": "humanized",
+  "createdAt": "2026-09-23T19:54:13.960Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent.",
+        "Faction emblem drifts from the canonical plain hexagonal mark by adding a prominent C-shaped symbol.",
+        "Large cybernetic right arm/hand is not supported by the approved reference and constitutes accessory/body-design drift."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required signature RED ear LED is missing; the visible ear has no red LED.",
+        "Core identity, black-and-blue techwear, hairstyle, and three-quarter-left pose otherwise align with the canonical reference."
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested three-quarter view facing right is incorrect; the character faces left.",
+        "Canonical RED ear LED is missing or rendered blue."
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Required RED ear LED is absent; the visible ear has no red identifier.",
+        "Eye appearance is darker than the canonical light blue-gray eyes.",
+        "Chest emblem center and some circuitry details drift from the approved reference, despite the left-facing profile and overall Hacker styling being recognizable."
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required red ear LED is absent; visible cyber accents are blue only.",
+        "Eye appears dark brown rather than the canonical pale blue-gray.",
+        "Canonical hexagonal chest emblem has drifted to the sleeve, while the chest carries a different symbol."
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; visible ear details are blue/neutral.",
+        "Canonical hexagonal faction emblem has drifted from the chest to the upper sleeve.",
+        "Requested back view with slight over-shoulder look is clear, but signature accessory/wardrobe details do not fully match the master reference."
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; visible ear accent is blue.",
+        "Chest emblem drifts from the canonical plain hexagonal insignia by adding a prominent inner 'C'.",
+        "Large cybernetic forearm gauntlet and thigh gear introduce noncanonical accessory/wardrobe drift."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; the visible ear accessory is not red.",
+        "Chest emblem drifts from the canonical plain dark-centered hexagon by adding a prominent gold 'C' symbol."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; visible ear accents are blue/cyan.",
+        "Bulky cybernetic forearm and hand introduce accessory/wardrobe drift from the canonical reference."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Required RED ear LED is absent or rendered blue/dark.",
+        "Identity, wardrobe, cyber accents, and left-pointing pose otherwise closely match the canonical reference."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; visible ear detail is blue/black.",
+        "Chest faction emblem drifts from the canonical cyan outlined hexagon to a gold C-shaped badge.",
+        "Requested right-pointing pose is clear, but signature identity details are not preserved."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is absent; the visible ear accent is blue/dark.",
+        "Chest emblem drifts from the canonical plain hexagonal identifier by adding a prominent letter \"C\"."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required red ear LED is absent or incorrectly blue.",
+        "Chest faction emblem has drifted to a gold 'C' badge instead of the canonical cyan-outlined hexagonal mark.",
+        "Hands-on-hips pose is clear and overall identity is close, but signature-identifier errors require failure."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; visible accents are cyan/blue.",
+        "Chest faction emblem drifts from the canonical plain dark-centered hexagon to a C-like symbol.",
+        "Large cybernetic forearm gauntlet is not established by the approved reference and causes accessory/wardrobe drift.",
+        "Requested thoughtful hand-at-chin pose and expression are clearly readable."
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; visible ear accessories are dark/blue.",
+        "Large cybernetic right forearm/hand is a significant accessory/anatomy drift from the approved reference.",
+        "Requested close inspection of a collectible is clearly readable, but signature-identifier drift requires failure."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent.",
+        "Chest faction emblem differs from the canonical reference, with an added gold C-like mark.",
+        "Oversized cybernetic forearm/hand introduces notable accessory and silhouette drift from the approved identity."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing or rendered blue; this signature identifier is not retained.",
+        "Otherwise, identity, black-and-blue techwear, hand-near-chest pose, and concerned expression closely match the canonical reference."
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; visible ear/cyber accents are blue.",
+        "Faction chest emblem drifts from the canonical plain dark-centered hexagon to a gold 'C' badge.",
+        "Large illuminated forearm gauntlet is an unapproved accessory/design drift from the master reference."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; visible ear accents are blue/neutral.",
+        "Chest faction emblem drifts from the canonical plain dark hexagon by adding a prominent C-like glyph.",
+        "Large cybernetic forearm/hand device is an unapproved accessory and significant wardrobe-detail drift."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; the visible ear has a pale/cyan stud.",
+        "Large exposed cybernetic right arm and hand are not present in the canonical reference and constitute major identity/accessory drift.",
+        "Requested relaxed seated pose is clear, but canonical asymmetric design is not preserved."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Required RED ear LED is absent; visible ear detailing is blue.",
+        "Chest faction emblem drifts from the canonical plain hexagonal mark to a lettered C-like symbol.",
+        "Requested upward gaze and focused expression are clear, but signature-identifier drift requires failure."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent; the visible ear area has only blue cyber accents.",
+        "Otherwise, identity, wardrobe, circuitry, footwear, prop, and downward-looking pose closely match the canonical reference."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; the visible ear accent is blue.",
+        "Major accessory/anatomy drift: the candidate has an extensive cybernetic right-side arm and hand not established by the canonical reference.",
+        "Chest emblem differs from the canonical dark-centered hexagonal identifier.",
+        "Surprised pose and expression are readable, but identity-lock violations require failure."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is absent or incorrectly blue.",
+        "Faction/chest emblem drifts from the canonical plain hexagonal design by adding a prominent C-like mark.",
+        "Requested confident smile is clear, but signature-identifier drift requires failure."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; visible ear/temple accents are blue.",
+        "Chest faction emblem drifts from the canonical plain dark hexagonal mark to a gold letter 'C'.",
+        "Large forearm tech gauntlet is not supported by the approved reference and constitutes accessory drift.",
+        "Serious focused expression is readable, but signature-identifier mismatches require failure."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Required RED ear LED is absent; the visible ear accessory is blue.",
+        "The forward lean is present, but he appears to gesture toward an empty hand rather than clearly inspect something.",
+        "Chest emblem and garment detailing drift from the simpler canonical design."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; visible accents near the ear are blue.",
+        "Major accessory/wardrobe drift: the right forearm and hand are heavily cybernetic with an unrequested energy effect.",
+        "Faction emblem differs from the canonical cyan hexagonal identifier, using an orange-centered sleeve badge.",
+        "Dynamic turn/spin pose is readable, but signature identity details are not preserved."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "No object is present, so the requested action of carefully reaching toward an object is not clearly readable.",
+        "Canonical RED ear LED is missing; the visible ear has a dark stud instead.",
+        "The fully cybernetic left forearm/hand is a significant accessory and anatomy drift from the approved reference."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is absent/blue.",
+        "Canonical neck headphones are missing.",
+        "Faction emblem drifts to an orange 'C' instead of the approved plain hexagonal mark.",
+        "Added cybernetic glove/hand accessory is not present in the master reference."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; the visible ear implant/accent is blue.",
+        "Chest emblem drifts from the approved reference by adding a prominent 'C' glyph.",
+        "Identity and techwear otherwise match closely, and the active ability pose is readable with a restrained digital energy effect."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing or incorrectly rendered blue.",
+        "Prominent cybernetic forearm/hand armor appears to drift from the canonical reference accessories.",
+        "Laughing pose and core facial, hair, techwear, circuitry, and emblem identity otherwise read clearly."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is absent; visible cyber accents near the ear are blue.",
+        "Chest emblem drifts from the canonical cyan-outlined dark hexagon, adding a prominent white inner ring."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is absent; visible ear accents are blue.",
+        "Displayed gold 'C' badge does not match the canonical dark-centered cyan hexagonal faction emblem.",
+        "Wardrobe/accessory design drifts with an added large wrist interface and altered chest-emblem placement."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing; visible ear-area accents are blue.",
+        "Protective hand gesture and worried expression are readable, and core identity/wardrobe otherwise closely match the reference."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required red ear LED is absent.",
+        "Chest faction emblem drifts from the canonical plain hexagonal identifier by adding a prominent 'C'.",
+        "Unrequested holographic energy construct appears on the extended hand.",
+        "Pose and expression are action-ready, but signature accessory/design mismatches require failure."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Required RED ear LED is missing or rendered blue; signature identifier color is incorrect.",
+        "Otherwise, canonical identity, wardrobe, blue circuitry, emblem, footwear, and one-foot balancing pose are clearly preserved."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is absent; the visible ear area has only blue cyber detailing.",
+        "The reclining pose is clear and the core identity, hair, facial geometry, black techwear, blue circuitry, emblem, and footwear otherwise align closely with the reference."
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested silhouette view is not delivered; character is fully illuminated and detailed against a white background.",
+        "Required RED ear LED is absent; visible cyber accents near the ear are blue.",
+        "Low camera angle and most canonical identity/wardrobe traits otherwise match the reference."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is missing or incorrectly blue.",
+        "Large cybernetic right forearm/hand is an unapproved accessory and wardrobe drift from the canonical hoodie design.",
+        "Requested arms-spread presenting pose and core facial/hair identity are otherwise readable."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Required RED ear LED is missing; visible ear details are blue/neutral.",
+        "Large powered cybernetic forearm/gauntlet is not established by the canonical reference and constitutes accessory/wardrobe drift.",
+        "Landing/power pose, core facial identity, hair, circuitry, black-blue techwear, and chest emblem otherwise read clearly."
+      ]
+    }
+  ]
+}
