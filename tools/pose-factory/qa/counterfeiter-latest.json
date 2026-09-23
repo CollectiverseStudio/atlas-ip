@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "character": "counterfeiter",
+  "form": "humanized",
+  "createdAt": "2026-09-23T18:00:01.216Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "FAIL",
+      "confidence": 0.84,
+      "reasons": [
+        "Major accessory/wardrobe drift: the candidate has a large exposed clockwork prosthetic forearm, while the approved reference shows a sleeved arm with a bronze glove/gauntlet on that side.",
+        "Core identity, red curls, green eyes, facial markings, pendant, palette, expression, and full-body front-facing pose otherwise match well."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial geometry, cheek markings, complexion, and confident expression match the reference.",
+        "Bronze artisan styling, teal fitted wardrobe, jewelry, raised mechanical gauntlet, belt, coat, and boots are consistent with the approved design.",
+        "Three-quarter view facing left is clearly readable, with correct asymmetry and normal humanized anatomy.",
+        "No unrequested scenery, text, border, watermark, animal anatomy, or recognizable third-party imitation is present."
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Major identity/design drift: candidate has a full gold mechanical arm and hand absent from the canonical reference.",
+        "Canonical sleeve/glove and arm accessories are replaced by unapproved prosthetic anatomy.",
+        "Wardrobe silhouette and lower-body design add substantial unverified steampunk elements despite otherwise matching hair, green eyes, palette, and facial identity."
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Clear left-facing profile with readable confident expression",
+        "Canonical copper-red wavy hair, green eye, skin tone, facial geometry, and cheek marking are retained",
+        "Bronze/gold artisan wardrobe, green patterned clothing, pendant, belts, boots, and asymmetric mechanical gauntlet match the approved identity",
+        "Human anatomy is coherent with no chameleon traits, extra limbs, tail, text, watermark, border, or unrequested props"
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Clear right-facing profile with readable confident expression",
+        "Canonical copper curly hair, green eye, skin tone, facial markings, and young-adult identity are retained",
+        "Refined teal, bronze, and gold artisan wardrobe, jewelry, belts, gloves, and boots remain consistent",
+        "Human anatomy is well formed with no chameleon traits, extra limbs, tail, unrequested props, scenery, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial markings, skin tone, and confident expression are retained.",
+        "Bronze/gold artisan styling, dark green fitted wardrobe, gloves, belt, and boots are consistent with the approved identity.",
+        "Back view with a clear slight over-shoulder look is correctly presented.",
+        "Human anatomy and proportions are coherent; no chameleon traits, extra limbs, tail, props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, copper-red curls, green eyes, skin tone, cheek marking, pendant, and bronze/gold artisan wardrobe are consistent with the reference.",
+        "Confident arms-crossed stance and self-assured expression are clearly readable.",
+        "Two human arms with valid anatomy; no tail, chameleon traits, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity is strongly preserved: young-adult woman with matching facial geometry, copper-red wavy hair, green eyes, complexion, and confident precise expression.",
+        "Refined teal, bronze, and gold artisan wardrobe, jewelry, belt, asymmetrical armored gauntlet, and tall boots are consistent with the approved design.",
+        "Forward walking pose is clearly readable from the frontal three-quarter camera angle.",
+        "Human anatomy and proportions are coherent, with no extra arms, tail, chameleon traits, unrequested scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical copper-red curly hair, green eyes, facial geometry, beauty mark, cheek markings, and skin tone are retained.",
+        "Green-and-bronze artisan wardrobe, jewelry, belt, boots, and asymmetric mechanical arm match the approved identity.",
+        "Forward-running pose and confident expression are clearly readable with coherent anatomy.",
+        "No animal anatomy, extra limbs, unrequested props/scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical copper-red curls, green eyes, facial geometry, cheek markings, and confident expression match the master reference.",
+        "Bronze/gold artisan wardrobe, teal bodice, jewelry, belts, gloves, and boots remain stylistically consistent.",
+        "Pointing-left pose is clear and anatomically readable.",
+        "Human anatomy is intact with no extra arms, tail, or chameleon features.",
+        "No unrequested scenery, text, border, watermark, or third-party imitation is visible."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial markings, skin tone, and young-adult facial identity are retained.",
+        "Bronze/gold artisan wardrobe, green patterned bodice, leather coat, jewelry, belt, mechanical right-arm detail, and boots align with the reference.",
+        "Rightward pointing pose is clear and anatomically readable, with a confident precise expression.",
+        "No animal anatomy, extra limbs, unrequested scenery, text, border, or watermark appears."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial geometry, markings, and confident expression are retained.",
+        "Bronze/gold artisan wardrobe, teal bodice, jewelry, boots, and asymmetric mechanical left arm match the approved identity.",
+        "Open-palm presenting pose is clear and readable.",
+        "Human anatomy is sound with no chameleon traits, extra limbs, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity is preserved: young-adult woman with matching copper-red wavy hair, green eyes, facial geometry, complexion, cheek markings, and confident expression.",
+        "Bronze/gold artisan styling, teal-and-black fitted wardrobe, gloves, belts, jewelry, asymmetric arm bracer, and brown heeled boots are consistent with the reference.",
+        "Both hands are clearly placed on the hips, making the requested pose immediately readable.",
+        "Human anatomy and proportions are coherent with no extra arms, tail, chameleon traits, text, border, watermark, or unrequested scenery."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical copper-red hair, green eyes, facial geometry, cheek markings, skin tone, and confident young-adult identity are retained.",
+        "Bronze/gold artisan wardrobe, mechanical arm details, jewelry, belt, coat, trousers, and boots remain consistent with the approved design.",
+        "Thoughtful hand-at-chin pose is clear and anatomically readable.",
+        "No animal anatomy, extra limbs, unrequested props, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity is preserved: copper-red curls, green eyes, matching facial geometry, cheek marking, skin tone, and confident expression.",
+        "Bronze/gold artisan wardrobe, green tailored garments, gemstone necklace, belts, glove, and boots remain consistent with the approved design.",
+        "Requested pose is clearly readable: she is closely inspecting a coin-like collectible held near eye level.",
+        "Anatomy and proportions are coherent with no extra limbs, tail, animal traits, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "PASS",
+      "confidence": 0.95,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial markings, complexion, and young-adult facial identity are retained.",
+        "Teal-and-bronze artisan wardrobe, jewelry, asymmetric mechanical gauntlet, belts, and boots align with the approved design.",
+        "Wide stance with raised open hands clearly reads as protective/defensive readiness with a confident, precise expression.",
+        "Human anatomy is coherent with no extra limbs, tail, animal traits, text, border, watermark, scenery, or unrequested props."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical copper-red curly hair, green eyes, facial geometry, skin tone, cheek markings, emerald pendant, and refined green-and-bronze artisan wardrobe are retained.",
+        "Concerned expression is clear, with raised brows and parted lips.",
+        "Bronze-gloved hand is clearly positioned near the chest.",
+        "Human anatomy and proportions are coherent; no extra arms, tail, or chameleon traits.",
+        "No unrequested prop, scenery, text, border, or watermark is present."
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Major wardrobe/accessory drift: both arms are cybernetic gauntlets, including an unapproved silver/cyan sci-fi prosthetic absent from the canonical reference.",
+        "Faction 'C' badges and mechanical knee emblem are unverified additions to the canonical design.",
+        "Expression reads as a confident smirk rather than clearly determined, despite the fists-set stance being readable."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, copper-red hairstyle, green eyes, skin tone, and facial markings match the approved reference.",
+        "Bronze/gold artisan wardrobe, jewelry, mechanical left arm, belt, trousers, and boots remain consistent with the established design.",
+        "Relaxed casual standing pose and confident precise expression are clearly readable.",
+        "Human anatomy is coherent with no tail, extra arms, animal traits, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "Prominent mechanical/prosthetic left arm is not present in the canonical reference and constitutes major anatomy/accessory drift.",
+        "Otherwise the seated relaxed pose, copper hair, green eyes, facial markings, expression, and bronze/teal artisan styling match well."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "PASS",
+      "confidence": 0.91,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, skin tone, facial identity, bronze prosthetic arm, green-and-gold artisan wardrobe, pendant, belt, and boots are retained.",
+        "Asymmetric mechanical arm is on the matching side.",
+        "Upward gaze and focused, confident expression are clearly readable.",
+        "Human anatomy is sound with no chameleon traits, extra limbs, props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical red/copper curls, green eyes, facial markings, skin tone, and youthful facial geometry are preserved.",
+        "Teal-and-bronze artisan wardrobe, belts, gloves, jewelry, coat, and boots closely match the approved design, including asymmetric mechanical detailing.",
+        "Downward gaze toward the clearly held document makes the requested pose and confident, precise expression readable.",
+        "Human anatomy and proportions are sound; no chameleon traits, extra limbs, tail, text, border, watermark, or third-party imitation are present."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "FAIL",
+      "confidence": 0.96,
+      "reasons": [
+        "Major canonical design drift: candidate adds an elaborate mechanical/prosthetic right arm and large shoulder pauldron not present in the approved reference.",
+        "Wardrobe and accessories are substantially more armored and steampunk-styled than the canonical artisan outfit.",
+        "Surprised pose and expression are clear, and copper hair, green eyes, facial mark, and overall palette are retained."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical red/copper curls, green eyes, facial geometry, skin tone, teal-and-bronze artisan wardrobe, green pendant, and left-side mechanical arm are retained.",
+        "Confident smile is clear and readable.",
+        "Human anatomy and proportions are coherent; no chameleon traits, extra limbs, tail, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity is preserved: copper-red wavy hair, green eyes, facial marking, complexion, youthful facial geometry, and bronze/gold artisan styling match the master reference.",
+        "Teal-and-brown fitted wardrobe, green pendant, belt, boots, and character-left bronze mechanical arm are consistent with the approved design and asymmetry.",
+        "Serious, focused expression is clearly readable in the frontal three-quarter stance.",
+        "Anatomy and proportions are coherent; no extra arms, tail, chameleon traits, unrequested props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial geometry, cheek markings, and confident expression are retained.",
+        "Dark teal and bronze/gold artisan wardrobe, gloves, pendant, belts, and boots closely match the approved design.",
+        "Forward lean and close examination of the coin clearly communicate inspecting something.",
+        "Human anatomy is coherent with no extra limbs, tail, or chameleon traits.",
+        "No caption, border, watermark, or third-party character imitation is present."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical copper-red curls, green eyes, facial geometry, cheek markings, and confident expression match the master reference.",
+        "Bronze/gold artisan detailing, teal tailored wardrobe, gloves, belt, and heeled boots remain consistent with the approved identity.",
+        "Twisted torso, extended arm, lifted heel, and flowing coat clearly communicate a dynamic turn/spin.",
+        "Human anatomy is coherent with no chameleon traits, extra limbs, tail, text, watermark, border, or unrequested scenery."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "No object is present for the requested interaction; the extended hand reads as reaching toward the camera rather than carefully toward a visible object."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Prominent mechanical/prosthetic left arm is not part of the approved master design and constitutes major anatomy/accessory drift.",
+        "Canonical green pendant is missing.",
+        "Hand-on-hip fashion pose does not clearly read as a ready stance, despite the over-shoulder orientation."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity is preserved: copper-red curls, green eyes, facial markings, skin tone, and confident precise expression match the master reference.",
+        "Dark teal leather wardrobe, bronze/gold artisan detailing, jewelry, belts, mechanical arm, and boots remain consistent.",
+        "Raised mechanical hand with restrained golden energy clearly communicates the signature ability without excessive effects.",
+        "Human anatomy and proportions are sound; no chameleon traits, tail, extra arms, unrequested props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical copper-red curly hair, facial markings, green pendant, bronze mechanical right arm, teal-and-bronze artisan wardrobe, belt, and boots are preserved.",
+        "Natural laughter is clearly readable through the open smile, closed eyes, head tilt, and relaxed raised-hand gesture.",
+        "Young-adult human identity and proportions remain consistent; no chameleon anatomy, extra limbs, tail, malformed anatomy, text, border, watermark, or unrequested prop/scenery is present."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity is preserved: copper-red wavy hair, green eyes, facial markings, complexion, and young-adult facial geometry match the reference.",
+        "Bronze/gold artisan wardrobe, teal patterned coat, jewelry, gloves, mechanical gauntlet, belt, trousers, and boots are consistent.",
+        "Cupped hand beside the mouth clearly communicates whispering, supported by a confident, precise expression.",
+        "Anatomy and proportions are coherent; no extra arms, tail, animal traits, unrequested props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical copper-red hair, green eyes, facial geometry, skin tone, cheek markings, and confident expression are retained.",
+        "Teal-and-bronze artisan wardrobe, green pendant, belts, gloves, mechanical arm, and boots closely match the approved identity.",
+        "Proud full-body pose clearly presents the faction badge/emblem.",
+        "Human anatomy and proportions are coherent; no tail, extra arms, or chameleon traits.",
+        "No prohibited caption, watermark, border, scenery, or unrelated prop is present."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "FAIL",
+      "confidence": 0.86,
+      "reasons": [
+        "Canonical asymmetric hand/arm styling is reversed: the approved reference shows the bronze/gold hand on her left (image-right), while the candidate places the mechanical bronze arm on her right (image-left) and a dark glove on her left.",
+        "The candidate substantially expands the canonical gold hand treatment into a full mechanical forearm, creating accessory/design drift.",
+        "Worried expression and protective gesture are otherwise clearly readable, with matching copper hair, green eyes, and bronze/teal artisan styling."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical copper-red wavy hair, green eyes, facial geometry, skin tone, and young-adult identity match the reference.",
+        "Bronze/brown artisan coat, patterned teal attire, green pendant, gloves, belt, and boots remain consistent.",
+        "Wide stance, raised fist, and extended gauntleted hand clearly communicate a determined action-ready pose.",
+        "Human anatomy is coherent with no chameleon traits, extra limbs, tail, text, border, watermark, or unrequested scenery."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical copper hair, green eyes, facial geometry, markings, and confident expression match the reference.",
+        "Bronze/gold artisan wardrobe and asymmetric mechanical arm details remain consistent.",
+        "One supporting leg is extended while the other is clearly lifted, making the one-foot balance pose readable.",
+        "Human anatomy is coherent with no extra limbs, tail, or chameleon traits.",
+        "No unrequested props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity and artisan wardrobe retained",
+        "Copper-red hair, green eyes, facial geometry, and confident expression match",
+        "Mechanical right arm and asymmetric details are correctly placed",
+        "Resting/reclining pose is clearly readable",
+        "No malformed anatomy, unrequested props, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Requested silhouette view is not satisfied; the character is fully lit with facial, wardrobe, and material details clearly visible.",
+        "Although the low camera angle and core identity are recognizable, failure of the required silhouette presentation is decisive."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "FAIL",
+      "confidence": 0.92,
+      "reasons": [
+        "The requested arms-spread presenting pose and core facial identity are clear.",
+        "Canonical left-hand accessory drifts: the approved reference shows a bronze/gold articulated glove with a slim blue cuff, while the candidate introduces a bulky black/blue technological gauntlet with a glowing circular device.",
+        "This unapproved asymmetric gauntlet materially changes the canonical wardrobe/accessory design."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Major identity/accessory drift: the candidate has an elaborate cybernetic left forearm and hand absent from the canonical reference.",
+        "Canonical left/right arm styling is not preserved; the reference shows conventional bronze artisan attire/gloves.",
+        "The dramatic landing pose, red/copper hair, green eyes, and general wardrobe palette match, but the unapproved prosthetic is a disqualifying design change."
+      ]
+    }
+  ]
+}
