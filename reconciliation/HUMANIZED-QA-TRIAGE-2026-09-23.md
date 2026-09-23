@@ -17,3 +17,5 @@ Other poses carry reported independent issues, principally a changed chest emble
 ## Cost and preservation
 
 No image-generation retry was launched for this triage. Existing images stay in GitHub. Re-evaluate rather than regenerate first; do not overwrite approved or manually created assets. The sequential frugal workflow may still be active, so reconcile against the branch head before further commits.
+
+Further source inspection: `archive/roster-images/import-2026-09/character roster.png` does show humanized Forge on the RIGHT side of the panel; `scripts/extract-roster-humanized-masters.ts` uses x=`0.570`, which crops the original gorilla. A corrected crop around x=`0.642`, y=`0.160` captures the humanized man, but the roster artwork itself places the bronze prosthetic on the viewer's RIGHT (his anatomical LEFT). This contradicts the locked anatomical RIGHT-arm rule. Do not install that crop as the definitive master or regenerate from it without resolving the arm orientation and badge; the source itself needs a verified, correctly sided approved master.
