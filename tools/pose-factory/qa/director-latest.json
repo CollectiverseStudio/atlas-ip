@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "character": "director",
+  "form": "humanized",
+  "createdAt": "2026-09-23T17:03:09.727Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Identity, facial geometry, skin tone, swept-back dark hair, crimson eyes, and left-cheek marking match the master reference.",
+        "Canonical black futuristic executive/armor suit, crimson accents, geometric-buckle belt, and coordinated footwear are retained.",
+        "Neutral full-body front-facing stance is clear with sound anatomy and proportions.",
+        "No unrequested props, scenery, animal anatomy, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical facial geometry, swept-back dark hair, crimson eyes, skin tone, and young-adult identity match the reference.",
+        "Black futuristic executive/armor suit, crimson accents, faction emblem, footwear, and geometric crimson-accented belt buckle are retained.",
+        "Three-quarter view facing left is clearly readable with commanding proportions and intact anatomy.",
+        "No unrequested props, animal anatomy, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Requested three-quarter view facing right is not met; the character is oriented toward image-left/front.",
+        "Canonical identity, crimson eyes, black-and-crimson wardrobe, and geometric-buckle belt are otherwise retained."
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "PASS",
+      "confidence": 0.93,
+      "reasons": [
+        "Clear left-facing profile with correct camera angle",
+        "Canonical facial geometry, dark swept-back hair, skin tone, and glowing crimson eye are retained",
+        "Black futuristic executive/armor suit with crimson accents and faction emblem matches the approved design",
+        "Distinctive geometric metallic belt buckle with crimson center is present",
+        "Tall lean proportions, gloves, and black accented footwear are consistent",
+        "No malformed anatomy, unrequested props, scenery, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Clear right-facing profile pose and correct camera angle",
+        "Canonical facial geometry, swept-back dark hair, skin tone, and glowing crimson eyes retained",
+        "Black futuristic executive armor with crimson accents and matching footwear is consistent",
+        "Distinctive geometric-buckle belt with crimson accent is present",
+        "Proportions and anatomy are coherent; no props, animal anatomy, text, border, or watermark"
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "FAIL",
+      "confidence": 0.9,
+      "reasons": [
+        "Locked geometric belt buckle is incorrectly positioned at the center back rather than its canonical front placement.",
+        "Wardrobe drifts from the layered futuristic executive/armor design into a simplified leather jumpsuit.",
+        "Hair is more tousled and forward-falling than the canonical swept-back style."
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, skin tone, dark swept-back hair, and glowing crimson eyes match the master reference.",
+        "Confident arms-crossed stance and commanding expression are clearly readable.",
+        "Black futuristic executive/armor suit, crimson accents, footwear, and central metallic geometric buckle with crimson core are retained.",
+        "Anatomy and proportions are coherent; no unrequested props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical facial geometry, dark swept-back hair, skin tone, and glowing crimson eyes match the approved reference.",
+        "Black futuristic executive/armor wardrobe with crimson accents and the locked metallic geometric crimson buckle are retained.",
+        "Forward-walking pose is clear, with natural leg stride and arm positioning.",
+        "Tall lean proportions, footwear, anatomy, and frontal camera presentation are consistent.",
+        "No text, watermark, border, animal anatomy, or recognizable third-party imitation appears."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical identity, facial geometry, dark swept-back hair, crimson eyes, and skin tone match the master reference.",
+        "Black futuristic executive armor with crimson accents and the locked geometric-buckle belt are retained.",
+        "Forward-running pose is clear and dynamic; anatomy and proportions are coherent.",
+        "No unrequested anatomy, prop, scenery, text, border, watermark, or third-party imitation is visible."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical facial geometry, dark swept-back hair, crimson eyes, skin tone, and lean proportions are preserved.",
+        "Black futuristic executive/armor suit, crimson accents, footwear, insignia details, and geometric crimson-accented belt buckle match the approved design.",
+        "Pointing-left pose is clear and commanding.",
+        "Anatomy is coherent; no unrequested props, scenery, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "PASS",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical facial geometry, swept-back dark hair, crimson eyes, skin tone, and young-adult identity match the reference.",
+        "Black futuristic executive armor with crimson accents and the locked geometric-buckle belt are retained.",
+        "Rightward pointing pose is clear and anatomically coherent.",
+        "No unrequested props, scenery, text, border, watermark, or animal anatomy."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical facial geometry, dark swept-back hair, crimson eyes, skin tone, and facial marking match the master reference.",
+        "Black futuristic executive/armor wardrobe with crimson accents, geometric crimson-accented belt buckle, and matching footwear are retained.",
+        "Extended bare hand forms a clear open-palm presenting gesture with readable anatomy.",
+        "Commanding expression and proportions are consistent; no unrequested props, animal anatomy, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "PASS",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity, facial geometry, apparent age, skin tone, dark hairstyle, and glowing crimson eyes match the approved reference.",
+        "Black futuristic executive/armor suit, crimson accents, high collar, gloves, boots, and locked geometric crimson-accent buckle are retained.",
+        "Both hands are clearly positioned on the hips in a commanding stance.",
+        "Anatomy and proportions are coherent; no extra props, scenery, text, borders, watermarks, or animal anatomy are present."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical young-adult facial geometry, swept-back dark hair, skin tone, glowing crimson eyes, and cheek marking are retained.",
+        "Tailored black futuristic executive/armor wardrobe with crimson detailing, faction motifs, matching footwear, and central metallic geometric crimson-accent buckle are present.",
+        "Thoughtful hand-at-chin pose and contemplative expression are clearly readable.",
+        "Tall lean proportions and anatomy appear consistent and well formed.",
+        "No unrequested props, animal anatomy, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical facial geometry, dark swept-back hair, skin tone, crimson eyes, and facial marking match the approved reference.",
+        "Black futuristic executive/armor wardrobe, crimson accents, faction emblem, footwear, and geometric crimson-accented belt buckle are retained.",
+        "Pose clearly shows him closely inspecting a small collectible held near his face with a focused expression.",
+        "Anatomy and proportions are coherent; no text, watermark, border, animal anatomy, or extraneous scenery is present."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical facial geometry, skin tone, swept-back dark hair, crimson eyes, and cheek marking are retained.",
+        "Black futuristic executive/armor suit, crimson accents, emblem, footwear, and central geometric crimson-accented buckle match the approved design.",
+        "Extended open palm, clenched rear fist, and wide stance clearly communicate a protective defensive-ready pose.",
+        "Anatomy is coherent; no unrequested animal traits, props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical identity, facial geometry, dark swept-back hair, glowing crimson eyes, skin tone, and lean proportions are retained.",
+        "Black futuristic executive/armor suit, crimson accents, emblem details, boots, and geometric crimson-accented belt buckle are consistent.",
+        "Concerned furrowed expression and hand held against the chest clearly satisfy the requested pose.",
+        "No malformed anatomy, unrequested props or animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, swept-back dark hair, crimson eyes, and skin tone match the approved reference.",
+        "Black futuristic executive/armor suit, crimson accents, emblem details, footwear, and geometric crimson-accented buckle are retained.",
+        "Determined full-body stance is clearly readable with both fists set.",
+        "Anatomy and proportions are coherent; no unrequested props, scenery, text, border, or watermark appear."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, swept-back dark hair, crimson eyes, skin tone, and facial marking match the approved reference.",
+        "Black futuristic executive/armor suit, crimson accents, faction details, footwear, and central metallic geometric crimson-accent buckle are retained.",
+        "Relaxed full-body standing pose is clearly readable with natural anatomy and a confident expression.",
+        "No unrequested props, animal anatomy, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical young-adult male identity, facial geometry, dark swept-back hair, skin tone, and glowing crimson eyes match the reference.",
+        "Black futuristic executive/armor suit with crimson accents and high collar is consistent.",
+        "Distinctive metallic geometric buckle with crimson center is clearly retained.",
+        "Relaxed seated, cross-legged pose is clearly readable with coherent anatomy and canonical footwear.",
+        "No text, watermark, border, animal anatomy, or recognizable third-party imitation is present."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical identity is preserved: young-adult male, matching facial geometry, dark swept-back hair, skin tone, and glowing crimson eyes.",
+        "Upward gaze, raised chin, focused expression, and low camera angle clearly communicate the requested pose.",
+        "Black futuristic executive/armor suit, crimson accents, canonical footwear, and central metallic geometric buckle with crimson insert are retained.",
+        "Body proportions and anatomy are coherent; no unrequested anatomy, props, scenery, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical facial geometry, dark hairstyle, skin tone, crimson eyes, and young-adult identity match the approved reference.",
+        "Black futuristic executive/armor suit, crimson accents, emblem details, boots, and locked geometric-buckle belt are retained.",
+        "Downward gaze toward the held tablet clearly communicates the requested pose.",
+        "Anatomy and proportions are coherent; no watermark, caption, border, animal anatomy, or extraneous scenery is present."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Locked signature belt is incorrect: the metallic geometric crimson-accent buckle is offset to the character's right, while a different rectangular buckle occupies the center.",
+        "Identity, crimson eyes, wardrobe, and surprised reaction otherwise closely match the reference."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, swept-back dark hair, crimson eyes, and skin tone match the master reference.",
+        "Confident smile is clearly readable.",
+        "Black futuristic executive/armor suit, crimson accents, geometric-buckle belt, and coordinated footwear are retained.",
+        "Tall lean proportions and anatomy are coherent; no unrequested props, animal traits, text, border, or watermark appear."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "reasons": [
+        "Canonical crimson cheek marking beneath the character's left eye is missing, causing identity/signature-detail drift.",
+        "The heavily cybernetic right arm/gauntlet is not established by the approved reference and constitutes accessory/wardrobe drift.",
+        "Serious focused expression, crimson eyes, black-and-crimson suit, and geometric-buckle belt are otherwise present."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical young-adult facial geometry, dark swept-back hair, crimson eyes, skin tone, and cheek marking are retained.",
+        "Black futuristic executive/armor suit, crimson accents, footwear, and central metallic geometric crimson buckle match the approved design.",
+        "Forward waist lean, lowered head, focused gaze, and hands held behind the back clearly communicate inspecting something.",
+        "Anatomy and proportions are coherent; no unrequested props, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "PASS",
+      "confidence": 0.91,
+      "reasons": [
+        "Canonical young-adult male identity, facial geometry, skin tone, swept-back dark hair, crimson eyes, and cheek marking are retained.",
+        "Black futuristic executive/armor wardrobe with crimson accents, gloves, footwear, faction emblem, and metallic geometric buckle with crimson detail are present.",
+        "Twisted torso, backward glance, extended arms, crossed legs, and lifted foot clearly communicate a dynamic turn/spin.",
+        "Anatomy is coherent, with no unrequested props, scenery, animal traits, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "No object is present, so the extended hand reads as reaching into empty space rather than carefully toward an object.",
+        "Identity, crimson eyes, black-and-crimson wardrobe, facial marking, and geometric-buckle belt otherwise closely match the canonical reference."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.93,
+      "reasons": [
+        "The locked geometric belt buckle appears incorrectly positioned at the center back rather than the front.",
+        "The pose reads as a solitary over-the-shoulder stance, not clearly as a back-to-back ready stance.",
+        "Wardrobe styling drifts toward a leather tactical suit and lacks some of the master reference's executive tailoring and chest details."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical facial geometry, skin tone, dark swept-back hair, crimson eyes, and left-cheek marking are retained.",
+        "Black futuristic executive/armor wardrobe, crimson accents, emblem, footwear, and geometric crimson-core belt buckle match the approved design.",
+        "Raised hand and restrained wispy crimson energy clearly communicate the active signature ability without added props or scenery.",
+        "Anatomy and proportions are coherent; no text, border, watermark, animal anatomy, or third-party imitation is visible."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical facial identity, swept-back dark hair, skin tone, and glowing crimson eyes are retained.",
+        "Black futuristic executive/armor suit with crimson accents and geometric crimson-centered belt buckle match the reference.",
+        "Open-mouth laughter and expansive arm gesture clearly communicate the requested natural laughing pose.",
+        "No malformed anatomy, unrequested props, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Canonical identity, facial geometry, dark swept hair, crimson eyes, skin tone, and lean proportions match the master reference.",
+        "Black futuristic executive/armor wardrobe with crimson accents and the signature geometric crimson-accented belt buckle are retained.",
+        "Cupped-hand-near-mouth whispering pose is clear and anatomy is coherent.",
+        "No unrequested props, animal anatomy, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "PASS",
+      "confidence": 0.98,
+      "reasons": [
+        "Identity, facial geometry, dark swept-back hair, crimson eyes, skin tone, and lean proportions match the approved reference.",
+        "Canonical black futuristic executive/armor suit, crimson accents, footwear, and central metallic geometric crimson buckle are retained.",
+        "Proud stance and raised faction badge/emblem are clear and readable.",
+        "No malformed anatomy, unrequested animal traits, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "PASS",
+      "confidence": 0.93,
+      "reasons": [
+        "Canonical identity, facial geometry, swept-back dark hair, crimson eyes, skin tone, and facial marking are retained.",
+        "Black futuristic executive armor with crimson accents, matching footwear, and locked geometric-buckle belt are present.",
+        "Hand over chest, tense fist, lowered gaze, and furrowed expression clearly convey worried/protective concern.",
+        "Anatomy and proportions are coherent; no unrequested props, animal anatomy, text, border, or watermark appear."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical facial geometry, dark swept hairstyle, skin tone, crimson eyes, and cheek marking match the approved reference.",
+        "Black futuristic executive armor, crimson accents, high collar, footwear, and geometric crimson-accented belt buckle are retained.",
+        "Determined expression and action-ready stance are clearly readable with coherent anatomy.",
+        "No unrequested props, animal anatomy, text, border, watermark, or recognizable third-party imitation."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Canonical young-adult male identity, facial geometry, skin tone, swept dark hair, and glowing crimson eyes match the approved reference.",
+        "Black futuristic executive/armor suit, crimson accents, tall lean proportions, footwear, and distinctive geometric crimson-accented belt buckle are retained.",
+        "One leg is visibly supporting the body while the other is bent and lifted, making the balancing-on-one-foot pose clear.",
+        "No malformed anatomy, unrequested props/scenery, animal traits, text, border, or watermark are present."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical swept-back dark hair, crimson eyes, facial geometry, skin tone, and left-cheek marking match the reference.",
+        "Black futuristic executive/armor suit, crimson accents, chest emblem placement, geometric crimson buckle belt, and footwear are consistent.",
+        "Resting/reclining pose is clearly readable with coherent anatomy and proportions.",
+        "No unrequested props, animal anatomy, text, border, watermark, or third-party imitation are present."
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.98,
+      "reasons": [
+        "Requested silhouette view is not satisfied; the character is fully illuminated with clearly visible facial and wardrobe details against a white background.",
+        "Low-angle camera angle is clear, and crimson eyes plus the geometric-buckle belt are retained.",
+        "Canonical identity is broadly recognizable, but the build appears more muscular and the hairstyle less swept-back than the approved tall, lean reference."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical young-adult male identity, facial geometry, dark swept-back hair, crimson eyes, skin tone, and lean proportions match.",
+        "Black futuristic executive/armor wardrobe with crimson accents, long coat, gloves, footwear, and geometric crimson-accented belt buckle are retained.",
+        "Arms-spread presenting pose and confident expression are clearly readable.",
+        "No malformed anatomy, unrequested props/scenery, animal anatomy, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Canonical facial geometry, swept-back dark hair, skin tone, glowing crimson eyes, and cheek marking are retained.",
+        "Black futuristic executive/armor suit, crimson accents, faction insignia, armored footwear, and geometric crimson-accented belt buckle match the approved design.",
+        "Dramatic full-power three-point landing pose is clear and anatomically coherent.",
+        "No unrequested props, animal anatomy, text, border, or watermark are present."
+      ]
+    }
+  ]
+}
