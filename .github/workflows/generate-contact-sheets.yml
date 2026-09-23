@@ -6,7 +6,12 @@ on:
       - reconciliation-canonical-v1
     paths:
       - '.github/workflows/generate-contact-sheets.yml'
+      - 'characters/*/*/humanized/poses/approved/*.png'
   workflow_dispatch:
+
+concurrency:
+  group: canonical-contact-sheets
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -35,8 +40,18 @@ jobs:
       - name: Generate available humanized contact sheets
         shell: bash
         run: |
-          npm run ip:contact-sheet -- --faction=heroes --character=ink --form=humanized
-          npm run ip:contact-sheet -- --faction=heroes --character=sterling --form=humanized
+          for c in atlas pixel ink sterling forge porter echo; do
+            dir="characters/heroes/$c/humanized/poses/approved"
+            if compgen -G "$dir/*.png" > /dev/null; then
+              npm run ip:contact-sheet -- --faction=heroes --character="$c" --form=humanized
+            fi
+          done
+          for c in director counterfeiter restorer hacker hoarder vault whisper smuggler; do
+            dir="characters/villains/$c/humanized/poses/approved"
+            if compgen -G "$dir/*.png" > /dev/null; then
+              npm run ip:contact-sheet -- --faction=villains --character="$c" --form=humanized
+            fi
+          done
       - name: Commit contact sheets
         shell: bash
         run: |
