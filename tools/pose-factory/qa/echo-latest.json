@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "character": "echo",
+  "form": "humanized",
+  "createdAt": "2026-09-23T16:07:09.709Z",
+  "results": [
+    {
+      "pose": 1,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "Matches locked humanized Echo identity: Chinese female appearance, tied dark hair, amber eyes, and light-medium complexion.",
+        "Neutral front-facing pose and serene expression are clear; violet memory crystals visibly orbit her.",
+        "Gray-violet outfit, small shawl, crystal motif, gold detailing, boots, and Keeper C badge are retained.",
+        "No owl ears, beak, talons, wings, malformed anatomy, unrequested scenery, border, watermark, or caption."
+      ]
+    },
+    {
+      "pose": 2,
+      "status": "PASS",
+      "confidence": 0.94,
+      "reasons": [
+        "QA response was malformed/truncated; conservative fail. Raw: {\"pass\":true,\"confidence\":0.94,\"reasons\":[\"Chinese female humanized identity, tied dark hair, amber eyes, complexion, and lean proportions match the lock.\",\"Gray-violet gold-trimmed communication outfit, shawl, violet crystal motifs, Keeper"
+      ]
+    },
+    {
+      "pose": 3,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an anthropomorphic owl, while the candidate is a human woman; identity, anatomy, facial geometry, and body proportions do not match.",
+        "Canonical wardrobe and signature accessory layout differ substantially despite the shared violet-crystal motif.",
+        "The requested back view, visible cape edges, and rear crystals are present, but pose compliance cannot override the major canonical identity drift."
+      ]
+    },
+    {
+      "pose": 4,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "Canonical owl-specific head, plumage, wing-like cloak silhouette, and taloned body design are absent from the candidate.",
+        "Although the seated wrapped-shawl pose, violet crystals, and C badge are present, they do not overcome the severe canonical identity drift."
+      ]
+    },
+    {
+      "pose": 5,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "Wardrobe and accessories substantially drift from the approved master, including the prominent blue technological gauntlet and oversized C badge.",
+        "The required canonical identity cannot be reconciled with the candidate despite the arms-wide crystal-broadcasting pose being readable."
+      ]
+    },
+    {
+      "pose": 6,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate identity and anatomy do not match the approved master reference, which depicts an owl-form character rather than this human design.",
+        "Canonical facial geometry, body proportions, wardrobe, footwear, and accessories are substantially different.",
+        "Candidate introduces large asymmetric mechanical gauntlets not present in the reference.",
+        "Requested hovering, arms-spread mystical pose is readable, but identity/design drift requires failure."
+      ]
+    },
+    {
+      "pose": 7,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an anthropomorphic owl, while the candidate is a human woman; identity, facial geometry, anatomy, and proportions do not match.",
+        "Canonical wardrobe, accessories, and emblem design differ substantially despite a similar violet-and-gold motif.",
+        "Candidate satisfies the folded-arms dignified pose and human anatomy lock, but cannot match the supplied approved master reference."
+      ]
+    },
+    {
+      "pose": 8,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an anthropomorphic owl, while the candidate is a human woman with entirely different facial geometry, anatomy, proportions, and design.",
+        "Wardrobe, footwear, badge, and accessory configuration do not match the approved master reference.",
+        "Although the candidate clearly walks right with violet crystals trailing, pose compliance cannot overcome the fundamental identity drift."
+      ]
+    },
+    {
+      "pose": 9,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate is a human woman, while the approved master depicts an anthropomorphic owl; canonical facial geometry, body proportions, and species identity do not match.",
+        "Canonical wardrobe, accessories, and signature design placement substantially differ despite the crystal motif.",
+        "The pointing-at-crystal pose is clear, but identity mismatch is disqualifying."
+      ]
+    },
+    {
+      "pose": 10,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman; identity, facial geometry, species, and body proportions do not match.",
+        "Canonical wardrobe and accessory layout differ substantially despite shared violet-crystal motifs.",
+        "Requested upward gaze and glowing-eye signal-reception pose are readable, but canonical identity mismatch is decisive."
+      ]
+    },
+    {
+      "pose": 11,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate is a human woman, while the approved master depicts an owl-bodied character; facial geometry, anatomy, proportions, and canonical identity do not match.",
+        "Wardrobe and accessory design substantially drift from the master reference despite retaining violet crystals.",
+        "The wave is friendly but lacks a clearly ethereal visual quality."
+      ]
+    },
+    {
+      "pose": 12,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an anthropomorphic owl, while the candidate is a human woman.",
+        "Facial geometry, species, body proportions, hairstyle, and anatomy do not match the approved reference.",
+        "Wardrobe and accessory design substantially drift from the canonical master despite retaining violet crystals and a dark-violet palette."
+      ]
+    },
+    {
+      "pose": 13,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Clear right-facing profile with cape edge visible.",
+        "Human Echo identity matches the lock: Chinese female, light-medium complexion, dark tied hair, amber eye, and lean proportions.",
+        "Gray-violet Keeper wardrobe, violet memory crystals, and Keeper C badge are present.",
+        "No owl ears, beak, talons, wings, text, border, watermark, or unrequested scenery."
+      ]
+    },
+    {
+      "pose": 14,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: the approved master depicts an anthropomorphic owl, while the candidate is a human woman.",
+        "Facial geometry, body proportions, hairstyle, wardrobe, footwear, and Keeper insignia do not match the master reference.",
+        "Requested hands-on-hips pose and sassy expression are readable, but identity/design drift requires failure."
+      ]
+    },
+    {
+      "pose": 15,
+      "status": "FAIL",
+      "confidence": 0.92,
+      "reasons": [
+        "Large futuristic mechanical forearm device is an unrequested, noncanonical accessory and creates significant wardrobe/design drift from the approved reference.",
+        "Canonical identity cannot be fully reconciled with the owl-form master despite the candidate otherwise matching the locked humanized traits.",
+        "Requested two-handed glowing violet crystal examination pose is clear, and no animal anatomy or watermark is present."
+      ]
+    },
+    {
+      "pose": 16,
+      "status": "PASS",
+      "confidence": 0.93,
+      "reasons": [
+        "Matches locked human Echo identity: Chinese female appearance, light-medium complexion, dark tied hair, amber eyes, and lean proportions.",
+        "Gray-violet cape outfit, violet memory-crystal motif, Keeper C badge, and coordinated footwear are present.",
+        "Gentle thumbs-up and friendly expression are clearly readable from the frontal view.",
+        "No owl ears, beak, talons, wings, malformed anatomy, unrequested props, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 17,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master depicts an anthropomorphic owl, while the candidate is human.",
+        "Facial geometry, anatomy, proportions, hairstyle, and footwear do not match the master reference.",
+        "Wardrobe and accessories drift substantially, including a large technological forearm device and prominent C badge not supported by the reference.",
+        "Although the startled expression and scattering violet crystals are clear, pose compliance cannot override the identity mismatch."
+      ]
+    },
+    {
+      "pose": 18,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "Requested fingertip-to-chin pose is not exact; an unrequested stylus/pen is placed against the chin instead.",
+        "Canonical wardrobe, accessories, emblem placement, and signature design do not match the approved master."
+      ]
+    },
+    {
+      "pose": 19,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical reference depicts an owl character, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "Candidate wardrobe, badge, hairstyle, footwear, and accessories do not match the approved master design.",
+        "Although the celebratory arms-up pose and spinning violet crystals are clear, pose compliance cannot overcome the canonical identity drift."
+      ]
+    },
+    {
+      "pose": 20,
+      "status": "PASS",
+      "confidence": 0.96,
+      "reasons": [
+        "Echo matches the locked human identity: Chinese female, light-medium complexion, dark tied elegant hair, amber eyes, and lean proportions.",
+        "Canonical gray-violet outfit, small cape, violet memory crystals, footwear, and Keeper C badge are retained.",
+        "Stealthy low crouch and focused expression are clearly readable.",
+        "No owl ears, beak, talons, wings, malformed anatomy, unrequested props, scenery, text, border, or watermark."
+      ]
+    },
+    {
+      "pose": 21,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: the approved master is an owl character, while the candidate is a human woman with entirely different facial geometry, anatomy, and proportions.",
+        "Canonical wardrobe/accessory design is substantially reinterpreted rather than matched, despite retaining the violet-crystal palette and C badge.",
+        "The requested relaxed, legs-tucked-under sitting pose is clearly shown, but pose compliance does not overcome the identity drift."
+      ]
+    },
+    {
+      "pose": 22,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an anthropomorphic owl, while candidate is a human woman.",
+        "Facial geometry, body proportions, hairstyle, skin, limbs, and footwear do not match the master reference.",
+        "Wardrobe and accessories substantially drift from the master, including unapproved asymmetric mechanical forearms.",
+        "Requested full-span cape pose is clear, but identity consistency is not satisfied."
+      ]
+    },
+    {
+      "pose": 23,
+      "status": "FAIL",
+      "confidence": 0.97,
+      "reasons": [
+        "Major canonical design drift: the right arm is an unrequested cybernetic prosthetic absent from the character lock/reference.",
+        "The shawl has expanded into a large asymmetric cape rather than the specified small shawl/cape.",
+        "The crystal is visibly levitated, but an actual projected memory is not clearly readable."
+      ]
+    },
+    {
+      "pose": 24,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "Wardrobe, badge, cape construction, and accessory layout do not match the approved master design despite sharing a violet crystal motif."
+      ]
+    },
+    {
+      "pose": 25,
+      "status": "PASS",
+      "confidence": 0.97,
+      "reasons": [
+        "Clear high-angle view with an upward gaze and large expressive amber eyes.",
+        "Human Echo identity matches the locked specification: Chinese female appearance, light-medium complexion, dark tied elegant hair, and lean proportions.",
+        "Gray-violet communication/memory wardrobe, small cape, violet memory crystals, Keeper C badge, and canonical-style footwear are present.",
+        "No owl ears, beak, talons, wings, malformed anatomy, unrequested props, border, watermark, or caption."
+      ]
+    },
+    {
+      "pose": 26,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate is a human woman, while the approved master depicts an owl character; canonical identity, facial geometry, and body proportions do not match.",
+        "Wardrobe silhouette and anatomy differ substantially from the master despite retaining violet crystal motifs.",
+        "The requested crystal-presenting pose is clear, but identity drift requires failure."
+      ]
+    },
+    {
+      "pose": 27,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical reference depicts an owl character, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "The candidate’s wardrobe and large blue Keeper C badge materially differ from the reference design.",
+        "The crystal ring is visible, but the character’s body pose does not clearly communicate spinning."
+      ]
+    },
+    {
+      "pose": 28,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is human, causing fundamental identity, facial geometry, anatomy, and proportion drift.",
+        "Canonical wardrobe and accessories do not match closely enough despite shared gray-violet, gold, and crystal motifs.",
+        "Requested forward-leaning, curious pose is clear, but identity mismatch requires failure."
+      ]
+    },
+    {
+      "pose": 29,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate does not match the approved master reference’s facial geometry, body proportions, species silhouette, or canonical design.",
+        "Wardrobe, accessories, and asymmetric arm equipment substantially drift from the reference despite the meditation pose, closed eyes, and violet crystals being present."
+      ]
+    },
+    {
+      "pose": 30,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman; facial geometry, species, body proportions, and overall identity do not match.",
+        "Canonical wardrobe, accessories, silhouette, and signature design details substantially drift from the approved master.",
+        "Although the violet crystals show strong glow and suggest full broadcast, pose compliance cannot override the fundamental identity mismatch."
+      ]
+    },
+    {
+      "pose": 31,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an owl character, while the candidate is a human woman.",
+        "Facial geometry, body proportions, anatomy, and canonical wardrobe differ fundamentally from the master reference.",
+        "Although the candidate shows a happy laugh with closed eyes, identity lock compliance cannot be established against the supplied master."
+      ]
+    },
+    {
+      "pose": 32,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate does not match the canonical master identity or anatomy: it is a human woman while the reference is an anthropomorphic owl.",
+        "Facial geometry, body proportions, hairstyle, wardrobe construction, footwear, and signature accessories differ substantially from the approved reference.",
+        "Requested whispering pose is readable, but the severe canonical identity/design drift requires failure."
+      ]
+    },
+    {
+      "pose": 33,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an anthropomorphic owl, while the candidate is human.",
+        "Facial geometry, body proportions, hair, anatomy, wardrobe, and footwear do not match the master reference.",
+        "The stated human/no-owl lock directly conflicts with the supplied canonical master, so both requirements cannot be satisfied simultaneously."
+      ]
+    },
+    {
+      "pose": 34,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Candidate does not match the approved master reference, which depicts an owl-form character with radically different facial geometry, anatomy, proportions, and wardrobe design.",
+        "The violet crystals appear brightly illuminated rather than visibly dimming, so the requested crystal state is unclear.",
+        "Although the human figure reads as concerned, the canonical identity mismatch is decisive."
+      ]
+    },
+    {
+      "pose": 35,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an anthropomorphic owl, while candidate is human.",
+        "Facial geometry, body proportions, hair, anatomy, and footwear do not match the master reference.",
+        "Wardrobe and accessories drift substantially, including an unreferenced mechanical gauntlet.",
+        "Pose and forward violet crystals are readable, but cannot overcome the major identity/design mismatch."
+      ]
+    },
+    {
+      "pose": 36,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an anthropomorphic owl, while the candidate is a human woman, causing a fundamental identity, facial-geometry, anatomy, and proportion mismatch.",
+        "Wardrobe, footwear, badge placement, hairstyle, and accessory design do not match the approved master.",
+        "The one-foot balance pose is clear, but pose compliance cannot overcome the severe canonical identity drift."
+      ]
+    },
+    {
+      "pose": 37,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity mismatch: approved master is an anthropomorphic owl, while the candidate is a human woman.",
+        "Facial geometry, anatomy, body proportions, hairstyle, and footwear do not match the master reference.",
+        "Wardrobe and accessory design substantially drift from the approved owl design despite retaining violet crystals and a similar palette.",
+        "Requested sleeping pose and drifting crystals are readable, but pose compliance cannot overcome the major identity mismatch."
+      ]
+    },
+    {
+      "pose": 38,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman, causing a fundamental identity, species, facial-geometry, and body-proportion mismatch.",
+        "Canonical owl ears, beak, talons, feathered silhouette, and facial markings are absent from the candidate.",
+        "Although the worm's-eye view, violet crystals, dark-violet wardrobe, and C badge are present, they do not overcome the canonical identity mismatch."
+      ]
+    },
+    {
+      "pose": 39,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical master depicts an owl character, while the candidate is a human woman, causing a fundamental identity, species, facial-geometry, and proportion mismatch.",
+        "Wardrobe and accessories substantially drift from the approved master, including large technological forearm devices and a different garment construction.",
+        "Requested welcoming arms-wide pose and crystal arc are present, but pose compliance cannot overcome the canonical identity mismatch."
+      ]
+    },
+    {
+      "pose": 40,
+      "status": "FAIL",
+      "confidence": 0.99,
+      "reasons": [
+        "Canonical identity does not match the approved master reference, which depicts an owl character rather than a human woman.",
+        "Requested landing is unclear; the character appears airborne with no visible ground contact.",
+        "Wardrobe, badge, hairstyle, and technological gauntlet substantially drift from the reference design."
+      ]
+    }
+  ]
+}
