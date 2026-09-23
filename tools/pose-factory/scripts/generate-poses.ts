@@ -54,7 +54,8 @@ for(const c of selected){
   if(onlyPose && Number(pose[0])!==onlyPose) continue;
   const num=String(pose[0]).padStart(2,'0'); const file=path.join(out,`${c.id}_humanized_${num}.png`);
   const approvedFile=path.resolve('characters',c.faction,c.id,'humanized','poses','approved',`${c.id}_humanized_${num}.png`);
-  if(!force && (await exists(file) || await exists(approvedFile))){console.log(`[EXISTS] ${c.name} ${num}`);continue}
+  const rejectedFile=path.resolve('characters',c.faction,c.id,'humanized','poses','rejected',`${c.id}_humanized_${num}.png`);
+  if(!force && (await exists(file) || await exists(approvedFile) || await exists(rejectedFile))){console.log(`[EXISTS] ${c.name} ${num}`);continue}
   console.log(`[GENERATE] ${c.name} ${num}: ${pose[1]}`);
   const png=await generateFromReference(promptFor(c,manifest,pose),referencePath);
   await fs.writeFile(file,png); console.log(`[STAGED] ${file}`);
