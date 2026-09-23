@@ -25,7 +25,7 @@ async function judge(candidate:Buffer, pose:any){
   if(!r.ok) throw new Error(`QA API ${r.status}: ${await r.text()}`);
   const j:any=await r.json();
   const text=j.output_text ?? j.output?.flatMap((x:any)=>x.content||[]).find((x:any)=>x.type==='output_text')?.text;
-  if(!text) throw new Error('QA model returned no text');
+  if(!text) return {pass:false,confidence:0,reasons:['QA model returned no text; conservative fail without aborting remaining poses.']};
   const cleaned=text.replace(/^```json\s*|\s*```$/g,'').trim();
   try { return JSON.parse(cleaned); } catch {
     const pass=/\"pass\"\s*:\s*true/i.test(cleaned);
