@@ -57,7 +57,15 @@ for(const c of selected){
   const rejectedFile=path.resolve('characters',c.faction,c.id,'humanized','poses','rejected',`${c.id}_humanized_${num}.png`);
   if(!force && (await exists(file) || await exists(approvedFile) || await exists(rejectedFile))){console.log(`[EXISTS] ${c.name} ${num}`);continue}
   console.log(`[GENERATE] ${c.name} ${num}: ${pose[1]}`);
-  const png=await generateFromReference(promptFor(c,manifest,pose),referencePath);
-  await fs.writeFile(file,png); console.log(`[STAGED] ${file}`);
+  try {
+    const png=await generateFromReference(promptFor(c,manifest,pose),referencePath);
+    await fs.writeFile(file,png); console.log(`[STAGED] ${file}`);
+  } catch (e:any) {
+    const msg=String(e?.message||e);
+    if(msg.includes('moderation_blocked')) { console.log(`[BLOCKED] ${c.name} ${num}: moderation blocked; skipping without retry/spend loop`); continue; }
+    if(msg.includes('credit_balance_exhausted') || msg.includes('insufficient_quota')) throw e;
+    console.log(`[ERROR] ${c.name} ${num}: ${msg.slice(0,240)}; skipping this pose and continuing`);
+    continue;
+  }
  }
 }
