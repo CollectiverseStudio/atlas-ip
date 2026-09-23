@@ -28,7 +28,7 @@
     "vault": ["hazel eyes retained", "no wings, beak, or magpie tail"],
     "whisper": ["no wolf ears or tail", "do not add romantic symbolism unless pose/story explicitly requests it"],
     "smuggler": ["no tentacles", "octopus versatility translated through modular cargo gear"],
-    "hacker": ["RED ear LED retained", "visually distinct from Hoarder, Whisper, and Smuggler"],
+    "hacker": ["match the approved humanized master; a red ear LED is not required in humanized form", "preserve the plain cyan-outlined dark hexagonal chest emblem", "visually distinct from Hoarder, Whisper, and Smuggler"],
     "hoarder": ["stockier silhouette", "visually distinct from Hacker, Whisper, and Smuggler"]
   },
   "decision": {
